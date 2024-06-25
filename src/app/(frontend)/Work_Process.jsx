@@ -8,13 +8,13 @@ const Work_Process = () => {
     useEffect(() => {
         AOS.init({
           duration: 1000, 
-          offset: 100, 
+          offset: 200, 
         });
       }, []);
   return (
     <>
-    <div className='flex justify-center mt-24 text-purple-700 font-semibold text-lg uppercase '>Work Process</div>
-    <div className='flex justify-center text-slate-900 mt-3 font-extrabold text-4xl uppercase mb-5'>Our Work Process</div>
+    <div className='flex justify-center mt-24 text-purple-700 font-semibold text-lg uppercase ' data-aos="fade-up">Work Process</div>
+    <div className='flex justify-center text-slate-900 mt-3 font-extrabold text-4xl uppercase mb-5' data-aos="fade-up">Our Work Process</div>
     <div className='flex flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-4 pl-3 pr-3 mb-5' >
     
       <div className='group  ' data-aos="fade-up">
