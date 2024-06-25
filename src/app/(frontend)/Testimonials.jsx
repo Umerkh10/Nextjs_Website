@@ -19,7 +19,7 @@ const Testimonials = () => {
 </div>
  <div className='w-[34%] md:w-1/4 lg:w-1/6 border rounded-full pt-1 pb-1 text-center ml-4 bg-gray-200'> <span className='text-purple-700 font-semibold'>Our Testimonials </span> </div>
  <div className='pt-4 pl-4 mb-5'>
-    <span className='text-4xl text-white font-bold' data-aos="fade-down">What Our Clients Say </span>
+    <span className='text-4xl text-white font-bold' >What Our Clients Say </span>
  </div>
  <Testimonial_Slider/>
 </div>
