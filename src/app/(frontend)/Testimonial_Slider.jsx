@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Testimonial_Slider = () => {
   return (
-    <div className="w-full relative pr-4 pl-4" data-aos="fade-right">
+    <div className="w-full relative pr-4 pl-4" >
     <Swiper
       loop={true}
       slidesPerView={3}
