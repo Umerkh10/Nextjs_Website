@@ -19,7 +19,7 @@ const Image_Parallax = () => {
         <Image className='object-cover custom-transform' src={"/imgs/image_parallax_1.webp"} layout='fill' alt='parallax1'></Image>
     </div>
     <div className='col-span-1 mt-3 lg:w-[30vw] lg:h-[45vh]  relative h-[40vh] w-[90vw] md:h-[50vh] md:w-[46vw] xl:h-[50vh] xl:w-[48vw]' >
-        <Image className='' src={"/imgs/img-parallax-2.webp"} layout='fill' alt='parallax2'></Image>
+        <Image className='' src={"/imgs/img-parallax-2.webp"}  layout='fill' alt='parallax2'></Image>
     </div>
 </div>
     <div className='bg-purple-500 col-span-4 md:col-span-2 relative' data-aos="fade-up">

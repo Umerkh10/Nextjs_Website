@@ -150,7 +150,7 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10' data-aos="fade-up">
+<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10' >
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
