@@ -7,12 +7,31 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation:{
+        'spin-slow': 'spin 5s linear infinite'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+        rotate: {
+          '30': '30deg',
+        },
+        inset: {
+          '190%': '190%',
+        },
+        transitionDuration: {
+          '400ms': '400ms',
+        },
+  
+        spacing: {
+          '3.75': '15px',
+          '4.5': '18px',
+        },
     },
   },
+  
+  
   plugins: [],
 };

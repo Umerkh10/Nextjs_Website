@@ -2,32 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  li>ul                 { transform: translatex(100%) scale(0) }
+  li:hover>ul           { transform: translatex(101%) scale(1) }
+  li > button svg       { transform: rotate(-90deg) }
+  li:hover > button svg { transform: rotate(-270deg) }
+  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+  .scale-0 { transform: scale(0) }
+  .min-w-32 { min-width: 8rem }
+
+  @keyframes fadeIn {
+    from {
+      transition: all ease-in-out 1.5s ;
+      opacity: 0;
+    }
+    to {
+      transition: all  ease-in-out 1.5s;
+      opacity: 1;
+    }
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  .text-to-reveal {
+    opacity: 0;
   }
+  
+  .text-to-reveal.reveal {
+    animation: fadeIn 2s forwards;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .slider-track {
+    display: flex;
+    animation: slide 20s linear infinite;
+  }
+
+  .slider-track .slider-item {
+    flex: 0 0 auto;
+    margin-right: 10px; 
+    margin-left: 10px;
+  }
+  .custom-transform {
+    @apply transform;
+    translate: translate(0%, 13.2245%) translate3d(0px, 0px, 0px);
+    scale: scale(1.0441, 1.0441);
+}
+.swiper-wrapper {
+  width: 100%;
+  height: max-content !important;
+  padding-bottom: 64px !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  background: #4f46e5;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  transition: all 0.5s ease;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    right:10px;
+    padding: 30px;
+    color: black !important;
 }
