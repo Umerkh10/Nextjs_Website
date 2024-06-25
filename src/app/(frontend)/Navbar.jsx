@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className='relative'>
         <div className='absolute -mt-2.5 left-0 w-5/6 h-[110px] bg-purple-800 rounded-tl-none rounded-tr-[100px] rounded-br-[100px] rounded-bl-none z-[-2]'>
           <a href="#" className='inline-block grow-0 shrink-0 basis-auto mr-0  ml-4'>
-            <Image className='max-w-full h-auto pt-[1.5rem] pl-2'  src="/imgs/webmoon-white-logo.png" alt="logo" width={150} height={100} />
+            <Image className='max-w-full h-auto pt-[1.5rem] pl-2'  src="/imgs/webmoon-white-logo.png" alt="logo" width={150} height={100}></Image>
           </a>
         </div>
         <div className=' absolute right-0 bg-slate-700 hidden sm:block md:w-3/6 lg:w-[75%] xl:w-[87%]  border-l-2 border-l-orange-600 h-20 z-[-1] rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
@@ -144,7 +144,7 @@ const Navbar = () => {
             <div className=' flex items-center 2xl:gap-5 px-4 ml-8 pt-2'>
               <div className='hidden xl:flex items-center space-x-2'>
                 
-              <button className='flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] bg-orange-500 rounded-full outline-slate-800'>
+              <button aria-label='theme' className='flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] bg-orange-500 rounded-full outline-slate-800'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
               </button>
 
@@ -163,11 +163,11 @@ const Navbar = () => {
               </a>
               
 
-              <a href="#" className='flex items-center gap-4'>
+              {/* <a href="#" className='flex items-center gap-4'>
                 <span className='no-underline inline-flex justify-center items-center text-lg  w-[58px] h-[58px] rounded-full  relative overflow-hidden transition duration-500 group '>
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart group-hover:fill-orange-500"><circle cx="8" cy="21" r="1" /><circle cx="19" cy="21" r="1" /><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" /></svg>
                 </span>
-              </a>
+              </a> */}
               </div>
               
                 <div className="relative p-3 border rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] sm:max-w-xl mx-auto">
