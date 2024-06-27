@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
   li>ul                 { transform: translatex(100%) scale(0) }
   li:hover>ul           { transform: translatex(101%) scale(1) }
   li > button svg       { transform: rotate(-90deg) }
@@ -84,4 +85,7 @@
     right:10px;
     padding: 30px;
     color: black !important;
+}
+.text-stroke-3 {
+  -webkit-text-stroke: 3px black;
 }

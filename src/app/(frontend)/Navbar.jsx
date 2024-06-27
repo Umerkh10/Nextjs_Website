@@ -4,6 +4,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import NavbarToggle from './NavbarToggle';
 import gsap from 'gsap';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 const Navbar = () => {
@@ -31,13 +32,13 @@ const Navbar = () => {
     <div id='overlay' className='sticky top-0 w-full left-0 right-0 transition delay-500ms z-[998]' ref={container}>
       <div className='relative'>
         <div className='absolute -mt-2.5 left-0 w-5/6 h-[110px] bg-purple-800 rounded-tl-none rounded-tr-[100px] rounded-br-[100px] rounded-bl-none z-[-2]'>
-          <a href="#" className='inline-block grow-0 shrink-0 basis-auto mr-0  ml-4'>
+          <Link href="/" className='inline-block grow-0 shrink-0 basis-auto mr-0  ml-4'>
             <Image className='max-w-full h-auto pt-[1.5rem] pl-2'  src="/imgs/webmoon-white-logo.png" alt="logo" width={150} height={100}></Image>
-          </a>
+          </Link>
         </div>
         <div className=' absolute right-0 bg-slate-700 hidden sm:block md:w-3/6 lg:w-[75%] xl:w-[87%]  border-l-2 border-l-orange-600 h-20 z-[-1] rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
           <nav className=' hidden lg:flex items-center  h-full space-x-5 px-4 xl:ml-0 text-base '>
-            <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Home</a>
+            <Link href="/" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Home</Link>
             <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>About</a>
             <div class="group inline-block">
               <button class="outline-none focus:outline-none  py-1  rounded-sm flex items-center min-w-10">
@@ -134,7 +135,7 @@ const Navbar = () => {
               </ul>
             </div>
             <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Blogs</a>
-            <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</a>
+            <Link href="/Contact" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</Link>
           </nav>
         </div>
 

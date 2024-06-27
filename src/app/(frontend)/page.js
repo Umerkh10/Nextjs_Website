@@ -14,7 +14,7 @@ import Revenue_Background from './Revenue_Background'
 
 const HomePage = () => {
   return (
-    <div className='relative'> <Navbar/>
+    <div className='relative '> <Navbar/>
      <Slider/>
      <Rating/>
      <Image_Parallax/>
