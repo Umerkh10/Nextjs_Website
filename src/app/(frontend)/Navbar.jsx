@@ -92,8 +92,12 @@ const Navbar = () => {
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Faqs</li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Client</li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Process</li>
-                <li class="rounded-sm px-3 py-1 hover:text-orange-500">Terms & Condition</li>
-                <li class="rounded-sm px-3 py-1 hover:text-orange-500">Privacy Policy</li>
+                <li>
+                <Link href="/Terms" class="rounded-sm px-3 py-1 hover:text-orange-500">Terms & Condition</Link>
+                </li>
+                <li>
+                <Link href="/Privacy" class="rounded-sm px-3 py-1 hover:text-orange-500">Privacy Policy</Link>
+                </li>
               </ul>
             </div>
 
@@ -131,7 +135,6 @@ const Navbar = () => {
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">SEO Services </li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Support</li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Return Refund Policy</li>
-                <li class="rounded-sm px-3 py-1 hover:text-orange-500">Privacy Policy</li>
               </ul>
             </div>
             <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Blogs</a>

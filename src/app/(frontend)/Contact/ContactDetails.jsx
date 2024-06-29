@@ -1,7 +1,16 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactDetails = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      offset: 200, 
+    });
+  }, []);
   return (
 <div className='relative w-full h-full mt-8 '>
   <div className='absolute top-14 w-full h-[60vh] -z-10'>
@@ -14,7 +23,7 @@ const ContactDetails = () => {
   tabIndex="0"
 ></iframe>
   </div>
-  <div className='relative z-10 '>
+  <div className='relative z-10'data-aos='fade-up' > 
     <div style={{backgroundImage:"url('/imgs/contact-info-bg.png')",backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat' }}
     className=' md:max-w-[460px] m-auto xl:ml-[700px] pt-12 pb-12 pr-10 pl-10 h-[90vh] '>
       <span className='text-gray-200 text-5xl font-extrabold flex justify-center'>Contact Info</span>

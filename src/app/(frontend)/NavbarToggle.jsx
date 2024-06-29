@@ -3,6 +3,7 @@ import React from 'react'
 import gsap from 'gsap';
 import { useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const NavbarToggle = ({isMenuopen, setisMenuopen}) => {
   useEffect(() => {
@@ -20,21 +21,21 @@ const NavbarToggle = ({isMenuopen, setisMenuopen}) => {
     <div id="nav" className="fixed h-full left-0 top-0 w-full sm:h-screen z-[999] bg-black md:w-[60%]  flex flex-col justify-center items-center">
       <div className="flex flex-col items-center  w-full md:h-full p-8">
         <div className="flex items-center justify-between mb-[-1rem] sm:mb-8  gap-4 w-full">
-          <a href="#">
+          <Link href="/">
             <Image src="/imgs/webmoon-white-logo.png" width={200} height={200} className="h-auto max-w-full mb-8" alt="webnike Logo"></Image>
-          </a>
+          </Link>
           <button onClick={() => setisMenuopen(false)} className=' block md:hidden border rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] p-1 bg-gray-600 hover:bg-purple-600 transition duration-500 ease-in'>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
             </button>
         </div>
         <nav className="text-white">
           <ul className="space-y-4 text-center">
-            <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">Home</a></li>
+            <li><Link href="/" className="text-3xl hover:text-purple-500 transition duration-300">Home</Link></li>
             <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">About</a></li>
             <li><a href="#" className="text-3xl hover:text-purple-700 transition duration-300">Pages</a></li>
             <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">Services</a></li>
             <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">Blog</a></li>
-            <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">Contact Us</a></li>
+            <li><Link href="/Contact" className="text-3xl hover:text-purple-500 transition duration-300">Contact Us</Link></li>
           </ul>
         </nav>
         <div className="md:hidden mt-8 w-full px-4">

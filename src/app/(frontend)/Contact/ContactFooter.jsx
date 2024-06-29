@@ -12,7 +12,7 @@ const ContactFooter = () => {
         });
       }, []);
   return (
-    <div className=' mb-0 pt-[30px]' style={{ backgroundImage: "url('/imgs/footer_bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }}>
+    <div className=' mb-0 pt-[50px]' style={{ backgroundImage: "url('/imgs/footer_bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }}>
     <div className='lg:grid lg:grid-cols-3 flex flex-col' data-aos="fade-right"  data-aos-offset="100" data-aos-easing="ease-in-sine" >
       <div className='pl-6'>
         <div className='' >

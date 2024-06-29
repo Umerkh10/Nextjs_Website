@@ -1,14 +1,23 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactForm = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, 
+          offset: 200, 
+        });
+      }, []);
   return (
     <div className='pt-28'>
         <div className='grid lg:grid-cols-3 grid-cols-1 '>
-            <div className='grid-cols-1 col-span-1 ml-3'>
+            <div className='grid-cols-1 col-span-1 ml-3' data-aos='fade-down'>
                 <Image src={"/imgs/contact_form.webp"} width={500} height={500} alt='contact-form'></Image>
             </div>
-            <div className='grid-cols-1 col-span-2 '>
+            <div className='grid-cols-1 col-span-2 ' data-aos='fade-up'>
                 <div className='lg:ml-40'>
                 <div className='flex items-center text-purple-600 font-semibold text-lg gap-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="" stroke="" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge stroke-purple-700 fill-purple-700"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/></svg>
