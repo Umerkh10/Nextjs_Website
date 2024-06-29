@@ -54,7 +54,9 @@ const Footer = () => {
           <div className='lg:grid lg:grid-cols-3 flex flex-col' data-aos="fade-right"  data-aos-offset="100" data-aos-easing="ease-in-sine" >
             <div className='pl-6'>
               <div className='' >
+                <Link href='/'>
                 <Image src={"/imgs/webmoon-white-logo.png"} width={200} height={200} alt='footer_logo' ></Image>
+                </Link>
               </div>
               <div className='flex justify-start pt-3'>
                 <p className='text-white'>We are 100+ professional software engine with more than 10 years of experience in delivering superior products Believe it be cause you've seen it.</p>
