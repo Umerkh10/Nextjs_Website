@@ -92,11 +92,11 @@ const Navbar = () => {
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Faqs</li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Client</li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Process</li>
-                <li>
-                <Link href="/Terms" class="rounded-sm px-3 py-1 hover:text-orange-500">Terms & Condition</Link>
+                <li className='px-3 py-1 rounded-sm '>
+                <Link href="/Terms" class=" hover:text-orange-500">Terms & Condition</Link>
                 </li>
-                <li>
-                <Link href="/Privacy" class="rounded-sm px-3 py-1 hover:text-orange-500">Privacy Policy</Link>
+                <li className='px-3 py-1 rounded-sm '>
+                <Link href="/Privacy" class=" hover:text-orange-500">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
@@ -134,7 +134,7 @@ const Navbar = () => {
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Marketing Collateral </li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">SEO Services </li>
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500">Support</li>
-                <li class="rounded-sm px-3 py-1 hover:text-orange-500">Return Refund Policy</li>
+                <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/ReturnRefund">Return Refund Policy</Link></li>
               </ul>
             </div>
             <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Blogs</a>
