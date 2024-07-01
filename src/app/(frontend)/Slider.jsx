@@ -38,11 +38,11 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className='h-[200vh] xl:h-[110vh] lg:h-[125vh] pt-36 max-w-screen w-full relative overflow-hidden '>
+    <div className='h-[200vh] xl:h-[110vh] lg:h-[125vh] pt-36 max-w-screen w-full relative overflow-hidden bg-none'>
       <div style={{ backgroundImage: "url('/imgs/gilroy_bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center' }}
         className='absolute top-0 left-0 h-full w-full z-[-1] '>
         <div className='flex justify-center items-center h-full mt-[380px] mr-32 '>
-          <div className='absolute  -bottom-[800px] left-[-20rem] md:top-[39rem] md:left-[-10rem] lg:top-24 lg:-left-14 xl:top-20 xl:left-40 w-[640px] bg-transparent h-[1185px] xl:h-[1375px] lg:h-[1375px] md:h-[1375px] transform rotate-[39deg] rounded-tr-[500px] rounded-tl-[500px] bg-gradient-to-r from-[#ff4c13] to-[#fe7524] transition duration-[1000ms]'>
+          <div className='absolute -bottom-[800px] left-[-20rem] md:top-[39rem] md:left-[-10rem] lg:top-24 lg:-left-14 xl:top-20 xl:left-40 w-[640px] bg-transparent h-[1185px] xl:h-[1375px] lg:h-[1375px] md:h-[1375px] transform rotate-[39deg] rounded-tr-[500px] rounded-tl-[500px] bg-gradient-to-r from-[#ff4c13] to-[#fe7524] transition duration-[1000ms]'>
           </div>
         </div>
       </div>

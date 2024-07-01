@@ -31,10 +31,10 @@ const OurProject = () => {
       };
     return (
         <>
-        <div className=' mx-auto mt-10 w-full' data-aos="fade-right" >
+        <div className=' mx-auto mt-10 w-full text-foreground/80' data-aos="fade-right" >
             <div className='pl-10 pb-8 text-[20px] text-purple-700 font-bold'>Our Projects</div>
             <div className='flex flex-col lg:flex-row lg:justify-between  pl-10 pr-10 '>
-                <div className='text-5xl text-slate-800 font-extrabold '> Explore Our Best <br /> Recently Completed Projects </div>
+                <div className='text-5xl font-extrabold '> Explore Our Best <br /> Recently Completed Projects </div>
                 <div className='flex justify-end items-center w-[72%] xl:w-[20%] lg:w-[27%] md:w-[40%] group'>
                     <button className='mt-8 text-orange-600 bg-transparent text-[18px] font-semibold leading-none capitalize border border-orange-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-orange-600 ease-in delay-100 hover:text-white group'>
                         <span>View all more</span>
@@ -45,28 +45,28 @@ const OurProject = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-col lg:grid lg:grid-cols-2 mt-10' data-aos="fade-down">
+        <div className='flex flex-col lg:grid lg:grid-cols-2 mt-10  text-foreground/80' data-aos="fade-down">
     <div className='pl-10 pr-10'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14 text-slate-900 text-lg font-medium'>Devon Lane</span>
+            <span className='pl-14  text-lg font-medium'>Devon Lane</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>
     <div className='mt-10 lg:mt-0 lg:ml-10 group '>
-        <div className='text-3xl font-bold cursor-pointer text-slate-900 group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
+        <div className='text-3xl font-bold cursor-pointer  group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
             AI CHATTING WEBSITE DESIGN
         </div>
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
@@ -80,28 +80,28 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10' data-aos="fade-up">
+<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-up">
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14 text-slate-900 text-lg font-medium'>Devon Lane</span>
+            <span className='pl-14 text-lg font-medium'>Devon Lane</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>
     <div className='mt-10 lg:mt-0 lg:ml-10 order-1 group'>
-        <div className='text-3xl font-bold cursor-pointer text-slate-900 group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
+        <div className='text-3xl font-bold cursor-pointer group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
         CAR BOOKING APPS DESIGN
         </div>
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
@@ -115,28 +115,28 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10' data-aos="fade-down">
+<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-down">
     <div className='pl-10 pr-10'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14 text-slate-900 text-lg font-medium'>Devon Lane</span>
+            <span className='pl-14 text-lg font-medium'>Devon Lane</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>
     <div className='mt-10 lg:mt-0 lg:ml-10 group'>
-        <div className='text-3xl font-bold cursor-pointer text-slate-900 group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
+        <div className='text-3xl font-bold cursor-pointer group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
         3D PORTFOLIO WEBSITE
         </div>
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
@@ -150,28 +150,28 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10'data-aos="fade-up" >
+<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80'data-aos="fade-up" >
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14 text-slate-900 text-lg font-medium'>Devon Lane</span>
+            <span className='pl-14 text-lg font-medium'>Devon Lane</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700 text-slate-900 text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>
     <div className='mt-10 lg:mt-0 lg:ml-10 order-1 group'>
-        <div className='text-3xl font-bold cursor-pointer text-slate-900 group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
+        <div className='text-3xl font-bold cursor-pointer group-hover:text-orange-600 transition ease-in delay-100 duration-100'>
         MOBILE APPLICATION DESIGN
         </div>
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >

@@ -13,10 +13,10 @@ const Card_Carousel = () => {
     });
   }, []);
   return (
-    <div className=''>
+    <div className='text-foreground/80'>
         <div className='text-center' data-aos="fade-up" >
         <h4 className='text-purple-700 font-semibold text-lg mb-2 '>Our Best Services</h4>
-        <h2 className='text-slate-950 font-extrabold text-5xl mb-5'> We Provide Best Services </h2>
+        <h2 className='font-extrabold text-5xl mb-5'> We Provide Best Services </h2>
         </div>
         <MultipleSlideCarousel/>
         </div>

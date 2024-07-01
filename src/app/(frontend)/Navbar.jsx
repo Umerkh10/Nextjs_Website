@@ -5,13 +5,27 @@ import NavbarToggle from './NavbarToggle';
 import gsap from 'gsap';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTheme } from 'next-themes';
 
 
 const Navbar = () => {
   const container = useRef(null);
   const [isMenuopen, setisMenuopen] = useState(false)
   const [open, setOpen] = useState(false)
+  
+  
   // const tl = useRef(gsap.timeline({ paused: true }));
+  
+  const { theme ,setTheme} = useTheme()
+  console.log("theme",theme);
+  const handleTheme = () => {
+    if(theme === "light"){ 
+      setTheme("dark")
+    }
+    else{
+      setTheme("light")
+    }
+  }
   
   useEffect(() => {
     if (isMenuopen) {
@@ -144,11 +158,11 @@ const Navbar = () => {
 
         <div className='max-w-1920 mx-auto ml-auto mr-auto'>
           <div className='flex bg-transparent gap-8 pr-7 rounded-none justify-between z-[-1] '></div>
-          <div className='absolute right-0 w-[40%] lg:w-[15%] md:w-[40%] xl:w-[50%] h-20 bg-slate-800 border-l-2 border-l-purple-700 rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
+          <div className='absolute right-0 w-[45%] lg:w-[20%] md:w-[40%] xl:w-[50%] h-20 bg-slate-800 border-l-2 border-l-purple-700 rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
             <div className=' flex items-center 2xl:gap-5 px-4 ml-8 pt-2'>
               <div className='hidden xl:flex items-center space-x-2'>
                 
-              <button aria-label='theme' className='flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] bg-orange-500 rounded-full outline-slate-800'>
+              <button onClick={handleTheme} aria-label='theme' className='flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] bg-orange-500 rounded-full outline-slate-800'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
               </button>
 
@@ -173,6 +187,10 @@ const Navbar = () => {
                 </span>
               </a> */}
               </div>
+
+              <button onClick={handleTheme} aria-label='theme' className='xl:hidden flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] bg-orange-500 rounded-full outline-slate-800'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
+              </button>
               
                 <div className="relative p-3 border rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] sm:max-w-xl mx-auto">
                   <nav>

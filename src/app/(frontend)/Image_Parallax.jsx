@@ -21,7 +21,7 @@ const Image_Parallax = () => {
       });
 
     return (
-<div className='grid lg:grid-cols-4 md:grid-cols-4 grid-rows-2 md:pb-0 pb-20 sm:grid-cols-1 pt-8 pr-4 pl-4 gap-4'>
+<div className='grid lg:grid-cols-4 md:grid-cols-4 grid-rows-2 md:pb-0 pb-20 sm:grid-cols-1 pt-8 pr-4 pl-4 gap-4 text-foreground/85'>
 <div className='grid grid-rows-2 col-span-4 md:col-span-2' data-aos="fade-up">
     <div className='col-span-1 relative'>
         <Image className='object-cover custom-transform' src={"/imgs/image_parallax_1.webp"} layout='fill' alt='parallax1'></Image>
@@ -66,13 +66,13 @@ const Image_Parallax = () => {
                             <div className='w-[25px] h-[25px] rounded-full border-2 border-black flex items-center mb-3'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="darkorange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                             </div>
-                            <span className='font-medium text-[17px] text-gray-700'>Production or trading of goods</span>
+                            <span className='font-medium text-[17px]'>Production or trading of goods</span>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div className='w-[25px] h-[25px] rounded-full border-2 border-black flex items-center'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="darkorange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                             </div>
-                            <span className='font-medium text-[17px] text-gray-700'>100% Better results</span>
+                            <span className='font-medium text-[17px]'>100% Better results</span>
                         </div>
                     </div>
                     <div className='col-span-1'>
