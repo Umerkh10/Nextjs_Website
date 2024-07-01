@@ -3,6 +3,8 @@ import Image from 'next/image'
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CountUp from 'react-countup';
+import { useInView } from 'react-intersection-observer';
 
 const Revenue_Background = () => {
     useEffect(() => {
@@ -11,30 +13,46 @@ const Revenue_Background = () => {
           offset: 200, 
         });
       }, []);
+
+      const { ref, inView } = useInView({
+        triggerOnce: false, // Set to false to allow multiple triggers
+        threshold: 0.1, // Adjust based on when you want the animation to trigger
+      });
     return (
         <>
-   <div className='flex relative justify-center mt-16 pt-3 pb-10 w-full border rounded-tr-[150px] z-[10] rounded-tl-[150px] bl-[0px] br-[0px] bg-[#0ea0b0] h-[screen] md:h-[30vh]'
-     style={{ zIndex: 1 }}
-     data-aos="fade-up">
-  <div className='grid grid-cols-1 md:grid-cols-4 gap-[5.75rem] ml-10 mr-10 pl-4 pr-4 pt-4'>
-    <div className='grid-cols-1 col-span-1'>
-      <h4 className='text-[80px] lg:text-[100px] font-extrabold leading-none opacity-[26%]'>12K</h4>
-      <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white truncate lg:-translate-y-11'>PROJECTS DONE</p>
+    <div
+      className='flex relative justify-center mt-16 pt-3 pb-10 w-full border rounded-tr-[150px] z-[10] rounded-tl-[150px] bl-[0px] br-[0px] bg-[#0ea0b0] h-[screen] md:h-[30vh]'
+      style={{ zIndex: 1 }}
+      data-aos="fade-up"
+      ref={ref}
+    >
+      <div className='grid grid-cols-1 md:grid-cols-4 gap-[5.75rem] ml-10 mr-10 pl-4 pr-4 pt-4'>
+        <div className='grid-cols-1 col-span-1'>
+          <h4 className='text-[80px] lg:text-[100px] font-extrabold leading-none opacity-[26%]'>
+            {inView ? <CountUp end={1250} duration={2.75} /> : '0'}
+          </h4>
+          <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white truncate lg:-translate-y-11'>PROJECTS DONE</p>
+        </div>
+        <div className='grid-cols-2 col-span-1'>
+          <h4 className='text-[80px] lg:text-[100px] font-extrabold leading-none opacity-[26%]'>
+            {inView ? <CountUp end={350} duration={2.75} /> : '0'}
+          </h4>
+          <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>Team Members</p>
+        </div>
+        <div className='grid-cols-3 col-span-1'>
+          <h4 className='text-[80px] lg:text-[100px] font-extrabold leading-none opacity-[26%]'>
+            {inView ? <CountUp end={1200} duration={2.75} /> : '0'}
+          </h4>
+          <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>happy clients</p>
+        </div>
+        <div className='grid-cols-4 col-span-1'>
+          <h4 className='text-[80px] lg:text-[100px] inline-block font-extrabold leading-none opacity-[26%]'>
+            {inView ? <CountUp end={180} duration={2.75} /> : '0'}
+          </h4>
+          <p className='text-[20px] font-semibold leading-[1.15] text-white uppercase lg:-translate-y-11'>awards</p>
+        </div>
+      </div>
     </div>
-    <div className='grid-cols-2 col-span-1'>
-      <h4 className='text-[80px] lg:text-[100px] font-extrabold leading-none opacity-[26%]'>35+</h4>
-      <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>Team Members</p>
-    </div>
-    <div className='grid-cols-3 col-span-1'>
-      <h4 className='text-[80px] lg:text-[100px] font-extrabold leading-none opacity-[26%]'>10K</h4>
-      <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>happy clients</p>
-    </div>
-    <div className='grid-cols-4 col-span-1'>
-      <h4 className='text-[80px] lg:text-[100px] inline-block font-extrabold leading-none opacity-[26%]'>18+</h4>
-      <p className='text-[20px] font-semibold leading-[1.15] text-white uppercase lg:-translate-y-11'>awards</p>
-    </div>
-  </div>
-</div>
 
 <div className=" h-full md:h-full lg:h-[140vh] z-[12]  xl:h-[120vh] bg-[#0d0237]"
      style={{ backgroundImage: "url('/imgs/revenue_bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 2 }}

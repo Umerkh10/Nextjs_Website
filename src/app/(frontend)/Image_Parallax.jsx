@@ -3,6 +3,8 @@ import Image from 'next/image'
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CountUp from 'react-countup';
+import { useInView } from 'react-intersection-observer';
 
 
 const Image_Parallax = () => {
@@ -12,6 +14,12 @@ const Image_Parallax = () => {
           offset: 200, 
         });
       }, []);
+
+      const { ref, inView } = useInView({
+        triggerOnce: false, // Set to false to allow multiple triggers
+        threshold: 0.1, // Adjust based on when you want the animation to trigger
+      });
+
     return (
 <div className='grid lg:grid-cols-4 md:grid-cols-4 grid-rows-2 md:pb-0 pb-20 sm:grid-cols-1 pt-8 pr-4 pl-4 gap-4'>
 <div className='grid grid-rows-2 col-span-4 md:col-span-2' data-aos="fade-up">
@@ -22,10 +30,10 @@ const Image_Parallax = () => {
         <Image className='' src={"/imgs/img-parallax-2.webp"}  layout='fill' alt='parallax2'></Image>
     </div>
 </div>
-    <div className='bg-purple-500 col-span-4 md:col-span-2 relative' data-aos="fade-up">
+    <div className='bg-purple-500 col-span-4 md:col-span-2 relative' data-aos="fade-up"   ref={ref}>
         <Image className='object-cover' src={"/imgs/image_parallax_3.webp"} layout='fill' alt='parallax3'></Image>
         <div className='absolute rotate-[90deg] top-[135px] right-[-140px] bg-purple-800 border-[5px] border-[#F0E3F8] rounded-[100px] p-[20px] px-[10px]'>
-            <span className='font-extrabold text-white text-2xl'>20</span>
+            <span className='font-extrabold text-white text-2xl'> {inView ? <CountUp end={20} duration={2.75} /> : '0'}</span>
             <span className='text-white text-xl font-medium'>+ Years of Working Experience</span>
         </div>
     </div>
