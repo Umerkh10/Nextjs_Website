@@ -34,7 +34,6 @@ const NavbarToggle = ({isMenuopen, setisMenuopen}) => {
             <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">About</a></li>
             <li><a href="#" className="text-3xl hover:text-purple-700 transition duration-300">Pages</a></li>
             <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">Services</a></li>
-            <li><a href="#" className="text-3xl hover:text-purple-500 transition duration-300">Blog</a></li>
             <li><Link href="/Contact" className="text-3xl hover:text-purple-500 transition duration-300">Contact Us</Link></li>
           </ul>
         </nav>

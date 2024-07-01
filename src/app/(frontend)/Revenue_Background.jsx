@@ -15,8 +15,8 @@ const Revenue_Background = () => {
       }, []);
 
       const { ref, inView } = useInView({
-        triggerOnce: false, // Set to false to allow multiple triggers
-        threshold: 0.1, // Adjust based on when you want the animation to trigger
+        triggerOnce: false, 
+        threshold: 0.1, 
       });
     return (
         <>

@@ -151,7 +151,7 @@ const Navbar = () => {
                 <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/ReturnRefund">Return Refund Policy</Link></li>
               </ul>
             </div>
-            <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Blogs</a>
+            
             <Link href="/Contact" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</Link>
           </nav>
         </div>

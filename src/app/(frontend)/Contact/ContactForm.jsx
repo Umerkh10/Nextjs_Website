@@ -13,7 +13,7 @@ const ContactForm = () => {
       }, []);
   return (
     <div className='pt-28'>
-        <div className='grid lg:grid-cols-3 grid-cols-1 text-foreground/85 '>
+        <div className='grid lg:grid-cols-3 grid-cols-1  '>
             <div className='grid-cols-1 col-span-1 ml-3' data-aos='fade-down'>
                 <Image src={"/imgs/contact_form.webp"} width={500} height={500} alt='contact-form'></Image>
             </div>
@@ -27,15 +27,15 @@ const ContactForm = () => {
                     <form action="" >
                     <div className='grid lg:grid-cols-2 grid-cols-1 mt-5 gap-5'>
                         <div className='grid-cols-1 '>
-                            <div className='rounded-full bg-slate-100 pt-4 pb-4  pl-4 pr-2'><input className='bg-slate-100 outline-none' type="text" name="first_name" id="" placeholder='First Name' required/></div>
-                            <div className='rounded-full bg-slate-100 pt-4 pb-4 mt-3  pl-4 pr-2'><input className='bg-slate-100 outline-none' type="email" name="email_address" id="" placeholder='Email Address' required/></div>
+                            <div className='rounded-full pt-4 pb-4  pl-4 pr-2 bg-slate-200 text-black'><input className=' bg-slate-200 outline-none' type="text" name="first_name" id="" placeholder='First Name' required/></div>
+                            <div className='rounded-full pt-4 pb-4 mt-3  pl-4 pr-2 bg-slate-200 text-black'><input className=' bg-slate-200 outline-none' type="email" name="email_address" id="" placeholder='Email Address' required/></div>
                         </div>
                         <div className='grid-cols-1 '>
-                        <div className='rounded-full bg-slate-100 pt-4 pb-4  pl-4 pr-2'><input className='bg-slate-100 outline-none' type="text" name="last_name" id="" placeholder='Last Name' required/></div>
-                        <div className='rounded-full bg-slate-100 pt-4 pb-4 mt-3  pl-4 pr-2'><input className='bg-slate-100 outline-none' type="text" name="subject" id="" placeholder='Enter Subject'required/></div>
+                        <div className='rounded-full pt-4 pb-4  pl-4 pr-2 bg-slate-200 text-black'><input className=' bg-slate-200 outline-none' type="text" name="last_name" id="" placeholder='Last Name' required/></div>
+                        <div className='rounded-full pt-4 pb-4 mt-3  pl-4 pr-2 bg-slate-200 text-black'><input className='bg-slate-200 outline-none' type="text" name="subject" id="" placeholder='Enter Subject'required/></div>
                         </div>
                     </div>
-                    <div className='rounded-xl h-[25vh] pt-4 pl-4 bg-slate-100 mt-4'><textarea name="cover" className='bg-slate-100 outline-none' placeholder='Name Cover' id=""></textarea></div>
+                    <div className='rounded-xl h-[25vh] pt-4 pl-4 mt-4 bg-slate-200 text-black'><textarea name="cover" className=' bg-slate-200 outline-none' placeholder='Name Cover' id=""></textarea></div>
                     <div className='rounded-full w-1/4 mt-5 pt-4 pb-4 bg-violet-800 flex justify-center items-center group  hover:bg-violet-600 transition ease-in duration-200 delay-200 '>
                         <button className=' text-white font-semibold group-hover:animate-bounce ' type='submit'>Explore More</button>
                     </div>
