@@ -21,7 +21,7 @@ const HomePage = () => {
     // Simulate a network request
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // 3 seconds
+    }, 1000); // 3 seconds
   }, []);
   return (
     <div className='relative '>
