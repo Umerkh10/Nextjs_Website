@@ -144,3 +144,6 @@
 .text-stroke-3 {
   -webkit-text-stroke: 3px black;
 }
+#theme-button.clicked {
+  background-color: rgb(11, 9, 29);
+}

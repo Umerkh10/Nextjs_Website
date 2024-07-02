@@ -41,7 +41,7 @@ const Revenue_Background = () => {
         </div>
         <div className='grid-cols-3 col-span-1'>
           <h4 className='text-[80px] lg:text-[100px] font-extrabold leading-none opacity-[26%]'>
-            {inView ? <CountUp end={12} duration={2.75} /> : '0'}K
+            {inView ? <CountUp end={10} duration={2.75} /> : '0'}K
           </h4>
           <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>happy clients</p>
         </div>
