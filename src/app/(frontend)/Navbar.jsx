@@ -94,9 +94,9 @@ const Navbar = () => {
                     </span>
                   </button>
                   <ul class="bg-slate-800 border rounded-sm absolute top-0 right-0 transition duration-200 delay-200 ease-in-out origin-top-left min-w-32">
-                    <li class="px-3 py-1 text-white hover:text-orange-500">Javascript</li>
-                    <li class="px-3 py-1  text-white hover:text-orange-500">Go</li>
-                    <li class="px-3 py-1  text-white hover:text-orange-500">Rust</li>
+                    <li class="px-3 py-1 text-white hover:text-orange-500">Career</li>
+                    <li class="px-3 py-1  text-white hover:text-orange-500">Career Details</li>
+                    <li class="px-3 py-1  text-white hover:text-orange-500">Job Apply</li>
                   </ul>
 
                 </li>
