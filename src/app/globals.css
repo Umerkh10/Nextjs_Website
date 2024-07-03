@@ -147,3 +147,25 @@
 #theme-button.clicked {
   background-color: rgb(11, 9, 29);
 }
+
+.image-container {
+  flex-shrink: 0; 
+}
+
+
+.slider-track-service {
+  display: flex;
+  animation: slide 5s linear infinite;
+}
+
+.slider-item-service {
+  scroll-snap-align: center; 
+}
+
+/* Ensuring the images maintain size */
+.slider-item-service img {
+  width: 130px !important;
+  height: 140px !important;
+  object-fit: contain;
+}
+

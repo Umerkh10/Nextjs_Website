@@ -123,7 +123,8 @@ const Navbar = () => {
                 <button
                   class="outline-none focus:outline-none  py-1  rounded-sm flex items-center min-w-10"
                 >
-                  <span class="pr-1 text-white font-semibold flex-1 hover:text-orange-600 transition duration-200 ease-in">Services</span>
+                  <span class="pr-1 text-white font-semibold flex-1 hover:text-orange-600 transition duration-200 ease-in">
+                    <Link href="/Services">Services</Link></span>
                   <span>
                     <svg
                       class="fill-white h-4 w-4 transform group-hover:-rotate-180
@@ -141,14 +142,11 @@ const Navbar = () => {
                   class="bg-slate-800 text-white mt-2 rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition  delay-300 ease-in origin-top min-w-32"
                 >
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Logo Design </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Graphice Design </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Website Development</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Video Animation</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">App Design </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">App Development </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Creative Copywriting</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Digital Marketing</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">3D & Illustration Design</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Marketing Collateral </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">SEO Services </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Support</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/ReturnRefund">Return Refund Policy</Link></li>
@@ -205,13 +203,13 @@ const Navbar = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
                 </button>
 
-                <div className="relative p-3 border rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] sm:max-w-xl mx-auto">
+                <div className=" relative p-3  rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] bg-current hover:bg-orange-500 transition ease-in duration-200 delay-300 dark:bg-white  dark:hover:bg-orange-500 sm:max-w-xl mx-auto ">
                   <nav>
-                    <button className="text-gray-500 w-10 h-8 relative focus:outline-none " onClick={() => setisMenuopen(isMenuopen ? false : true)}>
+                    <button className="text-gray-500 w-10 h-8 relative focus:outline-none  " onClick={() => setisMenuopen(isMenuopen ? false : true)}>
                       <span className="sr-only">Open main menu</span>
-                      <div className=" block w-5 justify-center absolute left-1/2 top-1/2 transform transition ease-in delay-700 duration-700  -translate-x-[60%] -translate-y-[40%]">
+                      <div className=" block w-5  justify-center absolute left-1/2 top-1/2 transform transition ease-in delay-700 duration-700  -translate-x-[60%] -translate-y-[40%]">
                         <span aria-hidden="true" className={`items-center  group ${open ? 'opacity-0' : ''}`}>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class=" lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12" /><line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class=" lucide lucide-menu stroke-white dark:stroke-slate-900"><line x1="4" x2="20" y1="12" y2="12" /><line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /></svg>
                         </span>
 
                       </div>
