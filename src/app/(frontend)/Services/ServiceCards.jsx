@@ -34,7 +34,7 @@ const ServiceCards = () => {
                     <div className='flex justify-between'>
                         <div className='border rounded-full w-24 h-24 bg-blue-700 flex justify-center items-center'>
                             <Image src={"/imgs/service_coding.png"} width={50} height={30} alt='seo' ></Image> </div>
-                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_seo.png"} width={120} height={60} alt='hover_seo'></Image> </div>
+                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_coding.png"} width={120} height={60} alt='hover_seo'></Image> </div>
                     </div>
                     <div className='text-3xl font-bold group-hover:text-white '>Website Development</div>
                     <div className='text-lg font-medium group-hover:text-white '>Bibendum libero enim donec elementum inc eptos feugiat praesent parturient pote susp endisse. Dapibus eros sapien blandit nibher</div>
@@ -45,7 +45,7 @@ const ServiceCards = () => {
                     <div className='flex justify-between'>
                         <div className='border rounded-full w-24 h-24 bg-blue-700 flex justify-center items-center'>
                             <Image src={"/imgs/service_animate.png"} width={50} height={30} alt='seo' ></Image> </div>
-                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_seo.png"} width={120} height={60} alt='hover_seo'></Image> </div>
+                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_animate.png"} width={120} height={60} alt='hover_seo'></Image> </div>
                     </div>
                     <div className='text-3xl font-bold group-hover:text-white '>Graphic Design</div>
                     <div className='text-lg font-medium group-hover:text-white '>Bibendum libero enim donec elementum inc eptos feugiat praesent parturient pote susp endisse. Dapibus eros sapien blandit nibher</div>
@@ -60,7 +60,7 @@ const ServiceCards = () => {
                     <div className='flex justify-between'>
                         <div className='border rounded-full w-24 h-24 bg-blue-700 flex justify-center items-center'>
                             <Image src={"/imgs/service_app-development.png"} width={50} height={30} alt='seo' ></Image> </div>
-                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_seo.png"} width={120} height={60} alt='hover_seo'></Image> </div>
+                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_app-development.png"} width={120} height={60} alt='hover_seo'></Image> </div>
                     </div>
                     <div className='text-3xl font-bold group-hover:text-white '>App Development</div>
                     <div className='text-lg font-medium group-hover:text-white '>Bibendum libero enim donec elementum inc eptos feugiat praesent parturient pote susp endisse. Dapibus eros sapien blandit nibher</div>
@@ -71,7 +71,7 @@ const ServiceCards = () => {
                     <div className='flex justify-between'>
                         <div className='border rounded-full w-24 h-24 bg-blue-700 flex justify-center items-center'>
                             <Image src={"/imgs/service_creative-writing.png"} width={50} height={30} alt='seo' ></Image> </div>
-                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_seo.png"} width={120} height={60} alt='hover_seo'></Image> </div>
+                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_creative-writing.png"} width={120} height={60} alt='hover_seo'></Image> </div>
                     </div>
                     <div className='text-3xl font-bold group-hover:text-white '>Creative Copywriting</div>
                     <div className='text-lg font-medium group-hover:text-white '>Bibendum libero enim donec elementum inc eptos feugiat praesent parturient pote susp endisse. Dapibus eros sapien blandit nibher</div>
@@ -82,7 +82,7 @@ const ServiceCards = () => {
                     <div className='flex justify-between'>
                         <div className='border rounded-full w-24 h-24 bg-blue-700 flex justify-center items-center'>
                             <Image src={"/imgs/service_digital-marketing.png"} width={50} height={30} alt='seo' ></Image> </div>
-                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_seo.png"} width={120} height={60} alt='hover_seo'></Image> </div>
+                            <div className='opacity-0 group-hover:opacity-30 transition ease-in duration-200 delay-200'><Image src={"/imgs/service_digital-marketing.png"} width={120} height={60} alt='hover_seo'></Image> </div>
                     </div>
                     <div className='text-3xl font-bold group-hover:text-white '>Digital Marketing</div>
                     <div className='text-lg font-medium group-hover:text-white '>Bibendum libero enim donec elementum inc eptos feugiat praesent parturient pote susp endisse. Dapibus eros sapien blandit nibher</div>
