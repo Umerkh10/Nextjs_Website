@@ -6,6 +6,7 @@ import gsap from 'gsap';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
+import { Moon, Sun } from 'lucide-react';
 
 
 const Navbar = () => {
@@ -25,8 +26,7 @@ const Navbar = () => {
     else {
       setTheme("light")
     }
-    const button = document.getElementById('theme-button');
-    button.classList.toggle('clicked');
+    
   }
 
 
@@ -142,7 +142,7 @@ const Navbar = () => {
                   class="bg-slate-800 text-white mt-2 rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition  delay-300 ease-in origin-top min-w-32"
                 >
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Graphice Design </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Graphic Design </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Website Development</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">App Development </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Creative Copywriting</li>
@@ -163,8 +163,6 @@ const Navbar = () => {
                 <div className='hidden xl:flex items-center space-x-2'>
 
                   <button id="theme-button" onClick={handleTheme} aria-label='theme' className={`flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] ${theme === "dark" ? "bg-slate-950" : "bg-orange-500 " }  rounded-full outline-slate-800`}>
-                    {
-                      theme === "light" ?
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-sun">
                       <circle cx="12" cy="12" r="4" />
                       <path d="M12 2v2" />
@@ -176,8 +174,6 @@ const Navbar = () => {
                       <path d="m6.34 17.66-1.41 1.41" />
                       <path d="m19.07 4.93-1.41 1.41" />
                     </svg>
-                    : 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>}
                   </button>
 
                   <a href="#" className='flex no-underline text-lg rounded-full pt-4 pr-9 pb-4 pl-9 border-[1px] font-medium text-orange-500 border-orange-500 relative overflow-hidden transition duration-500 group hover:bg-orange-500 hover:text-white  '>
@@ -194,12 +190,6 @@ const Navbar = () => {
                     <span className='text-white text-sm block font-normal leading-6 group group-hover:text-purple-500'>Call Us Now <br /> <span className='font-semibold text-lg group-hover:text-purple-700 transition duration-200 ease-in truncate'> 021-34155132 </span> </span>
                   </a>
 
-
-                  {/* <a href="#" className='flex items-center gap-4'>
-                <span className='no-underline inline-flex justify-center items-center text-lg  w-[58px] h-[58px] rounded-full  relative overflow-hidden transition duration-500 group '>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart group-hover:fill-orange-500"><circle cx="8" cy="21" r="1" /><circle cx="19" cy="21" r="1" /><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" /></svg>
-                </span>
-              </a> */}
                 </div>
 
                 <button onClick={handleTheme} aria-label='theme' className='xl:hidden flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] bg-orange-500 rounded-full outline-slate-800'>
