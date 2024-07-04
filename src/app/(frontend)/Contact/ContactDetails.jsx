@@ -28,7 +28,7 @@ const ContactDetails = () => {
         <div className=' rounded-full h-16 w-24 bg-purple-700'><Image className='m-auto pt-3' src={"/imgs/contact_info_home.png"} width={35} height={40} alt='contact_info_home'  ></Image></div>
         <div className='flex flex-col'>
           <div className='pl-4 text-gray-200 font-bold text-xl'>Office Address</div>
-          <div className='text-gray-200 opacity-70 pl-4'>B-31 Sardar Ali Sabri Rd, Block 5 Gulshan-e-Iqbal, Karachi</div>
+          <div className='text-gray-200 opacity-70 pl-4'>60a Oldham St, Manchester M4 1LE, United Kingdom</div>
           </div>
       </div>
 

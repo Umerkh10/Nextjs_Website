@@ -56,67 +56,8 @@ const Navbar = () => {
           <div className=' absolute right-0 bg-slate-700 hidden sm:block md:w-3/6 lg:w-[75%] xl:w-[87%]  border-l-2 border-l-orange-600 h-20 z-[-1] rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
             <nav className=' hidden lg:flex items-center  h-full space-x-5 px-4 xl:ml-0 text-base '>
               <Link href="/" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Home</Link>
-              <a href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>About</a>
-              <div class="group inline-block">
-                <button class="outline-none focus:outline-none  py-1  rounded-sm flex items-center min-w-10">
-                  <span class="pr-1 text-white font-semibold flex-1 hover:text-orange-600 transition duration-200 ease-in">Pages</span>
-                  <span>
-                    <svg
-                      class=" h-4 w-4 transform group-hover: fill-white transition duration-150 ease-in-out"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <ul
-                  class="bg-slate-800 text-white mt-2 rounded-sm transform scale-0 group-hover:scale-100 absolute 
-                transition  delay-300 ease-in-out origin-top min-w-36 p-2"
-                >
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Project</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Team</li>
-                  <li class="rounded-sm relative px-3 py-1 hover:text-orange-500">
-                    <button
-                      class="w-full text-left flex items-center outline-none focus:outline-none"
-                    >
-                      <span class="pr-1 flex-1">Careeer</span>
-                      <span class="mr-auto">
-                        <svg
-                          class="fill-current h-4 w-4
-            transition duration-150 ease-in-out"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                    <ul class="bg-slate-800 border rounded-sm absolute top-0 right-0 transition duration-200 delay-200 ease-in-out origin-top-left min-w-32">
-                      <li class="px-3 py-1 text-white hover:text-orange-500">Career</li>
-                      <li class="px-3 py-1  text-white hover:text-orange-500">Career Details</li>
-                      <li class="px-3 py-1  text-white hover:text-orange-500">Job Apply</li>
-                    </ul>
-
-                  </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Shop</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Price One</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Testimonial</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Faqs</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Client</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Process</li>
-                  <li className='px-3 py-1 rounded-sm '>
-                    <Link href="/Terms" class=" hover:text-orange-500">Terms & Condition</Link>
-                  </li>
-                  <li className='px-3 py-1 rounded-sm '>
-                    <Link href="/Privacy" class=" hover:text-orange-500">Privacy Policy</Link>
-                  </li>
-                </ul>
-              </div>
+              <Link href="/About" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>About</Link>
+         
 
 
               <div class="group inline-block">
@@ -142,13 +83,12 @@ const Navbar = () => {
                   class="bg-slate-800 text-white mt-2 rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition  delay-300 ease-in origin-top min-w-32"
                 >
+                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/SeoService">SEO Services</Link>  </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Graphic Design </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Website Development</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">App Development </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Creative Copywriting</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Digital Marketing</li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">SEO Services </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/ReturnRefund">Return Refund Policy</Link></li>
                 </ul>
               </div>
 

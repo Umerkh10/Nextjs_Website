@@ -59,11 +59,11 @@ const ContactFooter = () => {
             <div className=''>
               <div className='flex items-center group pb-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>About</span>
+                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/About">About</Link></span>
               </div>
               <div className='flex items-center group pb-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>FAQ</span>
+                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/Terms">Terms</Link></span>
               </div>
               <div className='flex items-center group pb-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
@@ -71,11 +71,11 @@ const ContactFooter = () => {
               </div>
               <div className='flex items-center group pb-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>Team</span>
+                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'> <Link href="/Privacy">Privacy Policy</Link> </span>
               </div>
               <div className='flex items-center group pb-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>Career</span>
+                <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/ReturnRefund">Return Refund</Link></span>
               </div>
             </div>
           </div>

@@ -166,4 +166,21 @@
   height: 140px !important;
   object-fit: contain;
 }
+@keyframes rotating-doors {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
 
+@layer utilities {
+  .rotate-doors {
+    @apply transform transition-transform duration-500;
+    animation: rotating-doors 0.5s ease-in-out infinite;
+  }
+}
