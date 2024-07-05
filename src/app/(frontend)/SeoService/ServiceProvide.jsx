@@ -1,15 +1,23 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ServiceProvide = () => {
-    
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            offset: 200,
+        });
+    }, []);
     return (
         <>
-            <div className='text-center mt-14 '>
+            <div className='text-center mt-14' data-aos="fade-up">
                 <span className='text-sky-800 dark:text-gray-300 text-5xl font-bold'>Service We Provide</span>
             </div>
-            <div className='pt-5 text-center text-blue-700 dark:text-gray-300 text-lg font-medium '>Best SEO Optimization Agency</div>
-            <div className='lg:grid lg:grid-cols-2 flex flex-col'>
+            <div className='pt-5 text-center text-blue-700 dark:text-gray-300 text-lg font-medium' data-aos="fade-up">Best SEO Optimization Agency</div>
+            <div className='lg:grid lg:grid-cols-2 flex flex-col' data-aos="fade-up">
                 <div className=''>
                     <div className='grid grid-cols-2 gap-2 p-4 lg:p-10'>
                         <div className='group'>
@@ -56,7 +64,7 @@ const ServiceProvide = () => {
                     </div>
 
                 </div>
-                <div className='mb-4'>
+                <div className='mb-4' data-aos="fade-down">
                     <div><Image src={"/imgs/Seo_provide_image.png"} width={600} height={600} alt='seo_provide'></Image></div>
                 </div>
             </div>

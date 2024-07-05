@@ -1,17 +1,25 @@
 "use client"
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const PopularCaseStudies = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            offset: 200,
+        });
+    }, []);
     return (
         <>
-            <div className='mt-20 text-center text-5xl text-blue-900 dark:text-gray-300 font-bold '> Popular Case Studies</div>
-            <div className='mt-4 text-center text-lg text-blue-700 dark:text-gray-300 font-semibold'>Best SEO Optimization Agency</div>
+            <div className='mt-20 text-center text-5xl text-blue-900 dark:text-gray-300 font-bold'data-aos="fade-up" > Popular Case Studies</div>
+            <div className='mt-4 text-center text-lg text-blue-700 dark:text-gray-300 font-semibold' data-aos="fade-down" >Best SEO Optimization Agency</div>
 
 
             <div className='lg:grid lg:grid-cols-4 flex flex-col p-8 lg:p-5 mb-10'>
-                <div className='group '>
+                <div className='group' data-aos="flip-right">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100 '>
                         <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
                             <div className="flex flex-col items-center px-3.75">
@@ -28,7 +36,7 @@ const PopularCaseStudies = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' group'>
+                <div className=' group' data-aos="flip-left">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100 '>
                         <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
                             <div className="flex flex-col items-center px-3.75">
@@ -45,7 +53,7 @@ const PopularCaseStudies = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' group'>
+                <div className=' group' data-aos="flip-right">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100'>
                         <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
                             <div className="flex flex-col items-center px-3.75">
@@ -62,7 +70,7 @@ const PopularCaseStudies = () => {
                         </div>
                     </div>
                 </div>
-                <div className='group'>
+                <div className='group' data-aos="flip-left">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100'>
                         <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
                             <div className="flex flex-col items-center px-3.75">
