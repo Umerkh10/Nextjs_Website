@@ -5,7 +5,7 @@ const ServiceProvide = () => {
     return (
         <>
             <div className='text-center mt-14'>
-                <span className='text-sky-800 dark:text-gray-300 text-5xl font-bold'>Service We Provide</span>
+                <span className='text-sky-800 dark:text-gray-3np00 text-5xl font-bold'>Service We Provide</span>
             </div>
             <div className='pt-5 text-center text-blue-700 dark:text-gray-300 text-lg font-medium '>Best SEO Optimization Agency</div>
             <div className='lg:grid lg:grid-cols-2 flex flex-col'>
