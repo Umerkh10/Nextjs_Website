@@ -6,7 +6,7 @@ const Seo_WorkProcess = () => {
         <div className='mt-14'>
             <div className='text-center text-5xl font-semibold text-blue-800 dark:text-gray-300'>Work Process</div>
             <div className='text-center mt-4 text-lg font-medium text-blue-800  dark:text-gray-300 '>Best Seo Optimization Agency</div>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-7 gap-10 '>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-7 gap-10 mb-5 '>
                 <div className='group '>
                     <div className=' border rounded rounded-tl-full rounded-bl-full rounded-br-full h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
                         <div className='flex items-center justify-center  max-w-20 h-20 rounded-full bg-blue-600'>
