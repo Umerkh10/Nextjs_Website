@@ -19,8 +19,8 @@ const SeoForm = () => {
         threshold: 0.1, 
     });
     return (
-        <div className='lg:grid lg:grid-cols-2 flex flex-col  bg-blue-500 p-10 '>
-            <div className='p-10 lg:mt-14' data-aos="fade-up">
+        <div className='lg:grid lg:grid-cols-2 flex flex-col  bg-blue-500 p-10 ' data-aos="fade-up" >
+            <div className='p-10 lg:mt-14' data-aos="flip-left">
                 <div className='font-bold text-white text-5xl'>Better Way To Get More Updates</div>
                 <div className='pt-5 text-xl text-white font-medium'>Best Seo Optimization Agency</div>
                 <div className='pt-5 font-medium text-white'>If you'd like to know more about how we can tap into your brand's potential, contact 219,576.6230! Fill out our form to learn more about our services or to get a quote for your next project.
@@ -35,7 +35,7 @@ const SeoForm = () => {
                 </div>
 
             </div>
-            <div className='' data-aos="fade-down">
+            <div className='' data-aos="flip-right">
                 <div className='bg-slate-200 rounded-2xl p-10 mt-10'>
                     <div className='pt-7 font-bold text-4xl text-blue-700 '>Free Consultation</div>
                     <div className='pt-3 font-normal text-lg text-blue-700 '>Get More Seo Updates</div>

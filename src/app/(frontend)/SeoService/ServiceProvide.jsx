@@ -17,9 +17,9 @@ const ServiceProvide = () => {
                 <span className='text-sky-800 dark:text-gray-300 text-5xl font-bold'>Service We Provide</span>
             </div>
             <div className='pt-5 text-center text-blue-700 dark:text-gray-300 text-lg font-medium' data-aos="fade-up">Best SEO Optimization Agency</div>
-            <div className='lg:grid lg:grid-cols-2 flex flex-col' data-aos="fade-up">
+            <div className='lg:grid lg:grid-cols-2 flex flex-col lg:p-0 p-3' data-aos="fade-up">
                 <div className=''>
-                    <div className='grid grid-cols-2 gap-2 p-4 lg:p-10'>
+                    <div className='grid grid-cols-2 gap-5 lg:pt-0 pt-5 lg:gap-0  lg:p-10'>
                         <div className='group'>
                             <div className='flex flex-col justify-center items-center border-[5px] rounded-xl w-full sm:w-[40vw] md:w-[30vw] lg:w-[20vw] p-4 group-hover:scale-105 transition ease-in duration-200 delay-100 group-hover:border-blue-700'>
                                 <div className='flex flex-col pt-6 justify-center items-center h-full w-full'>
@@ -41,7 +41,7 @@ const ServiceProvide = () => {
                         </div>
                     </div>
 
-                    <div className='grid grid-cols-2 gap-2 p-4 lg:p-10'>
+                    <div className='grid grid-cols-2 gap-5 lg:pt-0 pt-5 lg:gap-0  lg:p-10'>
                         <div className='group'>
                             <div className='flex flex-col justify-center items-center border-[5px] rounded-xl w-full sm:w-[40vw] md:w-[30vw] lg:w-[20vw] p-4 group-hover:scale-105 transition ease-in duration-200 delay-100 group-hover:border-blue-700'>
                                 <div className='flex flex-col pt-6 justify-center items-center h-full w-full'>

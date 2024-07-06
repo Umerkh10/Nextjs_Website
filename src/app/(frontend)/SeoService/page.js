@@ -6,6 +6,9 @@ import ServiceProvide from './ServiceProvide'
 import Seo_WorkProcess from './Seo_WorkProcess'
 import PopularCaseStudies from './PopularCaseStudies'
 import SeoForm from './SeoForm'
+import SeoTestimonial from './SeoTestimonial'
+import SeoSolution from './SeoSolution'
+import ContactFooter from '../Contact/ContactFooter'
 
 const page = () => {
   return (
@@ -17,6 +20,9 @@ const page = () => {
     <Seo_WorkProcess/>
     <PopularCaseStudies/>
     <SeoForm/>
+    <SeoTestimonial/>
+    <SeoSolution/>
+    <ContactFooter/>
     </div>
   )
 }
