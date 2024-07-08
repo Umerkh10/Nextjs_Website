@@ -19,7 +19,7 @@ const SeoBanner = () => {
             <div className='mt-5 pl-2 text-lg font-medium '>We build strategic insights based on target audience interactions and interactions along with big data. </div>
             
             <div className='lg:flex  '>
-            <div className='mt-5 border rounded-2xl w-[50vw] md:w-[30vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-blue-600 font-medium text-white group hover:bg-blue-900 transition ease-in duration-200 delay-200 '> 
+            <div className='mt-5 border rounded-2xl w-[60vw] md:w-[30vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-blue-600 font-medium text-white group hover:bg-blue-900 transition ease-in duration-200 delay-200 '> 
                 Let's Talk About SEO
                 <ArrowRight className='ml-2 group-hover:translate-x-20 ease-in-out duration-200 delay-200'/>
             </div>

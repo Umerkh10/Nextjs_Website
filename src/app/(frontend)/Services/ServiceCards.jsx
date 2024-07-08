@@ -1,5 +1,5 @@
 "use client"
-import { Link } from 'lucide-react'
+import Link from 'next/link';
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import AOS from 'aos';
@@ -27,7 +27,8 @@ const ServiceCards = () => {
                     </div>
                     <div className='text-3xl font-bold group-hover:text-white '>Seo Service</div>
                     <div className='text-lg font-medium group-hover:text-white '>Bibendum libero enim donec elementum inc eptos feugiat praesent parturient pote susp endisse. Dapibus eros sapien blandit nibher</div>
-                    <div className='mt-4 text-lg group-hover:text-white font-semibold opacity-0 translate-y-20 group-hover:-translate-y-2 group-hover:opacity-100 tracking-wider transition ease-in duration-200 delay-200'>Read More </div>
+                    <div className='mt-4 text-lg group-hover:text-white font-semibold opacity-0 translate-y-20 group-hover:-translate-y-2 group-hover:opacity-100 tracking-wider transition ease-in duration-200 delay-200'>
+                        <Link href="/SeoService"> Read More</Link>  </div>
                 </div>
 
                 <div data-aos="fade-down" className='bg-gray-100 rounded-2xl h-[350px] dark:bg-black dark:hover:bg-blue-700 p-4 group hover:bg-blue-700 transition ease-in duration-150 delay-200 '>
