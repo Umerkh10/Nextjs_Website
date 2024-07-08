@@ -17,7 +17,7 @@ const Seo_WorkProcess = () => {
             <div className='text-center mt-4 text-lg font-medium text-blue-800  dark:text-gray-300' data-aos="fade-down">Best Seo Optimization Agency</div>
             <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-7 gap-10 mb-5 '>
                 <div className='group' data-aos="fade-down">
-                    <div className=' border rounded rounded-tl-full rounded-bl-full rounded-br-full h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
+                    <div className=' border-[5px] rounded rounded-tl-full  rounded-bl-full rounded-br-full h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:border-blue-800 group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
                         <div className='flex items-center justify-center  max-w-20 h-20 rounded-full bg-blue-600'>
                             <span className='text-2xl text-white font-semibold'>01</span>
                         </div>
@@ -31,7 +31,7 @@ const Seo_WorkProcess = () => {
                 </div>
 
                 <div className='group lg:mt-10 ' data-aos="fade-up">
-                    <div className=' border rounded rounded-tl-full rounded-bl-full rounded-br-full h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
+                    <div className=' border-[5px] rounded rounded-tl-full rounded-bl-full rounded-br-full group-hover:border-blue-800 h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
                         <div className='flex items-center justify-center  max-w-20 h-20 rounded-full bg-blue-600'>
                             <span className='text-2xl text-white font-semibold'>02</span>
                         </div>
@@ -45,7 +45,7 @@ const Seo_WorkProcess = () => {
                 </div>
 
                 <div className='group' data-aos="fade-up">
-                    <div className=' border rounded rounded-tl-full rounded-bl-full rounded-br-full h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
+                    <div className=' border-[5px] rounded rounded-tl-full rounded-bl-full rounded-br-full group-hover:border-blue-800 h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
                         <div className='flex items-center justify-center  max-w-20 h-20 rounded-full bg-blue-600'>
                             <span className='text-2xl text-white font-semibold'>03</span>
                         </div>
@@ -59,7 +59,7 @@ const Seo_WorkProcess = () => {
                 </div>
 
                     <div className='group lg:mt-10' data-aos="fade-down">
-                    <div className=' border rounded rounded-tl-full rounded-bl-full rounded-br-full h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
+                    <div className=' border-[5px] rounded rounded-tl-full rounded-bl-full rounded-br-full h-[45vh] md:h-[45vh] lg:h-[40vh] group-hover:border-blue-800 group-hover:scale-105 group-hover:shadow-2xl dark:group-hover:bg-gray-200 ease-in transition duration-200 delay-150 '>
                         <div className='flex items-center justify-center  max-w-20 h-20 rounded-full bg-blue-600'>
                             <span className='text-2xl text-white font-semibold'>04</span>
                         </div>

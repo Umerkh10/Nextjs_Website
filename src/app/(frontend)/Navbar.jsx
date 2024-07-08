@@ -93,6 +93,8 @@ const Navbar = () => {
               </div>
 
               <Link href="/Contact" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</Link>
+
+              <Link href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>Reviews </Link>
             </nav>
           </div>
 
