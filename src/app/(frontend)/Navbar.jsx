@@ -84,7 +84,7 @@ const Navbar = () => {
   transition  delay-300 ease-in origin-top min-w-32"
                 >
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/SeoService">SEO Services</Link>  </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Graphic Design </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/GraphicDesign"> Graphic Design</Link>  </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Website Development</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">App Development </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Creative Copywriting</li>
