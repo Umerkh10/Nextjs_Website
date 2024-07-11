@@ -48,10 +48,10 @@ const GraphicFaq = () => {
             {questions.map((item, index) => (
                 <div className="pt-6"  key={index}>
                     <div 
-                        className="cursor-pointer p-4  text-xl font-semibold flex justify-between group"
+                        className="cursor-pointer p-4 rounded-xl text-xl font-semibold flex justify-between group hover:bg-orange-500 transition ease-in duration-150 delay-100 "
                         onClick={() => toggleAccordion(index) }  >
                         {item.question}
-                        <CrossIcon className=' group-hover:rotate-45 transition ease-in duration-200 delay-100 '/>
+                        <CrossIcon className=' group-hover:rotate-45 group-hover:stroke-slate-100 transition ease-in duration-200 delay-100 '/>
                     </div>
                     {openIndex === index && (
                         <div className="p-4 text-lg  ">

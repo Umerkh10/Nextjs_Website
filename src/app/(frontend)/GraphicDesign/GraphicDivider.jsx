@@ -17,10 +17,10 @@ const GraphicDivider = () => {
         lg:h-[100vh] h-[120vh] bg-fixed' data-aos="zoom-in">
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-8 pt-24 gap-8' data-aos="fade-up"> 
                     <div className='lg:col-span-2 md:col-span-2 col-span-1'>
-                        <div className='text-gray-200 font-extrabold tracking-tight lg:text-[40px]'>
+                        <div className='text-gray-200 font-extrabold tracking-tight text-3xl md:text-4xl lg:text-[40px]'>
                             Excellence in Graphic Design Delivery
                         </div>
-                        <div className='pt-2 text-gray-200/65 text-sm md:text-base'>
+                        <div className='pt-5 text-gray-200/65 text-sm md:text-base'>
                             At Webnike, our success in delivering outstanding graphic design projects is unparalleled. We consistently exceed client expectations by providing high-quality designs on time, every time.
                         </div>
                     </div>
