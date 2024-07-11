@@ -1,10 +1,20 @@
 "use client"
 import { Cross, CrossIcon } from 'lucide-react';
 import Image from 'next/image';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const GraphicFaq = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            offset: 200,
+        });
+    }, []);
+
 
     const [openIndex, setOpenIndex] = useState(null);
     const [sOpen,setIsOpen] = useState(false)
@@ -25,17 +35,18 @@ const GraphicFaq = () => {
         setOpenIndex(openIndex === index ? null : index);
     };
 
+ 
 
   return (
-    <div className='bg-gray-200 dark:bg-transparent' >
+    <div className='bg-gray-200 dark:bg-transparent' data-aos="fade-up" >
         <div className='grid lg:grid-cols-2 grid-cols-1 p-10'>
-            <div className=''>
-                <div className='text-orange-500 text-xl font-semibold pt-10'>FREQUENTLY ASK QUESTION</div>
-                <div className='pt-4 text-5xl font-extrabold'>Got Questions? Find Answers Here!</div>
+            <div className='' data-aos="flip-down">
+                <div className='text-orange-500 text-xl font-semibold pt-10' >FREQUENTLY ASK QUESTION</div>
+                <div className='pt-4 text-5xl font-extrabold' >Got Questions? Find Answers Here!</div>
 
 
             {questions.map((item, index) => (
-                <div className="pt-6" key={index}>
+                <div className="pt-6"  key={index}>
                     <div 
                         className="cursor-pointer p-4  text-xl font-semibold flex justify-between group"
                         onClick={() => toggleAccordion(index) }  >
@@ -52,7 +63,7 @@ const GraphicFaq = () => {
 
             </div>
             <div className='lg:pt-10 lg:pl-10'>
-                <div><Image src="/imgs/graphic-faq.webp" width={600} height={600} alt='graphic_faq'></Image></div>
+                <div data-aos="zoom-in"><Image src="/imgs/graphic-faq.webp" width={600} height={600} alt='graphic_faq'></Image></div>
             </div>
         </div>
     </div>

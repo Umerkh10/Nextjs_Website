@@ -1,11 +1,21 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const GraphicDivider = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            offset: 200,
+        });
+    }, []);
     return (
         <div className=''>
             <div style={{ backgroundImage: "url('/imgs/bg-graphic-design-divider.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundBlendMode: 'overlay', backgroundColor: '#272627' }} className='xl:h-[65vh]
-        lg:h-[100vh] h-[120vh] bg-fixed'>
-                <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-8 pt-24 gap-8'>
+        lg:h-[100vh] h-[120vh] bg-fixed' data-aos="zoom-in">
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-8 pt-24 gap-8' data-aos="fade-up"> 
                     <div className='lg:col-span-2 md:col-span-2 col-span-1'>
                         <div className='text-gray-200 font-extrabold tracking-tight lg:text-[40px]'>
                             Excellence in Graphic Design Delivery
