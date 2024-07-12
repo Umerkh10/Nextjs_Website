@@ -18,10 +18,10 @@ const GraphicCard = () => {
         });
     }, []);
     return (
-        <div className=' bg-gray-200 dark:bg-transparent' data-aos="fade-up">
-            <div className='pt-14 text-xl font-bold text-orange-500 text-center'>Comprehensive Graphic Design Solutions</div>
-            <div className='mt-2 text-4xl font-extrabold text-center'>Explore Our Expertise in Graphic Design Services</div>
-            <div className='lg:pl-28 lg:pr-28 text-opacity-50 mt-4 text-center '>Our diverse range of graphic design services ensures that your brand stands out in every aspect. From creating eye-catching logos to producing engaging explainer videos, we cover all your visual needs. Discover the specific services we offer to elevate your brand’s visual identity and effectively communicate your message to your audience.</div>
+        <div className=' bg-gray-200 dark:bg-transparent p-5' data-aos="fade-up">
+            <div className='pt-14 md:text-xl text-lg font-bold text-orange-500 text-center'>Comprehensive Graphic Design Solutions</div>
+            <div className='mt-2 md:text-4xl text-2xl font-extrabold text-center'>Explore Our Expertise in Graphic Design Services</div>
+            <div className='lg:pl-28 lg:pr-28 text-opacity-50 font-medium mt-4 text-center '>Our diverse range of graphic design services ensures that your brand stands out in every aspect. From creating eye-catching logos to producing engaging explainer videos, we cover all your visual needs. Discover the specific services we offer to elevate your brand’s visual identity and effectively communicate your message to your audience.</div>
 
             <div className='p-3 lg:p-6'>
                 <Swiper
@@ -124,7 +124,7 @@ const GraphicCard = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>04</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Packaging Design</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We design eye-catching and functional packaging that highlights your product’s best features and enhances brand appeal.</div>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We design eye-catching and functional packaging that highlights your product’s best features and enhances brand</div>
                                     <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
                                     </div>
@@ -166,7 +166,7 @@ const GraphicCard = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>06</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Infographics Design</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We design compelling infographics that simplify complex information, making it easy to understand and visually appealing.</div>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We design compelling infographics that simplify complex information, making it easy to understand.</div>
                                     <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
                                     </div>

@@ -14,9 +14,6 @@ const Navbar = () => {
   const [isMenuopen, setisMenuopen] = useState(false)
   const [open, setOpen] = useState(false)
 
-
-  // const tl = useRef(gsap.timeline({ paused: true }));
-
   const { theme, setTheme } = useTheme()
   console.log("theme", theme);
   const handleTheme = () => {
@@ -55,16 +52,16 @@ const Navbar = () => {
           </div>
           <div className=' absolute right-0 bg-slate-700 hidden sm:block md:w-3/6 lg:w-[75%] xl:w-[87%]  border-l-2 border-l-orange-600 h-20 z-[-1] rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
             <nav className=' hidden lg:flex items-center  h-full space-x-5 px-4 xl:ml-0 text-base '>
-              <Link href="/" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in '>Home</Link>
-              <Link href="/About" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>About</Link>
+
+              <Link href="/" className='text-gray-200 text-lg font-medium  hover:text-orange-600 transition duration-200 ease-in '>Home</Link>
+
+              <Link href="/About" className='text-gray-200 text-lg font-medium  hover:text-orange-600 transition duration-200 ease-in'>About</Link>
          
-
-
               <div class="group inline-block">
                 <button
-                  class="outline-none focus:outline-none  py-1  rounded-sm flex items-center min-w-10"
+                  class="outline-none focus:outline-none py-1 rounded-sm flex items-center min-w-10"
                 >
-                  <span class="pr-1 text-white font-semibold flex-1 hover:text-orange-600 transition duration-200 ease-in">
+                  <span class="pr-1 text-gray-200 text-lg font-medium flex-1 hover:text-orange-600 transition duration-200 ease-in">
                     <Link href="/Services">Services</Link></span>
                   <span>
                     <svg
@@ -80,7 +77,7 @@ const Navbar = () => {
                   </span>
                 </button>
                 <ul
-                  class="bg-slate-800 text-white mt-2 rounded-sm transform scale-0 group-hover:scale-100 absolute 
+                  class="bg-slate-800 text-gray-200 text-lg font-medium mt-2 rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition  delay-300 ease-in origin-top min-w-32"
                 >
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/SeoService">SEO Services</Link>  </li>
@@ -92,9 +89,9 @@ const Navbar = () => {
                 </ul>
               </div>
 
-              <Link href="/Contact" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</Link>
+              <Link href="/Contact" className='text-gray-200 text-lg  font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</Link>
 
-              <Link href="#" className='text-white font-medium hover:text-orange-600 transition duration-200 ease-in'>Reviews </Link>
+              <Link href="#" className='text-gray-200 text-lg font-medium hover:text-orange-600 transition duration-200 ease-in'>Reviews </Link>
             </nav>
           </div>
 

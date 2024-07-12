@@ -24,14 +24,15 @@ const GraphicForm = () => {
   return (
     <div className='lg:grid lg:grid-cols-2 flex flex-col  bg-blue-500 p-10 ' data-aos="fade-up" >
     <div className='sm:p-10 lg:mt-14' data-aos="flip-left">
-        <div className='font-bold text-white text-4xl'>Starting Your Graphic Design Project With Webnike</div>
-        <div className='pt-5 text-xl text-white font-medium'>START A PROJECT</div>
+        <div className='font-bold text-gray-200 text-2xl md:text-4xl'>Starting Your Graphic Design Project With Webnike</div>
+        <div className='pt-5 md:text-xl text-lg text-gray-200 font-semibold'>START A PROJECT</div>
         <div className='pt-5 font-medium text-white'>Kickstart your online presence with Webnike! From concept to creation, our expert team is here to guide you through every step of the graphic design process. Let's bring your vision to life and craft a stunning digital experience that sets you apart.</div>
-        <div className='grid grid-cols-2 pt-16 sm:gap-0 gap-4' ref={ref}>
-            <div className='text-center text-white text-3xl font-semibold '>{inView ? <CountUp end={950} duration={2.75} /> : '0'}+ <br />
+        <div className='grid grid-cols-2 pt-7 md:pt-16 sm:gap-0 gap-4' ref={ref}>
+
+            <div className='text-center text-gray-200 text-xl md:text-3xl font-semibold '>{inView ? <CountUp end={950} duration={2.75} /> : '0'}+ <br />
                 Project Complete
             </div>
-            <div className='text-center text-white text-3xl font-semibold '>{inView ? <CountUp end={850} duration={2.75} /> : '0'} +<br />
+            <div className='text-center text-gray-200 text-xl md:text-3xl font-semibold '>{inView ? <CountUp end={850} duration={2.75} /> : '0'} +<br />
                 Satisfied Clients
             </div>
         </div>
@@ -39,7 +40,7 @@ const GraphicForm = () => {
     </div>
     <div className='' data-aos="flip-right">
         <div className='bg-slate-200 rounded-2xl p-4 sm:p-10 mt-10'>
-            <div className='pt-7 font-bold text-4xl text-blue-700 '>Free Consultation</div>
+            <div className='pt-7 font-bold text-3xl md:text-4xl text-blue-700 '>Free Consultation</div>
             <div className='pt-3 font-normal text-lg text-blue-700 '>Get More Design Updates</div>
             <form action={action}>
                 <div class="flex flex-col justify-end pt-10">

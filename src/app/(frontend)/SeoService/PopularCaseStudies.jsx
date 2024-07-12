@@ -14,8 +14,8 @@ const PopularCaseStudies = () => {
     }, []);
     return (
         <>
-            <div className='mt-20 text-center text-5xl text-blue-900 dark:text-gray-300 font-bold'data-aos="fade-up" > Popular Case Studies</div>
-            <div className='mt-4 text-center text-lg text-blue-700 dark:text-gray-300 font-semibold' data-aos="fade-down" >Best SEO Optimization Agency</div>
+            <div className='mt-20 text-center md:text-5xl text-4xl  text-blue-900 dark:text-gray-300 font-bold'data-aos="fade-up" > Popular Case Studies</div>
+            <div className='mt-4 text-center text-lg text-blue-600 dark:text-gray-300 font-semibold' data-aos="fade-down" >Best SEO Optimization Agency</div>
 
 
             <div className='lg:grid lg:grid-cols-4 flex flex-col p-8 lg:p-5 mb-10'>

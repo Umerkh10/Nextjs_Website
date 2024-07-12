@@ -24,15 +24,15 @@ const SeoForm = () => {
     return (
         <div className='lg:grid lg:grid-cols-2 flex flex-col  bg-blue-500 p-10 ' data-aos="fade-up" >
             <div className='sm:p-10 lg:mt-14' data-aos="flip-left">
-                <div className='font-bold text-white text-5xl'>Better Way To Get More Updates</div>
-                <div className='pt-5 text-xl text-white font-medium'>Best Seo Optimization Agency</div>
+                <div className='font-bold text-gray-200 text-3xl md:text-4xl'>Better Way To Get More Updates</div>
+                <div className='pt-5 md:text-xl text-lg text-gray-200 font-medium'>Best Seo Optimization Agency</div>
                 <div className='pt-5 font-medium text-white'>If you'd like to know more about how we can tap into your brand's potential, contact 219,576.6230! Fill out our form to learn more about our services or to get a quote for your next project.
                 </div>
-                <div className='grid grid-cols-2 pt-16 sm:gap-0 gap-4' ref={ref}>
-                    <div className='text-center text-white text-3xl font-semibold '>{inView ? <CountUp end={950} duration={2.75} /> : '0'}+ <br />
+                <div className='grid grid-cols-2 lg:pt-16 pt-8 sm:gap-0 gap-4' ref={ref}>
+                    <div className='text-center text-white text-xl md:text-3xl font-semibold '>{inView ? <CountUp end={950} duration={2.75} /> : '0'}+ <br />
                         Project Complete
                     </div>
-                    <div className='text-center text-white text-3xl font-semibold '>{inView ? <CountUp end={850} duration={2.75} /> : '0'} +<br />
+                    <div className='text-center text-white text-xl md:text-3xl font-semibold '>{inView ? <CountUp end={850} duration={2.75} /> : '0'} +<br />
                         Satisfied Clients
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const SeoForm = () => {
             </div>
             <div className='' data-aos="flip-right">
                 <div className='bg-slate-200 rounded-2xl p-4 sm:p-10 mt-10'>
-                    <div className='pt-7 font-bold text-4xl text-blue-700 '>Free Consultation</div>
+                    <div className='pt-7 font-bold text-3xl md:text-4xl text-blue-700 '>Free Consultation</div>
                     <div className='pt-3 font-normal text-lg text-blue-700 '>Get More Seo Updates</div>
                     <form action={action}>
                         <div class="flex flex-col justify-end pt-10">

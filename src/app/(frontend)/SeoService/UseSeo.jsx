@@ -20,10 +20,10 @@ const UseSeo = () => {
                 </div>
             </div>
             <div className='bg-blue-900 p-4' data-aos="fade-up">
-                <div className='lg:pt-28 mb-3' data-aos="fade-right">
-                    <span className='text-5xl font-bold text-gray-300'>Why Us For SEO</span>
+                <div className='lg:pt-28 pt-8 mb-3' data-aos="fade-right">
+                    <span className='md:text-5xl text-4xl font-bold text-gray-300'>Why Us For SEO</span>
                 </div>
-                <span className='capitalize text-teal-300 font-semibold text-[20px]'data-aos="fade-right" >best seo optimization agency</span>
+                <span className='capitalize text-teal-300 font-semibold md:text-[20px] text-lg'data-aos="fade-right" >best seo optimization agency</span>
                 <div className='lg:w-[30vw] lg:h-[22vh] lg:mb-0 mb-5 mt-5' data-aos="fade-right">
                     <span className='text-gray-300 font-medium '>Seo is truly an integral part of digital marketing. It takes your website visibility higher and keeps you ahead of all your competitors. It increases website visibility, user traffic, conversion rates.</span>
                 </div>

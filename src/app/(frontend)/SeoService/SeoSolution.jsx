@@ -18,8 +18,8 @@ const SeoSolution = () => {
 
     <div className='grid lg:grid-cols-2 grid-cols-1 p-10 gap-5 '>
         <div className=' '>
-            <div className='pt-10 text-4xl text-white font-bold'>Ready To Get Our Professional SEO Service Solutions ?</div>
-            <div className='pt-7 text-white text-xl font-medium'>25 Years Of Experience We Provide SEO Services</div>
+            <div className='pt-10 text-3xl md:text-4xl text-white font-bold'>Ready To Get Our Professional SEO Service Solutions ?</div>
+            <div className='pt-7 text-white text-lg md:text-xl font-medium'>25 Years Of Experience We Provide SEO Services</div>
 
             <div className='flex items-center'>
             <CircleDot strokeWidth={3} className='mt-4 stroke-yellow-500'/>

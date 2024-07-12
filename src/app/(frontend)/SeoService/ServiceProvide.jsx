@@ -14,9 +14,9 @@ const ServiceProvide = () => {
     return (
         <>
             <div className='text-center mt-14' data-aos="fade-up">
-                <span className='text-sky-800 dark:text-gray-300 text-5xl font-bold'>Service We Provide</span>
+                <span className='text-sky-800 dark:text-gray-300 md:text-5xl text-4xl font-extrabold'>Service We Provide</span>
             </div>
-            <div className='pt-5 text-center text-blue-700 dark:text-gray-300 text-lg font-medium' data-aos="fade-up">Best SEO Optimization Agency</div>
+            <div className='pt-5 text-center text-blue-700 dark:text-gray-300 md:text-lg font-semibold' data-aos="fade-up">Best SEO Optimization Agency</div>
             <div className='lg:grid lg:grid-cols-2 flex flex-col lg:p-0 p-3' data-aos="fade-up">
                 <div className=''>
                     <div className='grid grid-cols-2 gap-5 lg:pt-0 pt-5 lg:gap-0 mt-5 lg:ml-0 md:ml-20 lg:p-10'>

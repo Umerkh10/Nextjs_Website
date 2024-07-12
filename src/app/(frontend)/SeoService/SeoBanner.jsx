@@ -15,7 +15,7 @@ const SeoBanner = () => {
   return (
     <div className='grid lg:grid-cols-2 grid-cols-1' data-aos="fade-up" >
         <div className='bg-slate-300 dark:bg-slate-800 p-5'>
-            <div className='xl:pt-48 lg:pt-40 pt-20 flex flex-col'> <span className='md:text-6xl text-5xl dark:text-gray-300 text-blue-950 font-bold'>Best SEO <br /> Optimization Agency</span>
+            <div className='xl:pt-48 lg:pt-44 pt-24 flex flex-col'> <span className='lg:text-6xl md:text-5xl text-4xl dark:text-gray-300 text-blue-950 font-bold'>Best SEO <br /> Optimization Agency</span>
             <div className='mt-5 pl-2 text-lg font-medium '>We build strategic insights based on target audience interactions and interactions along with big data. </div>
             
             <div className='lg:flex  '>
