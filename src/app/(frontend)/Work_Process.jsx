@@ -22,8 +22,8 @@ const Work_Process = () => {
       console.log(inView);
   return (
     <>
-        <div className='flex justify-center mt-24 text-purple-700 font-bold text-lg uppercase'>Work Process</div>
-      <div className='flex justify-center mt-3 font-extrabold text-4xl uppercase mb-5'>Our Work Process</div>
+        <div className='flex justify-center mt-24 text-purple-700 font-bold md:text-lg uppercase'>Work Process</div>
+      <div className='flex justify-center mt-3 font-black md:text-4xl text-3xl uppercase mb-5'>Our Work Process</div>
       <div className='flex flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-4 pl-3 pr-3 mb-5 text-foreground/80' ref={ref}>
         
         <div className='group' data-aos="fade-up">

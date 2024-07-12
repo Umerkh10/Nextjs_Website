@@ -23,7 +23,7 @@ const ContactForm = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="" stroke="" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge stroke-purple-700 fill-purple-700"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/></svg>
                     Contact Us</div>
                     <div className=' text-6xl mt-2 font-black'>Get in Touch with Our</div>
-                    <div className='text-white text-stroke-3 text-6xl  mt-2 font-black '>  Lovely Team</div>
+                    <div className='text-white text-stroke-3 text-6xl  mt-2 font-extrabold '>  Lovely Team</div>
                     <form action="" >
                     <div className='grid lg:grid-cols-2 grid-cols-1 mt-5 gap-5'>
                         <div className='grid-cols-1 '>

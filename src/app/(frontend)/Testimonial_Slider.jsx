@@ -36,7 +36,7 @@ const Testimonial_Slider = () => {
       }}
     >
       <SwiperSlide>
-        <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center">
+        <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center p-4">
         <div class="flex flex-col md:grid md:grid-cols-2 gap-0 px-3.75  pb-0">
             <div className=''>
                 <Image src={"/testimonial_slider/testimonial-1.png"} width={220} height={150} alt='testimonial' ></Image>
@@ -61,7 +61,7 @@ const Testimonial_Slider = () => {
 
       </SwiperSlide>
       <SwiperSlide>
-      <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center">
+      <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center p-4">
         <div class="flex flex-col md:grid md:grid-cols-2 gap-0 px-3.75  pb-0">
             <div className=''>
                 <Image src={"/testimonial_slider/testimonial-2.png"} width={220} height={150} alt='testimonial' ></Image>
@@ -85,7 +85,7 @@ const Testimonial_Slider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center">
+      <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center p-4">
         <div class="flex flex-col md:grid md:grid-cols-2 gap-0 px-3.75  pb-0">
             <div className=''>
                 <Image src={"/testimonial_slider/testimonial-3.png"} width={220} height={150} alt='testimonial' ></Image>
@@ -109,7 +109,7 @@ const Testimonial_Slider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center">
+      <div className="bg-[#f8edff] rounded-2xl  md:h-[380px] flex justify-center items-center p-4" >
         <div class="flex flex-col md:grid md:grid-cols-2 gap-0 px-3.75  pb-0">
             <div className=''>
                 <Image src={"/testimonial_slider/testimonial-4.png"} width={220} height={150} alt='testimonial' ></Image>
