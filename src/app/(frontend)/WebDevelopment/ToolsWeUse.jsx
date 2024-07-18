@@ -97,7 +97,7 @@ const ToolsWeUse = () => {
             </div>
         </div>
 
-        <div data-aos="flip-left" class="group border-[5px] border-purple-700 p-4 rounded-lg shadow-md hover:bg-purple-600 hover:border-sky-300 transition ease-in duration-200 delay-100 hover:shadow-2xl hover:scale-105">
+        <div data-aos="flip-left" class="group border-[5px] border-purple-700 p-4 rounded-lg shadow-md hover:bg-purple-600 hover:border-sky-300 transition ease-in duration-200 delay-100 hover:shadow-2xl hover:scale-110">
             <div class=" space-x-2">
             <Image src="/imgs/aws.png" width={100} height={100} alt="AWS" ></Image>
 

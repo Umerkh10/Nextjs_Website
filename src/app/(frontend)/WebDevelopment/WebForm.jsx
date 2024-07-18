@@ -44,8 +44,8 @@ const WebForm = () => {
             <div className='pt-3 font-normal text-lg text-blue-700 '>Get More Web Development Updates</div>
             <form action={action}>
                 <div class="flex flex-col justify-end pt-10">
-                    <input class="h-16 rounded-xl p-6 outline-none" type="text" name="name" placeholder="Full Name" id="" required />
-                    <input class="h-16 rounded-xl mt-6 p-6 outline-none" type="email" name="email" placeholder="Email Address" id="" required />
+                    <input class="h-16 rounded-xl p-6 outline-none " type="text" name="name" placeholder="Full Name" id="" required />
+                    <input placeholder="Enter Your Email Address Here.." type="email" class="w-full h-[68px] rounded-xl border-0 outline-none  mt-3 px-6 pr-[150px] bg-white text-black text-base"/>
                     <input class="h-16 rounded-xl mt-6 p-6 outline-none" type="number" name="phone" placeholder="Phone Number" id="" required />
                     <select class="h-[70px] rounded-xl mt-6 p-6 outline-none"  name="selection" id="selection" required>
                         <option value="option">Select Technology</option>
