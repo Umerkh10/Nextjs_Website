@@ -82,7 +82,7 @@ const Navbar = () => {
                 >
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/SeoService">SEO Services</Link>  </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/GraphicDesign"> Graphic Design</Link>  </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Website Development</li>
+                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/WebDevelopment">Website Development </Link> </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">App Development </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Creative Copywriting</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Digital Marketing</li>
