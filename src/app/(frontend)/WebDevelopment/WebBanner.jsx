@@ -19,14 +19,14 @@ const WebBanner = () => {
 
                 <div className='group transition ease-in duration-500 delay-500'>
                 <div className='lg:mt-52 mt-32 text-lg uppercase font-bold  group-hover:italic group-hover:animate-bounce pl-3'>Offer</div>
-                <div className='uppercase pt-1 font-extrabold text-2xl md:text-[44px] text-blue-800 dark:text-gray-200  group-hover:italic group-hover:animate-bounce  '>Corporate websites and </div>
+                <div className='uppercase pt-1 font-extrabold text-2xl md:text-[44px] text-purple-700 dark:text-gray-200  group-hover:italic group-hover:animate-bounce  '>Corporate websites and </div>
                 <div className='uppercase mt-0 md:mt-2  font-extrabold text-xl md:text-[28px] lg:text-[35px] group-hover:italic group-hover:animate-bounce  text-blue-950 dark:text-gray-200'>Services</div>
 
                 <div className='md:pt-10 pt-7 text-lg font-medium group-hover:italic group-hover:animate-bounce '>We design corporate websites and services based on the best standards. We always build responsive solutions that adapt to the user's device.</div>
                 </div>
 
                 <div className='lg:flex  '>
-            <div className='mt-5 border rounded-2xl w-[65vw] md:w-[40vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-blue-600 font-medium text-white group hover:bg-blue-900 transition ease-in duration-200 delay-200 '> 
+            <div className='mt-5 border rounded-2xl w-[65vw] md:w-[40vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-purple-500 font-medium text-white group hover:bg-purple-800 transition ease-in duration-200 delay-200 '> 
                 Let's Talk About Devlopment
                 <ArrowRight className='ml-2 group-hover:translate-x-20 ease-in-out duration-200 delay-200'/>
             </div>

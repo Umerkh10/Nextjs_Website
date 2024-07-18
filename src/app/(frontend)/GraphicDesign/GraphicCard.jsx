@@ -19,9 +19,9 @@ const GraphicCard = () => {
     }, []);
     return (
         <div className=' bg-gray-200 dark:bg-transparent p-5' data-aos="fade-up">
-            <div className='pt-14 md:text-xl text-lg font-bold text-orange-500 text-center'>Comprehensive Graphic Design Solutions</div>
+            <div className='pt-14 md:text-xl text-lg font-bold text-purple-600 text-center italic'>Comprehensive Graphic Design Solutions</div>
             <div className='mt-2 md:text-4xl text-2xl font-extrabold text-center'>Explore Our Expertise in Graphic Design Services</div>
-            <div className='lg:pl-28 lg:pr-28 text-opacity-50 font-medium mt-4 text-center '>Our diverse range of graphic design services ensures that your brand stands out in every aspect. From creating eye-catching logos to producing engaging explainer videos, we cover all your visual needs. Discover the specific services we offer to elevate your brand’s visual identity and effectively communicate your message to your audience.</div>
+            <div className='lg:pl-28 lg:pr-28 text-opacity-50 font-medium mt-4 text-center italic '>Our diverse range of graphic design services ensures that your brand stands out in every aspect. From creating eye-catching logos to producing engaging explainer videos, we cover all your visual needs. Discover the specific services we offer to elevate your brand’s visual identity and effectively communicate your message to your audience.</div>
 
             <div className='p-3 lg:p-6'>
                 <Swiper

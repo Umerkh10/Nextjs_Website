@@ -84,7 +84,6 @@ const Navbar = () => {
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/GraphicDesign"> Graphic Design</Link>  </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/WebDevelopment">Website Development </Link> </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">App Development </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Creative Copywriting</li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500">Digital Marketing</li>
                 </ul>
               </div>
@@ -131,9 +130,19 @@ const Navbar = () => {
 
                 </div>
 
-                <button onClick={handleTheme} aria-label='theme' className='xl:hidden flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] bg-orange-500 rounded-full outline-slate-800'>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
-                </button>
+                <button id="theme-button" onClick={handleTheme} aria-label='theme' className={`xl:hidden flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] ${theme === "dark" ? "bg-slate-950" : "bg-orange-500 " }  rounded-full outline-slate-800`}>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-sun">
+                      <circle cx="12" cy="12" r="4" />
+                      <path d="M12 2v2" />
+                      <path d="M12 20v2" />
+                      <path d="m4.93 4.93 1.41 1.41" />
+                      <path d="m17.66 17.66 1.41 1.41" />
+                      <path d="M2 12h2" />
+                      <path d="M20 12h2" />
+                      <path d="m6.34 17.66-1.41 1.41" />
+                      <path d="m19.07 4.93-1.41 1.41" />
+                    </svg>
+                  </button>
 
                 <div className=" relative p-3  rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] bg-current hover:bg-orange-500 transition ease-in duration-200 delay-300 dark:bg-white  dark:hover:bg-orange-500 sm:max-w-xl mx-auto ">
                   <nav>

@@ -41,17 +41,17 @@ const GraphicFaq = () => {
     <div className='bg-gray-200 dark:bg-transparent' data-aos="fade-up" >
         <div className='grid lg:grid-cols-2 grid-cols-1 p-10'>
             <div className='' data-aos="flip-down">
-                <div className='text-orange-500 text-lg md:text-xl font-semibold pt-10' >FREQUENTLY ASK QUESTION</div>
+                <div className='text-purple-600 italic text-lg md:text-xl font-semibold pt-10' >FREQUENTLY ASK QUESTION</div>
                 <div className='pt-4 text-4xl md:text-5xl font-extrabold' >Got Questions? Find Answers Here!</div>
 
 
             {questions.map((item, index) => (
                 <div className="md:pt-6 pt-8 "  key={index}>
                     <div 
-                        className="cursor-pointer p-4 rounded-xl text-lg md:text-xl font-semibold flex justify-between group hover:bg-orange-500 transition ease-in duration-150 delay-100 "
+                        className="cursor-pointer p-4 rounded-xl text-lg md:text-xl font-semibold flex justify-between group hover:bg-purple-500 hover:text-white transition ease-in duration-150 delay-100 "
                         onClick={() => toggleAccordion(index) }  >
                         {item.question}
-                        <CrossIcon className=' group-hover:rotate-45 group-hover:stroke-slate-100 transition ease-in duration-200 delay-100 '/>
+                        <CrossIcon className=' group-hover:rotate-45 group-hover:stroke-sky-300 transition ease-in duration-200 delay-100 '/>
                     </div>
                     {openIndex === index && (
                         <div className="p-4 text-lg  ">

@@ -16,7 +16,7 @@ const GraphicWorkProcess = () => {
         <div className=''>
             <div style={{ backgroundImage: "url('/imgs/process_bg_1.webp')", backgroundPosition: 'center', backgroundSize: 'cover', backgroundBlendMode: 'overlay', backgroundColor: 'rgb(232 222 238)' }} className='p-5' 
             data-aos="zoom-in">
-                <div className='pt-20 text-center text-orange-600 text-lg font-bold' data-aos="fade-down">OUR SEAMLESS WORK PROCESS</div>
+                <div className='pt-20 text-center italic text-purple-700 text-lg font-bold' data-aos="fade-down">OUR SEAMLESS WORK PROCESS</div>
                 <div className='text-center text-zinc-800  text-3xl md:text-4xl font-extrabold pt-3' data-aos="fade-up" >Our Simplified Approach To Graphic Design</div>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-5 gap-3 '>
                     <div className='group p-4 ' data-aos="flip-right">
