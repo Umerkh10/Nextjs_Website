@@ -185,3 +185,8 @@
     animation: rotating-doors 0.8s ease-in-out infinite;
   }
 }
+.gradient-text {
+  background: linear-gradient(90deg, #9832ff, #dd2c1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

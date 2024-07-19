@@ -1,13 +1,20 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import ContactFooter from '../Contact/ContactFooter'
+import AboutBanner from './AboutBanner'
+import AboutCard from './AboutCard'
+import AboutFaq from './AboutFaq'
+import ProjectTab from './ProjectTab'
 
 const page = () => {
   return (
-  <>
-  <Navbar/>
-    <div className='text-center text-4xl font-extrabold mt-24'>Page Under Construction</div>
-    
+    <>
+      <Navbar />
+      <AboutBanner />
+      <AboutCard/>
+      <AboutFaq/>
+      <ProjectTab/>
+      <ContactFooter/>
     </>
   )
 }

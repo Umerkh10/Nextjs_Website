@@ -39,7 +39,7 @@ const Footer = () => {
                   <form className="relative w-full" action="" method="post">
                     <div className="relative w-full">
                       <input placeholder="Enter Your Email Address Here.." type="email" className="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-[rgba(69,71,83,0.5)] text-lg"/>
-                      <button type="submit" className="absolute bg-orange-600 right-5 top-1/2 transform -translate-y-1/2 border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
+                      <button type="submit" className=" absolute bg-orange-600 right-5 top-1/2 transform -translate-y-1/2 border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
                         Subscribe Now
                       </button>
                     </div>
