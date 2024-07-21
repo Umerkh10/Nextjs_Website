@@ -107,17 +107,17 @@ const AppIndustry = () => {
       <div className='grid lg:grid-cols-3 grid-cols-1 p-6 '>
         <div className='col-span-2'>
           <div className='text-4xl font-extrabold'>Industry Wise App Development Solutions</div>
-          <div className="scroll-container grid grid-cols-2 h-[80vh] overflow-y-scroll scroll-smooth gap-5 mt-5">
+          <div className="scroll-container grid md:grid-cols-2 grid-cols-1 h-[80vh] overflow-y-scroll scroll-smooth pr-5 gap-5 mt-5">
             {descriptions.map((desc, index) => (
               <div
                 key={desc.title}
                 onMouseEnter={() => OnHover(index)} // Only apply onMouseEnter to the first element (E-Commerce)
                 onMouseLeave={() => setImage(0)} // Only apply onMouseLeave to the first element (E-Commerce)
-                className="flex justify-center items-center"
-              >
-                <div className="border-[3px] border-black rounded-lg bg-blue-500 p-4">
-                  <div className="text-xl font-semibold">{desc.title}</div>
-                  <div>{desc.text}</div>
+                className="flex justify-center items-center group">
+                <div className="border-[3px] border-sky-400 rounded-lg bg-purple-500 group-hover:bg-purple-700 
+                transition ease-in duration-200 delay-200 group-hover:scale-105 p-4">
+                  <div className="text-xl font-semibold text-gray-100 ">{desc.title}</div>
+                  <div className='text-gray-100'>{desc.text}</div>
                 </div>
               </div>
             ))}
