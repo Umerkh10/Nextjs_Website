@@ -4,16 +4,25 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from './AboutTabs'
 import Image from 'next/image'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useInView } from 'react-intersection-observer';
 
 const ProjectTab = () => {
+    const { ref, inView } = useInView({
+        triggerOnce: false, 
+        threshold: 0.1, 
+      });
+
     useEffect(() => {
         AOS.init({
-          duration: 1000, 
-          offset: 200, 
-        });
-      }, []);
+            duration: 800,
+            offset: 100,
+          });
+      }, [inView]);
+
+      
+      console.log(inView);
   return (
-    <div className='bg-gray-200 dark:bg-transparent pt-20'>
+    <div className='bg-gray-200 dark:bg-transparent pt-20' ref={ref}>
         <div className='text-center text-xl font-semibold uppercase gradient-text italic' data-aos="fade-down">Over 150,000+ clients</div>
         <div className='pt-2 font-extrabold text-5xl text-center uppercase' data-aos="fade-up">Our Projects</div>
 
@@ -102,7 +111,7 @@ const ProjectTab = () => {
 
         <TabsContent value="digital">
     
-            <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-left">Digital Marketing</div>
+            <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-down">Digital Marketing</div>
              <div className='grid lg:grid-cols-2 grid-cols-1  gap-5 p-8'>
                 <div className='group '>
                     <div data-aos="flip-up" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>

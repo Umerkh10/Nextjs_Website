@@ -21,11 +21,12 @@ const WorkProcessDev = () => {
                         <div className='text-slate-800 dark:text-gray-200 text-3xl font-extrabold'>Services</div>
                     </div>
                 </div>
-                <div className='mt-20 p-5 '>
+                <div className='lg:mt-20 p-5 '>
                     <div className='text-purple-700  text-base font-semibold italic'> We try to understand the specifics of your business and industry to provide the best-suited solutions. Find out how we do it!
                     </div>
                 </div>
             </div>
+            
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5 mt-5'>
                 <div className='p-4 ' data-aos="flip-down">
                     <div className='group '>

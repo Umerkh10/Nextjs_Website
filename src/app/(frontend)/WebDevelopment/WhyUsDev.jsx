@@ -21,7 +21,7 @@ const WhyUsDev = () => {
                     <div className='text-slate-800 dark:text-gray-200 text-3xl font-extrabold'>When Working</div>
                 </div>
             </div>
-            <div className='mt-20 p-5 '>
+            <div className='lg:mt-20 p-5 '>
                 <div className='text-purple-700 text-base font-semibold italic'> We do not implement a single CMS. We work on many solutions and advise which ones will work best depending on the project and expectations.</div>
             </div>
         </div>
