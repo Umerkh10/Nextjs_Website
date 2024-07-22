@@ -38,42 +38,35 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
             <ul className="space-y-4 text-center">
               <li><Link href="/" className="text-3xl hover:text-purple-500 transition duration-300">Home</Link></li>
               <li><Link href="/About" className="text-3xl hover:text-purple-500 transition duration-300">About</Link></li>
-              
-              <div className="relative">
-                <button onClick={toggleDropdown}className="text-3xl hover:text-purple-500 transition duration-300">
-                  Services
+
+              <div className="relative group">
+                <button className="text-3xl hover:text-purple-500 transition duration-300">
+                  <Link href="/Services">Services</Link>
                 </button>
-                {isOpen && (
-                  <ul className="absolute top-full left-0 mt-2 bg-slate-900 shadow-lg rounded-lg w-48">
-                    <li>
-                      <Link href="/SeoService" className="block px-4 py-2 text-gray-200 hover:bg-purple-500
-                      transition ease-in duration-200 delay-150">
-                        Seo Service
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/GraphicDesign" className="block px-4 py-2 text-gray-200 hover:bg-purple-500
-                      transition ease-in duration-200 delay-150">
-                        Graphic Design
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href="/WebDevelopment" className="block px-4 py-2 text-gray-200 hover:bg-purple-500
-                      transition ease-in duration-200 delay-150">
-                        Web Development
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href="/AppDevelopment" className="block px-4 py-2 text-gray-200 hover:bg-purple-500
-                      transition ease-in duration-200 delay-150">
-                        App Development
-                      </Link>
-                    </li>
-                  </ul>
-                )}
+                <ul className="absolute top-full left-0 mt-2 bg-slate-900 shadow-lg rounded-lg w-48 opacity-0 group-hover:opacity-100 transition-opacity duration-200 delay-150">
+                  <li>
+                    <Link href="/SeoService" className="block px-4 py-2 text-gray-200 hover:bg-purple-500 transition ease-in duration-200">
+                      Seo Service
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/GraphicDesign" className="block px-4 py-2 text-gray-200 hover:bg-purple-500 transition ease-in duration-200">
+                      Graphic Design
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/WebDevelopment" className="block px-4 py-2 text-gray-200 hover:bg-purple-500 transition ease-in duration-200">
+                      Web Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/AppDevelopment" className="block px-4 py-2 text-gray-200 hover:bg-purple-500 transition ease-in duration-200">
+                      App Development
+                    </Link>
+                  </li>
+                </ul>
               </div>
+
 
               <li><Link href="/Contact" className="text-3xl hover:text-purple-500 transition duration-300">Contact Us</Link></li>
             </ul>
