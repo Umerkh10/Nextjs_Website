@@ -6,6 +6,7 @@ import AppService from './AppService'
 import AppTechnology from './AppTechnology'
 import AppProjects from './AppProjects'
 import AppIndustry from './AppIndustry'
+import AppIntegration from './AppIntegration'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
         <AppTechnology/>
         <AppProjects/>
         <AppIndustry/>
+        <AppIntegration/>
     </div>
   )
 }
