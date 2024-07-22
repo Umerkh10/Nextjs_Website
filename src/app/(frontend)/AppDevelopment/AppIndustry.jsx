@@ -105,7 +105,7 @@ const AppIndustry = () => {
     <div className='bg-slate-200 dark:bg-transparent pr-6 pl-6 pt-10'>
 
       <div className='grid lg:grid-cols-3 grid-cols-1 p-6 '>
-        <div className='col-span-2'>
+        <div className='col-span-2' data-aos="fade-up">
           <div className='text-4xl font-extrabold'>Industry Wise App Development Solutions</div>
           <div className="scroll-container grid md:grid-cols-2 grid-cols-1 h-[80vh] overflow-y-scroll scroll-smooth pr-5 gap-5 mt-5">
             {descriptions.map((desc, index) => (
@@ -124,7 +124,7 @@ const AppIndustry = () => {
           </div>
         </div>
 
-        <div className=''>
+        <div className='' data-aos="fade-down">
           <div className='flex justify-center items-center mt-5'>
             <Image src={currentImage} width={300} height={300} alt='site-1'></Image>
           </div>

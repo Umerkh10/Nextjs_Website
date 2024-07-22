@@ -84,13 +84,12 @@ const Navbar = () => {
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/GraphicDesign"> Graphic Design</Link>  </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/WebDevelopment">Website Development </Link> </li>
                   <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/AppDevelopment"> App Development</Link> </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500">Digital Marketing</li>
+                  
                 </ul>
               </div>
 
               <Link href="/Contact" className='text-gray-200 text-lg  font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</Link>
 
-              <Link href="#" className='text-gray-200 text-lg font-medium hover:text-orange-600 transition duration-200 ease-in'>Reviews </Link>
             </nav>
           </div>
 

@@ -62,6 +62,7 @@ const Footer = () => {
                 <p className='text-white'>We are 100+ professional software engine with more than 10 years of experience in delivering superior products Believe it be cause you've seen it.</p>
               </div>
             </div>
+
             <div className='pl-6 pt-4 lg:pt-0'>
               <div className='flex items-center gap-3'>
                 <span className='text-white text-[26px] font-semibold '>Links </span>
@@ -73,24 +74,24 @@ const Footer = () => {
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
                       <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>
-                        <Link href="/">Home</Link></span>
+                        <Link href="/Services">Service</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>News & Blog</span>
+                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/SeoService">SEO Service</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
                       <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>
-                        <Link href="/Contact">Contact Us</Link></span>
+                        <Link href="/GraphicDesign">Graphic Design</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>Career</span>
+                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/WebDevelopment">Web Development </Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'>Team</span>
+                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/AppDevelopment">App Development </Link></span>
                     </div>
                   </div>
                   <div className=''>
@@ -104,7 +105,7 @@ const Footer = () => {
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/Services">Services</Link></span>
+                      <span className='text-white text-[18px] pl-2 group-hover:text-orange-600 transition ease-in duration-100 delay-100'><Link href="/Contact">Contact Us</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="orangered" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
@@ -118,6 +119,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+
             <div className='pl-6 pt-4 lg:pt-0 '>
               <div className='flex items-center gap-3'>
                 <span className='text-white text-[20px] font-semibold'>Our Gallery</span>
@@ -163,7 +165,7 @@ const Footer = () => {
               <div className='flex justify-end'>
                 <span className='text-gray-300 font-medium pl-4 pt-4 pb-4  pr-4 hover:cursor-pointer hover:text-orange-500 '>Privacy Policy</span>
                 <span className='text-gray-300 font-medium pl-4 pt-4 pb-4  pr-4 hover:cursor-pointer hover:text-orange-500'>Terms Of Use</span>
-                <span className='text-gray-300 font-medium pl-4 pt-4 pb-4 pr-8 hover:cursor-pointer hover:text-orange-500'>Blog</span>
+        
             
               </div>
             </div>

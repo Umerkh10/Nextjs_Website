@@ -9,9 +9,9 @@ import React from 'react'
 const AppService = () => {
     return (
         <div className='bg-slate-200 dark:bg-transparent pt-10'>
-            <div className='text-center font-extrabold text-3xl md:text-5xl'>Our App Development Services</div>
+            <div className='text-center font-extrabold text-3xl md:text-5xl' data-aos="fade-down">Our App Development Services</div>
 
-            <div className='text-center font-semibold text-base italic pt-5 pl-20 pr-20'> We provide comprehensive app development services, specializing in creating custom, high-performance mobile and web applications tailored to your business needs. Our team ensures seamless functionality, intuitive user interfaces, and cutting-edge technology to deliver an exceptional user experience. From initial concept to final deployment, we focus on quality and efficiency to bring your vision to life.</div>
+            <div className='text-center font-semibold text-base italic pt-5 pl-20 pr-20'data-aos="fade-up"> We provide comprehensive app development services, specializing in creating custom, high-performance mobile and web applications tailored to your business needs. Our team ensures seamless functionality, intuitive user interfaces, and cutting-edge technology to deliver an exceptional user experience. From initial concept to final deployment, we focus on quality and efficiency to bring your vision to life.</div>
 
 
             <div className='p-3 lg:p-6'>

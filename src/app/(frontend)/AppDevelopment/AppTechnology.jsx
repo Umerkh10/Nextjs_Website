@@ -4,9 +4,9 @@ import React from 'react'
 const AppTechnology = () => {
   return (
     <div className='bg-slate-200 dark:bg-transparent pr-6 pl-6 pt-10'>
-        <div className='text-4xl font-extrabold   '>Our Expertise In Leading App Development Technologies </div>
+        <div className='text-4xl font-extrabold' data-aos="fade-right" >Our Expertise In Leading App Development Technologies </div>
 
-        <div className='pt-4  lg:w-[80vw] text-base font-semibold italic'>Webnike stands at the forefront of app development, leveraging the latest technologies to deliver innovative and high-performing solutions. Our team of skilled developers employs cutting-edge tools and frameworks such as React Native, Flutter, and Swift to create seamless, user-friendly applications across various platforms. By integrating advanced AI and machine learning algorithms, we ensure that our apps are not only intuitive but also capable of providing personalized user experiences. At Webnike, we prioritize quality and efficiency, ensuring that our clients receive robust, scalable, and secure applications that meet their unique business needs.</div>
+        <div className='pt-4  lg:w-[80vw] text-base font-semibold italic' data-aos="fade-up">Webnike stands at the forefront of app development, leveraging the latest technologies to deliver innovative and high-performing solutions. Our team of skilled developers employs cutting-edge tools and frameworks such as React Native, Flutter, and Swift to create seamless, user-friendly applications across various platforms. By integrating advanced AI and machine learning algorithms, we ensure that our apps are not only intuitive but also capable of providing personalized user experiences. At Webnike, we prioritize quality and efficiency, ensuring that our clients receive robust, scalable, and secure applications that meet their unique business needs.</div>
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5 mt-5'>
 

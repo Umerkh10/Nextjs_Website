@@ -7,6 +7,10 @@ import AppTechnology from './AppTechnology'
 import AppProjects from './AppProjects'
 import AppIndustry from './AppIndustry'
 import AppIntegration from './AppIntegration'
+import AppWorkflow from './AppWorkflow'
+import AppPartners from './AppPartners'
+import AppFaq from './AppFaq'
+import ContactFooter from '../Contact/ContactFooter'
 
 const page = () => {
   return (
@@ -19,6 +23,10 @@ const page = () => {
         <AppProjects/>
         <AppIndustry/>
         <AppIntegration/>
+        <AppWorkflow/>
+        <AppPartners/>
+        <AppFaq/>
+        <ContactFooter/>
     </div>
   )
 }
