@@ -1,21 +1,33 @@
 "use client"
 import { ArrowRight } from 'lucide-react'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
-import { FormAction } from '@/app/(backend)/action/FormAction';
 import { useFormState,useFormStatus } from "react-dom"
+import EmailAction from '@/app/(backend)/action/emailAction';
+import { toast } from 'sonner';
 
 const GraphicForm = () => {
-    const [state, action] = useFormState(FormAction, null);
+    const [state, action] = useFormState(EmailAction, null);
+    const formRef = useRef(null)
     useEffect(() => {
         AOS.init({
             duration: 1000,
             offset: 200,
         });
     }, []);
+
+    useEffect(()=>{
+        if(state?.success){
+            formRef?.current?.reset()
+            toast.success(state.success)
+        }
+        if(state?.error){
+            toast.error(state.error)
+        }
+    },[state])
 
     const { ref, inView } = useInView({
         triggerOnce: false,
@@ -42,7 +54,7 @@ const GraphicForm = () => {
         <div className='bg-slate-200 rounded-2xl p-4 sm:p-10 mt-10'>
             <div className='pt-7 font-bold text-3xl md:text-4xl text-blue-700 '>Free Consultation</div>
             <div className='pt-3 font-normal text-lg text-blue-700 '>Get More Design Updates</div>
-            <form action={action}>
+            <form action={action} ref={formRef}>
                 <div class="flex flex-col justify-end pt-10">
                     <input class="h-16 rounded-xl p-6 outline-none" type="text" name="name" placeholder="Full Name" id="" required />
                     <input class="h-16 rounded-xl mt-6 p-6 outline-none" type="email" name="email" placeholder="Email Address" id="" required />
