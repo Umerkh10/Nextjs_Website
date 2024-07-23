@@ -11,6 +11,7 @@ import AppWorkflow from './AppWorkflow'
 import AppPartners from './AppPartners'
 import AppFaq from './AppFaq'
 import ContactFooter from '../Contact/ContactFooter'
+import AppForm from './AppForm'
 
 const page = () => {
   return (
@@ -25,6 +26,7 @@ const page = () => {
         <AppIntegration/>
         <AppWorkflow/>
         <AppPartners/>
+        <AppForm/>
         <AppFaq/>
         <ContactFooter/>
     </div>

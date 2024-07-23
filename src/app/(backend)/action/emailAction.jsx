@@ -34,9 +34,9 @@ export default async function EmailAction(state, formData) {
                 <p>Thank you for joining our community. We are excited to have you!</p>
                 <p><b>Your Details:</b></p>
                 <ul>
-                    <li><b>First Name:</b> ${name}</li>
-                    <li><b>Last Name:</b> ${email}</li>
-                    <li><b>Email Address:</b> ${phone}</li>
+                    <li><b>Name:</b> ${name}</li>
+                    <li><b>Email Address:</b> ${email}</li>
+                    <li><b>Phone Number:</b> ${phone}</li>
                     <li><b>Subject:</b> ${selection}</li>
                 </ul>
                 <p>Best regards,<br>Graderz.org</p>

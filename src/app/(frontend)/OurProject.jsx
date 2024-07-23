@@ -3,14 +3,23 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useInView } from 'react-intersection-observer';
 
 const OurProject = () => {
+    const { ref, inView } = useInView({
+        triggerOnce: false, 
+        threshold: 0.1, 
+      });
+
     useEffect(() => {
         AOS.init({
-          duration: 1000, 
-          offset: 200, 
-        });
-      }, []);
+            duration: 800,
+            offset: 100,
+          });
+      }, [inView]);
+
+      
+      console.log(inView);
       
       const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
       const [isImageHovered, setIsImageHovered] = useState(false);
@@ -80,7 +89,8 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4 ' data-aos="fade-up">
+
+<div ref={ref} className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4 ' data-aos="fade-up">
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
@@ -115,7 +125,7 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-down">
+<div ref={ref}  className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-down">
     <div className='pl-10 pr-10'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
@@ -150,7 +160,7 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80'data-aos="fade-up" >
+<div ref={ref} className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80'data-aos="fade-up" >
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>

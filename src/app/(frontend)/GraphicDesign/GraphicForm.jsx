@@ -8,6 +8,7 @@ import CountUp from 'react-countup';
 import { useFormState,useFormStatus } from "react-dom"
 import EmailAction from '@/app/(backend)/action/emailAction';
 import { toast } from 'sonner';
+import { useRouter } from 'next/navigation';
 
 const GraphicForm = () => {
     const [state, action] = useFormState(EmailAction, null);
@@ -18,11 +19,14 @@ const GraphicForm = () => {
             offset: 200,
         });
     }, []);
+    const router= useRouter()
 
     useEffect(()=>{
         if(state?.success){
             formRef?.current?.reset()
-            toast.success(state.success)
+            // toast.success(state.success)
+            router.push('/ThankYou')
+
         }
         if(state?.error){
             toast.error(state.error)
@@ -34,7 +38,7 @@ const GraphicForm = () => {
         threshold: 0.1,
     });
   return (
-    <div className='lg:grid lg:grid-cols-2 flex flex-col  bg-blue-500 p-10 ' data-aos="fade-up" >
+    <div className='lg:grid lg:grid-cols-2 flex flex-col  bg-purple-500 p-10 ' data-aos="fade-up" >
     <div className='sm:p-10 lg:mt-14' data-aos="flip-left">
         <div className='font-bold text-gray-200 text-2xl md:text-4xl'>Starting Your Graphic Design Project With Webnike</div>
         <div className='pt-5 md:text-xl text-lg text-gray-200 font-semibold'>START A PROJECT</div>
@@ -52,8 +56,8 @@ const GraphicForm = () => {
     </div>
     <div className='' data-aos="flip-right">
         <div className='bg-slate-200 rounded-2xl p-4 sm:p-10 mt-10'>
-            <div className='pt-7 font-bold text-3xl md:text-4xl text-blue-700 '>Free Consultation</div>
-            <div className='pt-3 font-normal text-lg text-blue-700 '>Get More Design Updates</div>
+            <div className='pt-7 font-bold text-3xl md:text-4xl text-purple-700 '>Free Consultation</div>
+            <div className='pt-3 font-normal text-lg text-purple-700 '>Get More Design Updates</div>
             <form action={action} ref={formRef}>
                 <div class="flex flex-col justify-end pt-10">
                     <input class="h-16 rounded-xl p-6 outline-none" type="text" name="name" placeholder="Full Name" id="" required />
@@ -85,7 +89,7 @@ function DynamicButton() {
 const {pending} = useFormStatus()
 console.log(pending);
 return (
-<div className={`w-full border bg-blue-700 flex justify-center items-center mt-6 p-6 rounded-xl group text-slate-200 dark:hover:bg-slate-200  dark:hover:text-slate-900  hover:bg-slate-900 ${pending ? "text-opacity-70 bg-opacity-70 " : ""} transition ease-in duration-200 delay-100 overflow-hidden`}>
+<div className={`w-full border bg-purple-600 flex justify-center items-center mt-6 p-6 rounded-xl group text-slate-200 dark:hover:bg-slate-200  dark:hover:text-slate-900  hover:bg-slate-900 ${pending ? "text-opacity-70 bg-opacity-70 " : ""} transition ease-in duration-200 delay-100 overflow-hidden`}>
 <button disabled={pending} type='submit' className='flex items-center  font-semibold text-lg '>Get Consultations <ArrowRight className='ml-1  group-hover:translate-x-60 transition ease-out duration-150 delay-100' /></button>
 </div>
 )

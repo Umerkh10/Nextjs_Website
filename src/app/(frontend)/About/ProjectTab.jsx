@@ -32,13 +32,13 @@ const ProjectTab = () => {
           <TabsTrigger  value="seo"><Image className='' src="/imgs/seo.png" width={40} height={40} alt='php'></Image>
             <div className='italic font-medium py-2'>Seo</div></TabsTrigger>
 
-          <TabsTrigger value="web"><Image className='ml-2' src="/imgs/web-development.png" width={40} height={40} alt='php'></Image> <div className='italic font-medium py-2'>Web/App</div></TabsTrigger>
+          <TabsTrigger value="web"><Image className='ml-2' src="/imgs/web-development.png" width={40} height={40} alt='php'></Image> <div className='italic font-medium py-2'>Web</div></TabsTrigger>
 
           <TabsTrigger value="graphic"><Image className='' src="/imgs/graphic-design.png" width={40} height={40} alt='php'></Image>
             <div className='italic font-medium py-2'>Graphic  </div> </TabsTrigger>
 
-          <TabsTrigger value="digital"><Image className='ml-2' src="/imgs/marketing-app.png" width={40} height={40} alt='php'>
-          </Image> <div className='italic font-medium py-2'>Digital</div></TabsTrigger>
+          <TabsTrigger value="app"><Image className='ml-2' src="/imgs/marketing-app.png" width={40} height={40} alt='php'>
+          </Image> <div className='italic font-medium py-2'>App</div></TabsTrigger>
         </TabsList>
 
         <TabsContent value="seo">
@@ -75,20 +75,7 @@ const ProjectTab = () => {
                 </div>
             </div>
 
-            <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-up" >App Development</div>
-             <div className='grid lg:grid-cols-2 grid-cols-1  gap-5 p-8'>
-                <div className='group '>
-                    <div data-aos="flip-down" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
-                        <Image className='rounded-xl' src="/about_imgs/about-app-1.webp" width={500} height={400} alt='about-tab'></Image>
-                    </div>
-                </div>
-
-                 <div className='group '>
-                    <div data-aos="flip-up" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
-                        <Image className='rounded-xl' src="/about_imgs/about-app-2.webp" width={550} height={500} alt='about-tab'></Image>
-                    </div>
-                </div>
-            </div>
+   
 
             </TabsContent>
 
@@ -109,22 +96,22 @@ const ProjectTab = () => {
             </div>
         </TabsContent>
 
-        <TabsContent value="digital">
-    
-            <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-down">Digital Marketing</div>
+        <TabsContent value="app">
+        <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-up" >App Development</div>
              <div className='grid lg:grid-cols-2 grid-cols-1  gap-5 p-8'>
                 <div className='group '>
-                    <div data-aos="flip-up" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
-                        <Image className='rounded-xl' src="/about_imgs/about-digital-1.webp" width={500} height={400} alt='about-tab'></Image>
+                    <div data-aos="flip-down" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
+                        <Image className='rounded-xl' src="/about_imgs/about-app-1.webp" width={500} height={400} alt='about-tab'></Image>
                     </div>
                 </div>
 
                  <div className='group '>
-                    <div data-aos="flip-down" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
-                        <Image className='rounded-xl' src="/about_imgs/about-digital-2.webp" width={550} height={500} alt='about-tab'></Image>
+                    <div data-aos="flip-up" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
+                        <Image className='rounded-xl' src="/about_imgs/about-app-2.webp" width={550} height={500} alt='about-tab'></Image>
                     </div>
                 </div>
-            </div></TabsContent>
+            </div>
+            </TabsContent>
       </Tabs>
 
     </div>

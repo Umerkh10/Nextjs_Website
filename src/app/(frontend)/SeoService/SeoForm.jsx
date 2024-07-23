@@ -8,6 +8,7 @@ import CountUp from 'react-countup';
 import { useFormState,useFormStatus } from "react-dom"
 import EmailAction from '@/app/(backend)/action/emailAction';
 import { toast } from 'sonner';
+import { useRouter } from 'next/navigation';
 
 const SeoForm = () => {
     const [state, action] = useFormState(EmailAction, null);
@@ -19,10 +20,14 @@ const SeoForm = () => {
         });
     }, []);
 
+const router= useRouter()
+
     useEffect(()=>{
         if(state?.success){
             formRef?.current?.reset()
-            toast.success(state.success)
+            // toast.success(state.success)
+            router.push('/ThankYou')
+
         }
         if(state?.error){
             toast.error(state.error)
