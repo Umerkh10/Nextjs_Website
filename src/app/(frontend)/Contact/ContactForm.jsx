@@ -6,6 +6,8 @@ import 'aos/dist/aos.css';
 import ContactEmail from '@/app/(backend)/action/ContactEmail';
 import { useFormState, useFormStatus } from "react-dom"
 import { toast } from 'sonner';
+import { useRouter } from 'next/navigation';
+
 
 
 const ContactForm = () => {
@@ -18,10 +20,14 @@ const ContactForm = () => {
         });
     }, []);
 
+    const router= useRouter()
+
     useEffect(()=>{
         if(state?.success){
             formRef?.current?.reset()
-            toast.success(state.success)
+            // toast.success(state.success)
+            router.push('/ThankYou')
+
         }
         if(state?.error){
             toast.error(state.error)

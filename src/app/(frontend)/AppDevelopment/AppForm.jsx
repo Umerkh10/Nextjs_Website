@@ -38,7 +38,7 @@ const AppForm = () => {
     <div className='sm:p-10 lg:mt-14' data-aos="flip-left">
         <div className='font-bold text-gray-200 text-2xl md:text-4xl'>Starting Your App Development Project With Webnike</div>
         <div className='pt-5 md:text-xl text-lg text-gray-200 font-semibold'>START A PROJECT</div>
-        <div className='pt-5 font-medium text-white'>Boost your digital presence with Webnike! Our expert app development team turns your ideas into dynamic, visually stunning websites. From design to deployment, we ensure your site captures your brand and delivers an outstanding user experience.</div>
+        <div className='pt-5 font-medium text-white'>Webnike is embarking on an innovative app development project aimed at revolutionizing the way users interact with their services. The project will focus on creating a seamless, user-friendly mobile application that integrates advanced features such as real-time data synchronization, personalized user experiences, and robust security measures.</div>
         <div className='grid grid-cols-2 pt-7 md:pt-16 sm:gap-0 gap-4' ref={ref}>
 
             <div className='text-center text-gray-200 text-xl md:text-3xl font-semibold '>{inView ? <CountUp end={950} duration={2.75} /> : '0'}+ <br />

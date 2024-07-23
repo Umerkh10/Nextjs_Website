@@ -8,67 +8,67 @@ const AppIndustry = () => {
   const descriptions = [
     {
       title: "E-Commerce",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app with your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "E-commerce apps provide a convenient and seamless shopping experience by allowing users to browse, purchase, and manage products directly from their mobile devices."
     },
     {
       title: "Fashion",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app with your existing platform for custom retail development, inventory, orders, and customer data management."
+      text: "Fashion apps offer users a convenient and personalized shopping experience, allowing them to discover, try on, and purchase the latest trends directly from their mobile devices."
     },
     {
       title: "HealthCare",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Healthcare apps empower individuals to manage their health and wellness by providing easy access to medical information, tracking health metrics, and facilitating communication with healthcare providers."
     },
     {
       title: "Real Estate",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app commerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Real estate apps streamline the property search process by offering intuitive interfaces, advanced search filters, and real-time updates, making it easier for users to find their perfect home or investment opportunity."
     },
     {
       title: "BlockChain/NFTs",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app with your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Blockchain and NFT apps leverage decentralized technology to enable secure, transparent transactions and digital ownership, revolutionizing how we interact with digital assets."
     },
     {
       title: "Fitness",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Fitness apps offer personalized workout plans and progress tracking to help users achieve their health goals with convenience and motivation."
     },
     {
       title: "Metaverse",
-      text: "We create customized merce businesses to boost sales and engage with customers. We also integrate the app with your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Metaverse apps create immersive digital worlds where users can interact, socialize, and explore new experiences in a virtual space."
     },
     {
       title: "Delivery",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integratewith your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Delivery apps bring the convenience of your favorite meals and essentials straight to your doorstep, redefining how we experience shopping and dining"
     },
     {
       title: "Travel",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We with your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Travel apps are designed to simplify the journey, offering everything from real-time navigation and booking options to local recommendations and itinerary management."
     },
     {
       title: "Entertainment",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app with your existing ecommerce platform for custom retail orders, and customer data management."
+      text: "Entertainment apps are designed to provide users with engaging content and activities, from streaming movies and music to interactive games and social media experiences."
     },
     {
       title: "Social Networking",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app with your existing ecommerce platform for custom retail development, inventory, orders, management."
+      text: "Social networking apps connect people across the globe, fostering communication, sharing, and community-building in the digital age."
     },
     {
       title: "Sports",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app with your existing ecommerce platform for custom retail development, inventory, orders, management."
+      text: "Sports apps bring the excitement of live games to your fingertips, offering real-time scores, stats, and updates to keep fans connected and engaged."
     },
     {
       title: "ELearning",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also integrate the app with your existing ecommerce platform for custom retail development, inventory, orders."
+      text: "eLearning apps provide convenient, interactive, and flexible learning experiences, enabling users to access educational content anytime and anywhere."
     },
     {
       title: "Gaming",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We the app with your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Gaming apps are a dynamic playground where creativity and technology converge to offer immersive experiences and endless entertainment at your fingertips."
     },
     {
       title: "Fintech",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. the app with your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "Fintech apps are revolutionizing the way we manage our finances, offering everything from seamless payments to advanced investment tools right at our fingertips."
     },
     {
       title: "OnDemand",
-      text: "We create customized mobile apps for ecommerce businesses to boost sales and engage with customers. We also your existing ecommerce platform for custom retail development, inventory, orders, and customer data management."
+      text: "On-demand apps provide users with immediate access to services or products, delivering convenience and efficiency through real-time solutions tailored to individual needs."
     }
   ];
 
@@ -114,7 +114,7 @@ const AppIndustry = () => {
                 onMouseEnter={() => OnHover(index)} // Only apply onMouseEnter to the first element (E-Commerce)
                 onMouseLeave={() => setImage(0)} // Only apply onMouseLeave to the first element (E-Commerce)
                 className="flex justify-center items-center group">
-                <div className="border-[3px] border-sky-400 rounded-lg bg-purple-500 group-hover:bg-purple-700 
+                <div className="border-[3px] h-[45vh] lg:h-[32vh] border-sky-400 rounded-lg bg-purple-500 group-hover:bg-purple-700 
                 transition ease-in duration-200 delay-200 group-hover:scale-105 p-4">
                   <div className="text-xl font-semibold text-gray-100 ">{desc.title}</div>
                   <div className='text-gray-100'>{desc.text}</div>

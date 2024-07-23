@@ -40,6 +40,7 @@ const OurProject = () => {
       };
     return (
         <>
+        <div ref={ref}>
         <div className=' mx-auto mt-10 w-full text-foreground/80' data-aos="fade-right" >
             <div className='pl-10 md:pb-8 pb-4 text-[20px] text-purple-700 font-bold'>Our Projects</div>
             <div className='flex flex-col lg:flex-row lg:justify-between  pl-10 pr-10 '>
@@ -90,7 +91,7 @@ const OurProject = () => {
     </div>
 </div>
 
-<div ref={ref} className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4 ' data-aos="fade-up">
+<div  className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4 ' data-aos="fade-up">
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
@@ -125,7 +126,7 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div ref={ref}  className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-down">
+<div   className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-down">
     <div className='pl-10 pr-10'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
@@ -160,7 +161,7 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-<div ref={ref} className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80'data-aos="fade-up" >
+<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80'data-aos="fade-up" >
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-orange-600 text-[20px] font-normal'>10 February 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
@@ -195,7 +196,7 @@ const OurProject = () => {
         </div>
     </div>
 </div>
-
+</div>
         </>
     )
 }

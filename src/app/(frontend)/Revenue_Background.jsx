@@ -90,7 +90,7 @@ const Revenue_Background = () => {
           </svg>
           <div className='text-gray-100 font-semibold text-[26px] pl-2'>High Standard</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>Non est risus massa enim dolor tristique. Fringilla non porttitor sem.</div>
+        <div className='text-white text-[18px] mb-6'>A high standard represents the pinnacle of quality and excellence</div>
         <div className='flex justify-start items-center mb-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="teal" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-badge-check">
             <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
@@ -98,7 +98,7 @@ const Revenue_Background = () => {
           </svg>
           <div className='text-gray-100 font-semibold text-[26px] pl-2'>Focus On People</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>Non est risus massa enim dolor tristique. Fringilla non porttitor sem.</div>
+        <div className='text-white text-[18px] mb-6'>fostering meaningful connections, and creating environments where everyone can thrive.</div>
         <div className='flex justify-start items-center mb-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="teal" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-badge-check">
             <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
@@ -106,7 +106,7 @@ const Revenue_Background = () => {
           </svg>
           <div className='text-gray-100 font-semibold text-[26px] pl-2'>Different Thinking</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>Non est risus massa enim dolor tristique. Fringilla non porttitor sem.</div>
+        <div className='text-white text-[18px] mb-6'>Different thinking fuels innovation and opens doors to new possibilities</div>
         <div className='flex justify-start items-center mb-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="teal" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-badge-check">
             <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
@@ -114,7 +114,7 @@ const Revenue_Background = () => {
           </svg>
           <div className='text-gray-100 font-semibold text-[26px] pl-2'>Expert Team</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>Non est risus massa enim dolor tristique. Fringilla non porttitor sem.</div>
+        <div className='text-white text-[18px] mb-6'>Group dedicated to delivering exceptional results through their combined knowledge, experience, and collaboration.</div>
       </div>
     </div>
   </div>
