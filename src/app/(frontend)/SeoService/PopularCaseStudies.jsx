@@ -14,23 +14,24 @@ const PopularCaseStudies = () => {
     }, []);
     return (
         <>
-            <div className='mt-20 text-center md:text-5xl text-4xl  text-blue-900 dark:text-gray-300 font-bold'data-aos="fade-up" > Popular Case Studies</div>
-            <div className='mt-4 text-center text-lg text-blue-600 dark:text-gray-300 font-semibold' data-aos="fade-down" >Best SEO Optimization Agency</div>
+        <div className='bg-gray-200 dark:bg-transparent'>
+            <div className='pt-20 text-center md:text-5xl text-4xl  text-slate-800 dark:text-gray-300 font-bold'data-aos="fade-up" > Popular Case Studies</div>
+            <div className='pt-4 text-center text-lg text-slate-800 dark:text-gray-300 font-semibold' data-aos="fade-down" >Best SEO Optimization Agency</div>
 
 
-            <div className='lg:grid lg:grid-cols-4 flex flex-col p-8 lg:p-5 mb-10'>
+            <div className='lg:grid lg:grid-cols-4 flex flex-col p-8 lg:p-5 pb-10'>
                 <div className='group' data-aos="flip-right">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100 '>
-                        <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
-                            <div className="flex flex-col items-center px-3.75">
-                                <div className="mb-4">
-                                    <Image src={"/imgs/seo_service_slider.png"} width={370} height={150} alt='testimonial' />
+                        <div className=" bg-sky-200 rounded-2xl ">
+                            <div className="flex flex-col items-center lg:h-[65vh] px-3.75">
+                                <div className="">
+                                    <Image src={"/imgs/casestudy-1.png"} width={370} height={150} alt='testimonial' />
+                                </div>
+                                <div className="text-center pt-8">
+                                    <p className="font-medium text-[17px] text-slate-900 pt-2">Business Planning</p>
                                 </div>
                                 <div className="text-center">
-                                    <p className="font-medium text-[17px] text-gray-300 dark:text-slate-900 pt-2">Business Planning</p>
-                                </div>
-                                <div className="text-center">
-                                    <p className="font-bold text-[20px] text-gray-300 dark:text-blue-700  pt-2 pb-4">Email Marketing</p>
+                                    <p className="font-bold text-[20px] text-purple-700  pt-2 pb-4">Email Marketing</p>
                                 </div>
                             </div>
                         </div>
@@ -38,16 +39,16 @@ const PopularCaseStudies = () => {
                 </div>
                 <div className=' group' data-aos="flip-left">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100 '>
-                        <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
-                            <div className="flex flex-col items-center px-3.75">
-                                <div className="mb-4">
-                                    <Image src={"/imgs/seo_service_slider-1.png"} width={370} height={150} alt='testimonial' />
+                        <div className=" bg-sky-200 rounded-2xl ">
+                            <div className="flex flex-col items-center lg:h-[65vh] px-3.75">
+                                <div className="">
+                                    <Image src={"/imgs/case-study-2.png"} width={300} height={100} alt='testimonial' />
                                 </div>
                                 <div className="text-center">
-                                    <p className="font-normal text-[17px] text-gray-300 dark:text-slate-900 pt-2">Market Research</p>
+                                    <p className="font-normal text-[17px] text-slate-900 pt-2">Market Research</p>
                                 </div>
                                 <div className="text-center">
-                                    <p className="font-bold text-[20px] text-gray-300 dark:text-blue-700  pt-2 pb-4">Data Analysis</p>
+                                    <p className="font-bold text-[20px] text-purple-700  pt-2 pb-4">Data Analysis</p>
                                 </div>
                             </div>
                         </div>
@@ -55,16 +56,16 @@ const PopularCaseStudies = () => {
                 </div>
                 <div className=' group' data-aos="flip-right">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100'>
-                        <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
-                            <div className="flex flex-col items-center px-3.75">
-                                <div className="mb-4">
-                                    <Image src={"/imgs/seo_service_slider-2.png"} width={370} height={150} alt='testimonial' />
+                        <div className=" bg-sky-200 rounded-2xl ">
+                            <div className="flex flex-col items-center lg:h-[65vh] px-3.75">
+                                <div className="">
+                                    <Image src={"/imgs/casestudy-3.png"} width={370} height={150} alt='testimonial' />
+                                </div>
+                                <div className="text-center pt-5">
+                                    <p className="font-normal text-[17px] text-slate-900 pt-2">Marketing Strategy</p>
                                 </div>
                                 <div className="text-center">
-                                    <p className="font-normal text-[17px] text-gray-300 dark:text-slate-900 pt-2">Marketing Strategy</p>
-                                </div>
-                                <div className="text-center">
-                                    <p className="font-bold text-[20px] text-gray-300 dark:text-blue-700 pt-2 pb-4">Optimization</p>
+                                    <p className="font-bold text-[20px]  text-purple-700 pt-2 pb-4">Optimization</p>
                                 </div>
                             </div>
                         </div>
@@ -72,16 +73,16 @@ const PopularCaseStudies = () => {
                 </div>
                 <div className='group' data-aos="flip-left">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100'>
-                        <div className="bg-slate-800 dark:bg-slate-200 rounded-2xl ">
-                            <div className="flex flex-col items-center px-3.75">
-                                <div className="mb-4">
-                                    <Image src={"/imgs/seo_service_slider-3.png"} width={370} height={150} alt='testimonial' />
+                        <div className=" bg-sky-200 rounded-2xl ">
+                            <div className="flex flex-col items-center lg:h-[65vh] px-3.75">
+                                <div className=" mb-4">
+                                    <Image src={"/imgs/case-study-4.png"} width={370} height={150} alt='testimonial' />
+                                </div>
+                                <div className="text-center -mt-4">
+                                    <p className="font-normal text-[17px] text-slate-900   pt-2">Seo Optimization</p>
                                 </div>
                                 <div className="text-center">
-                                    <p className="font-normal text-[17px] text-gray-300 dark:text-slate-900   pt-2">Seo Optimization</p>
-                                </div>
-                                <div className="text-center">
-                                    <p className="font-bold text-[20px] text-gray-300 dark:text-blue-700  pt-2 pb-4">Pay-Per-Click</p>
+                                    <p className="font-bold text-[20px] text-purple-700  pt-2 pb-4">Pay-Per-Click</p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +90,7 @@ const PopularCaseStudies = () => {
                 </div>
                 
         </div>
-  
+        </div>
                  
 
           
