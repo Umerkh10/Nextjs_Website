@@ -17,6 +17,14 @@ const GraphicCard = () => {
             offset: 200,
         });
     }, []);
+    const handleClick = () => {
+        if (typeof window !== 'undefined' && typeof window.openChat !== 'undefined') {
+          window.openChat();
+        } else {
+          console.error('openChat function is not available');
+        }
+      };
+         
     return (
         <div className=' bg-gray-200 dark:bg-transparent p-5' data-aos="fade-up">
             <div className='pt-14 md:text-xl text-lg font-bold text-purple-600 text-center italic'>Comprehensive Graphic Design Solutions</div>
@@ -62,9 +70,10 @@ const GraphicCard = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Logo Design</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We craft unique, memorable logos that capture your brand's essence and resonate with your audience.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -83,9 +92,9 @@ const GraphicCard = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Brand Identity Design</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We develop cohesive brand identities that reflect your vision, ensuring a consistent and compelling look across all platforms.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -104,9 +113,9 @@ const GraphicCard = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Print Design</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We create striking print designs, from brochures to business cards, that effectively communicate your message.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -125,9 +134,9 @@ const GraphicCard = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Packaging Design</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We design eye-catching and functional packaging that highlights your product’s best features and enhances brand</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -146,9 +155,9 @@ const GraphicCard = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Social Media Graphics</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We create engaging social media graphics that capture attention and drive user interaction across all platforms.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -167,9 +176,9 @@ const GraphicCard = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Infographics Design</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We design compelling infographics that simplify complex information, making it easy to understand.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -188,9 +197,9 @@ const GraphicCard = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Motion Graphics & Design</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>We produce dynamic motion graphics that bring your story to life, enhancing engagement and impactful content.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>

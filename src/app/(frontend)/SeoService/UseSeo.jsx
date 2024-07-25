@@ -12,6 +12,14 @@ const UseSeo = () => {
             offset: 200,
         });
     }, []);
+
+    const handleClick = () => {
+        if (typeof window !== 'undefined' && typeof window.openChat !== 'undefined') {
+          window.openChat();
+        } else {
+          console.error('openChat function is not available');
+        }
+      };
     return (
         <div className=' grid lg:grid-cols-2 grid-cols-1 '>
             <div className='bg-purple-900' data-aos="fade-down">
@@ -30,10 +38,10 @@ const UseSeo = () => {
                 <div data-aos="fade-right" className='flex'><Image src={"/imgs/bar-chart.png"} width={100} height={60} alt='stats' ></Image>
                     <div className='pl-4 lg:w-[30vw] text-gray-300 text-lg font-medium'> Our digital marketing prioritizes immediate engagement, leveraging the technical prowess typical of top marketing agencies.</div>
                 </div>
-                <div data-aos="fade-right" className='mt-8 border-[2px] dark:border-white rounded-lg w-[40vw] md:w-[25vw] lg:w-[15vw] h-[8vh] overflow-hidden flex justify-center items-center capitalize text-gray-300  font-semibold 
+                <button onClick={handleClick} data-aos="fade-right" className='mt-8 border-[2px] dark:border-white rounded-lg w-[40vw] md:w-[25vw] lg:w-[15vw] h-[8vh] overflow-hidden flex justify-center items-center capitalize text-gray-300  font-semibold 
                 group hover:bg-teal-400 hover:text-blue-900 transition ease-in duration-200 delay-200 cursor-pointer'> learn more
                 <ArrowRight className='ml-1   group-hover:translate-x-20 transition ease-in duration-200 delay-200 '/>
-                 </div>
+                 </button>
 
             </div>
         </div>

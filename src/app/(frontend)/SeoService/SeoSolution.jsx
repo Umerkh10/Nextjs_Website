@@ -12,6 +12,15 @@ const SeoSolution = () => {
             offset: 200,
         });
     }, []);
+
+    const handleClick = () => {
+        if (typeof window !== 'undefined' && typeof window.openChat !== 'undefined') {
+          window.openChat();
+        } else {
+          console.error('openChat function is not available');
+        }
+      };
+
   return (
     <div className='lg:h-[80vh] xl:h-[70vh] bg-purple-900 mt-[550px] xl:mt-0 lg:mt-10' data-aos="fade-down"> 
     <div  style={{backgroundImage:"url('/imgs/seo_solution_bg.webp')",backgroundSize:'cover', backgroundPosition:'center',backgroundBlendMode:'overlay'}}></div>
@@ -25,11 +34,13 @@ const SeoSolution = () => {
             <CircleDot strokeWidth={3} className='mt-4 stroke-yellow-500'/>
             <div className='pl-5 mt-5 text-white text-lg '>Get Every Update</div>
             </div>
-            <div className='group border  md:w-[35vw] h-[15vh] lg:w-[25vw] lg:h-[10vh] flex justify-center items-center mt-5 rounded-xl hover:bg-yellow-500
-            transition ease-in duration-200 delay-100 overflow-hidden' data-aos="flip-right">
+
+            <button onClick={handleClick} className='group border  md:w-[35vw] h-[15vh] lg:w-[25vw] lg:h-[10vh] flex justify-center items-center mt-5 rounded-xl hover:bg-yellow-500
+            transition ease-in duration-200 delay-100 overflow-hidden' >
                 <div className=' text-white font-semibold group-hover:text-blue-900'>Let's Talk SEO Expertise</div>
                 <ArrowRight className='stroke-white ml-2 group-hover:translate-x-40 transition ease-out duration-200 delay-100 '/>
-            </div>
+            </button>
+
         </div>
         <div className=' '>
             <div data-aos="flip-down">

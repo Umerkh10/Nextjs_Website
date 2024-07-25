@@ -1,17 +1,39 @@
 "use client"
 import Image from 'next/image'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
+import { useFormState,useFormStatus } from "react-dom"
+import NewsletterEmail from '../(backend)/action/NewsletterEmail';
+import { toast } from 'sonner';
+import { useRouter } from 'next/navigation';
 
 const Footer = () => {
+  const [state, action] = useFormState(NewsletterEmail, null);
+  const formRef = useRef(null)
+  const {pending} = useFormStatus()
+console.log(pending);
   useEffect(() => {
     AOS.init({
       duration: 1000, 
       offset: 200, 
     });
   }, []);
+
+  const router= useRouter()
+
+  useEffect(()=>{
+      if(state?.success){
+          formRef?.current?.reset()
+          // toast.success(state.success)
+          router.push('/ThankYou')
+
+      }
+      if(state?.error){
+          toast.error(state.error)
+      }
+  },[state])
   return (
     <>
       <div>
@@ -36,10 +58,10 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className="flex items-center mt-10">
-                  <form className="relative w-full" action="" method="post">
+                  <form className="relative w-full" action={action} ref={formRef}>
                     <div className="relative w-full">
-                      <input placeholder="Enter Your Email Address Here.." type="email" className="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-[rgba(69,71,83,0.5)] text-lg"/>
-                      <button type="submit" className=" absolute bg-orange-600 right-5 top-1/2 transform -translate-y-1/2 border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
+                      <input placeholder="Enter Your Email Address Here.." name='email' required type="email" className="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-[rgba(69,71,83,0.5)] text-lg"/>
+                      <button disabled={pending}  className=" absolute bg-orange-600 right-5 top-1/2 transform -translate-y-1/2 border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
                         Subscribe Now
                       </button>
                     </div>

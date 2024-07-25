@@ -7,6 +7,14 @@ import 'swiper/swiper-bundle.css';
 import React from 'react'
 
 const AppService = () => {
+    const handleClick = () => {
+        if (typeof window !== 'undefined' && typeof window.openChat !== 'undefined') {
+          window.openChat();
+        } else {
+          console.error('openChat function is not available');
+        }
+      };
+      
     return (
         <div className='bg-slate-200 dark:bg-transparent pt-10'>
             <div className='text-center font-extrabold text-3xl md:text-5xl' data-aos="fade-down">Our App Development Services</div>
@@ -53,9 +61,8 @@ const AppService = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Flutter App Development</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Flutter framework allows for developing high-quality apps for iOS and Android platforms using a single codebase.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
-                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
                         </div>
@@ -74,9 +81,8 @@ const AppService = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Unity App Development</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Unity is a powerful and popular game engine that helps businesses create high-quality mobile applications.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
-                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
                         </div>
@@ -95,9 +101,8 @@ const AppService = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>React Native</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Our React Native developers are committed to delivering top-quality iOS and Android apps that meet and exceed our client’s expectations.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
-                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
                         </div>
@@ -116,9 +121,8 @@ const AppService = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Cross-Platform Development</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Cross-Platform app development is the perfect solution for businesses targeting multiple platforms while reducing development time and cost.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
-                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
                         </div>
@@ -137,9 +141,8 @@ const AppService = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Hybrid App Development</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>With our team of experienced developers, companies can leverage the power of hybrid technology to build top-quality mobile apps.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
-                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
                         </div>
@@ -158,9 +161,8 @@ const AppService = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Android App Development</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Android is the most widely used OS; developing an Android app can help businesses reach a broad audience.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
-                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
                         </div>
@@ -179,9 +181,8 @@ const AppService = () => {
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>IOS App Development</div>
                                     <div className='pt-3 text-base font-medium group-hover:text-gray-200'>iOS apps are built with security in mind, protecting user data and preventing potential security threats.</div>
-                                    <div className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
-                                        Get Started <ArrowRight className='-rotate-45 ml-1 ' />
-                                    </div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
                         </div>

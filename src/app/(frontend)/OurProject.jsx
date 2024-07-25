@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 
 const OurProject = () => {
     const { ref, inView } = useInView({
@@ -47,7 +48,7 @@ const OurProject = () => {
                 <div className='md:text-5xl text-4xl font-black '> Explore Our Best <br /> Recently Completed Projects </div>
                 <div className='flex justify-end items-center w-[72%] xl:w-[20%] lg:w-[27%] md:w-[40%] group'>
                     <button className='mt-8 text-orange-600 bg-transparent text-[18px] font-semibold leading-none capitalize border border-orange-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-orange-600 ease-in delay-100 hover:text-white group'>
-                        <span>View all more</span>
+                        <span><Link href="/About"> View all more </Link> </span>
                     </button>
                     <div className='flex items-center justify-center w-[50px] h-[50px] rounded-full bg-orange-600 mt-8 ml-2 group-hover:-translate-x-52 transition duration-200 delay-150 ease-in-out '>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-up-right"><path d="M13 5H19V11" /><path d="M19 5L5 19" /></svg>

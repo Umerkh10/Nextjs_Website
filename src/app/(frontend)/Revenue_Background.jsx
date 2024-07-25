@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 
 const Revenue_Background = () => {
     useEffect(() => {
@@ -67,7 +68,7 @@ const Revenue_Background = () => {
         <p className='text-[17px] text-white'>We are 100+ professional software engineers with more than 10 years of experience in delivering superior pro. Believe it because you've seen it.</p>
         <div className='flex items-center mt-4 group'>
           <button className='mt-8 text-orange-600 bg-transparent text-[18px] font-semibold leading-none capitalize border border-orange-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-orange-600 ease-in delay-100 hover:text-white group'>
-            <span>View all more</span>
+            <span><Link href="/Services"> View all more </Link> </span>
           </button>
           <div className='flex items-center justify-center w-[50px] h-[50px] rounded-full bg-orange-600 mt-8 ml-2 group-hover:-translate-x-52 transition duration-200 delay-150 ease-in-out'>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-move-up-right">

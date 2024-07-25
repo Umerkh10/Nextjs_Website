@@ -37,7 +37,13 @@ const Navbar = () => {
     }
   }, [isMenuopen]);
 
-
+  const handleClick = () => {
+    if (typeof window !== 'undefined' && typeof window.openChat !== 'undefined') {
+      window.openChat();
+    } else {
+      console.error('openChat function is not available');
+    }
+  };
 
 
   return (
@@ -98,7 +104,7 @@ const Navbar = () => {
             <div className='absolute right-0 w-[45%] lg:w-[20%] md:w-[40%] xl:w-[50%] h-20 bg-slate-800 border-l-2 border-l-purple-700 rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
               <div className=' flex items-center 2xl:gap-5 px-4 ml-8 pt-2'>
                 <div className='hidden xl:flex items-center space-x-2'>
-
+                
                   <button id="theme-button" onClick={handleTheme} aria-label='theme' className={`flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] ${theme === "dark" ? "bg-slate-950" : "bg-orange-500 " }  rounded-full outline-slate-800`}>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-sun">
                       <circle cx="12" cy="12" r="4" />
@@ -113,12 +119,12 @@ const Navbar = () => {
                     </svg>
                   </button>
 
-                  <a href="#" className='flex no-underline text-lg rounded-full pt-4 pr-9 pb-4 pl-9 border-[1px] font-medium text-orange-500 border-orange-500 relative overflow-hidden transition duration-500 group hover:bg-orange-500 hover:text-white  '>
-                    <span className=' truncate pr-2'>Let's Talk </span>
+                  <button onClick={handleClick} className=' flex no-underline text-lg rounded-full pt-4 pr-9 pb-4 pl-9 border-[1px] font-medium text-orange-500 border-orange-500 relative overflow-hidden transition duration-500 group hover:bg-orange-500 hover:text-white  '>
+                    <span className='  truncate pr-2'>Let's Talk </span>
                     <span className=' group-hover:-translate-y-12 group-hover:translate-x-12 transition duration-200 ease-out'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle "><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
                     </span>
-                  </a>
+                  </button>
 
                   <a href="tel:02134155132" className='flex items-center gap-4'>
                     <span className='no-underline inline-flex justify-center items-center text-lg bg-purple-800 w-[58px] h-[58px] rounded-full  relative overflow-hidden transition duration-500 group '>

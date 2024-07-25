@@ -2,13 +2,11 @@
 import nodemailer from "nodemailer"
 
 
-export default async function ContactEmail(state, formData) {
+export default async function NewsletterEmail(state, formData) {
     try {
-        const first_name = formData.get("first_name")
-        const email_address = formData.get("email_address")
-        const last_name = formData.get("last_name")
-        const subject = formData.get("subject")
-        const cover = formData.get("cover")
+  
+        const email = formData.get("email")
+
 
 
         // const nodemailer = require('nodemailer');
@@ -30,17 +28,14 @@ export default async function ContactEmail(state, formData) {
             text: 'Hello world?',
             html: `
                 <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-                    <h2>Welcome to Webnike</h2>
-                    <p>Hello <b>${first_name}</b>,</p>
+                    <h2>Welcome to Webnike!</h2>
+                    <p>Hello </p>
                     <p>Thank you for joining our community. We are excited to have you!</p>
                     <p><b>Your Details:</b></p>
                     <ul>
-                        <li><b>First Name:</b> ${first_name}</li>
-                        <li><b>Last Name:</b> ${last_name}</li>
-                        <li><b>Email Address:</b> ${email_address}</li>
-                        <li><b>Subject:</b> ${subject}</li>
+                        <li><b>Email Address:</b> ${email}</li>
+                  
                     </ul>
-                    <p>${cover}</p>
                     <p>Best regards,<br>Graderz.org</p>
                 </div>
     `
@@ -60,12 +55,3 @@ export default async function ContactEmail(state, formData) {
     }
 
 }
-
-
-
-
-
-
-
-
-

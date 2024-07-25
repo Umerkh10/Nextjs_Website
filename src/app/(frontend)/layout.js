@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Toaster } from "sonner";
+import TawkTo from "@/lib/Tawkto";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,6 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <TawkTo/>
       <body className={inter.className}>
         <ThemeProvider
          attribute="class"
@@ -23,6 +25,7 @@ export default function RootLayout({ children }) {
           {children}
           <Toaster richColors position="bottom-left"/>
         </ThemeProvider></body>
+        
     </html>
   );
 }
