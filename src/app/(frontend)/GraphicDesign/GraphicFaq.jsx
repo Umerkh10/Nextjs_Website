@@ -20,15 +20,15 @@ const GraphicFaq = () => {
     const [sOpen,setIsOpen] = useState(false)
 
     const questions = [
-        { question: 'What types of graphic design services do you offer?', answer: 'We offer a wide range of graphic design services, including logo design, brand identity design, print design, packaging design, social media graphics, infographics, and motion graphics.' },
+        { question: 'What kinds of graphic design solutions are available from your team?', answer: 'We provide a comprehensive array of graphic design solutions, encompassing logo creation, brand identity development, print materials, packaging design, social media visuals, infographics, and motion graphics.' },
 
-        { question: 'How long does it typically take to complete a design project?', answer: 'The timeline for a project depends on its complexity and scope. Generally, logo designs take about 2–3 working days, while more extensive projects like brand identity or packaging design can take 7–10 working days.' },
+        { question: 'How much time does it usually require to finish a design project?', answer: 'The duration of a project is influenced by its complexity and scope. Typically, logo designs require approximately 2–3 working days, whereas more comprehensive projects such as brand identity or packaging design might span 7–10 working days' },
 
-        { question: 'How many revisions are included in your design packages?', answer: 'We offer up to three revisions for each design project to ensure the final result meets your expectations. Additional revisions can be arranged if needed.' },
+        { question: 'How many design revisions are offered with your packages?', answer: 'We provide up to three revisions for every design project to guarantee that the final outcome aligns with your vision. If further adjustments are necessary, additional revisions can be accommodated.' },
 
-        { question: 'What is your process for creating custom designs?', answer: 'Our process includes four main steps: discovery & briefing, concept development, design & feedback, and final delivery. This ensures we understand your vision and deliver high-quality designs.' },
+        { question: 'How do you approach designing custom solutions?', answer: 'Our approach consists of four key stages: initial consultation, concept creation, design refinement, and final execution. This structured process helps us grasp your vision and produce top-notch designs.' },
 
-        { question: 'Do you provide files in different formats?', answer: 'Yes, we provide the final design files in various formats such as PNG, JPEG, PDF, and vector files like AI or EPS, depending on your requirements.' },
+        { question: 'Do you offer files in various formats?', answer: 'Absolutely, we deliver the final design files in multiple formats including PNG, JPEG, PDF, and vector files like AI or EPS, tailored to your needs.' },
     ];
 
     const toggleAccordion = (index) => {

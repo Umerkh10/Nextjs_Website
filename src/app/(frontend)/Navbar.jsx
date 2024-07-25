@@ -59,15 +59,15 @@ const Navbar = () => {
           <div className=' absolute right-0 bg-slate-700 hidden sm:block md:w-3/6 lg:w-[75%] xl:w-[87%]  border-l-2 border-l-orange-600 h-20 z-[-1] rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
             <nav className=' hidden lg:flex items-center  h-full space-x-5 px-4 xl:ml-0 text-base '>
 
-              <Link href="/" className='text-gray-200 text-lg font-medium  hover:text-orange-600 transition duration-200 ease-in '>Home</Link>
+              <Link href="/" className='text-gray-200 text-lg font-medium  hover:text-sky-600 transition duration-200 ease-in '>Home</Link>
 
-              <Link href="/About" className='text-gray-200 text-lg font-medium  hover:text-orange-600 transition duration-200 ease-in'>About</Link>
+              <Link href="/About" className='text-gray-200 text-lg font-medium  hover:text-sky-600 transition duration-200 ease-in'>About</Link>
          
               <div class="group inline-block">
                 <button
                   class="outline-none focus:outline-none py-1 rounded-sm flex items-center min-w-10"
                 >
-                  <span class="pr-1 text-gray-200 text-lg font-medium flex-1 hover:text-orange-600 transition duration-200 ease-in">
+                  <span class="pr-1 text-gray-200 text-lg font-medium flex-1 hover:text-sky-600 transition duration-200 ease-in">
                     <Link href="/Services">Services</Link></span>
                   <span>
                     <svg
@@ -86,15 +86,15 @@ const Navbar = () => {
                   class="bg-slate-800 text-gray-200 text-lg font-medium mt-2 rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition  delay-300 ease-in origin-top min-w-32"
                 >
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/SeoService">SEO Services</Link>  </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/GraphicDesign"> Graphic Design</Link>  </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/WebDevelopment">Website Development </Link> </li>
-                  <li class="rounded-sm px-3 py-1 hover:text-orange-500"><Link href="/AppDevelopment"> App Development</Link> </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-sky-500"><Link href="/SeoService">SEO Services</Link>  </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-sky-500"><Link href="/GraphicDesign"> Graphic Design</Link>  </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-sky-500"><Link href="/WebDevelopment">Website Development </Link> </li>
+                  <li class="rounded-sm px-3 py-1 hover:text-sky-500"><Link href="/AppDevelopment"> App Development</Link> </li>
                   
                 </ul>
               </div>
 
-              <Link href="/Contact" className='text-gray-200 text-lg  font-medium hover:text-orange-600 transition duration-200 ease-in'>Contact Us</Link>
+              <Link href="/Contact" className='text-gray-200 text-lg  font-medium hover:text-sky-600 transition duration-200 ease-in'>Contact Us</Link>
 
             </nav>
           </div>
@@ -119,7 +119,7 @@ const Navbar = () => {
                     </svg>
                   </button>
 
-                  <button onClick={handleClick} className=' flex no-underline text-lg rounded-full pt-4 pr-9 pb-4 pl-9 border-[1px] font-medium text-orange-500 border-orange-500 relative overflow-hidden transition duration-500 group hover:bg-orange-500 hover:text-white  '>
+                  <button onClick={handleClick} className=' flex no-underline text-lg rounded-full pt-4 pr-9 pb-4 pl-9 border-[1px] font-medium text-sky-500 border-sky-500 relative overflow-hidden transition duration-500 group hover:bg-sky-500 hover:text-white  '>
                     <span className='  truncate pr-2'>Let's Talk </span>
                     <span className=' group-hover:-translate-y-12 group-hover:translate-x-12 transition duration-200 ease-out'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle "><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
