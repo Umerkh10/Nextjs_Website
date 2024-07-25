@@ -18,11 +18,11 @@ const AboutFaq = () => {
     const [sOpen,setIsOpen] = useState(false)
 
     const questions = [
-        { question: '15 Years Of Experience', answer: 'We don’t just work with concrete and steel the best examples of creative websites concepts and ideas' },
+        { question: '15 Years Of Experience', answer: 'With 15 years of experience, we go beyond just concrete and steel, crafting innovative and creative website concepts and ideas' },
 
-        { question: '300 Project Complete', answer: 'We don’t just work with concrete and steel the best examples of creative websites concepts and ideas' },
+        { question: '300 Project Complete', answer: 'Completed 300 projects with a commitment to excellence and innovation' },
 
-        { question: '500 Happy Customers', answer: 'We don’t just work with concrete and steel the best examples of creative websites concepts and ideas' },
+        { question: '500 Happy Customers', answer: 'Join over 500 delighted customers who have experienced the difference with our service!' },
     ];
 
     const toggleAccordion = (index) => {
@@ -38,7 +38,7 @@ const AboutFaq = () => {
                 </div>
 
                 <div className='pr-6'>
-                    <div data-aos="fade-up" className='font-semibold text-lg gradient-text italic'>We don’t just work with concrete and steel. We've collected the of creative websites, web design concepts and ideas work and steel We are Approachable,.</div>
+                    <div data-aos="fade-up" className='font-semibold text-lg gradient-text italic'>We don’t just build with concrete and steel. We craft innovative websites and web design concepts with creativity and precision. Our approach is both expert and approachable</div>
                 </div>
         </div>
 

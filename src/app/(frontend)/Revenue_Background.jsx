@@ -56,7 +56,7 @@ const Revenue_Background = () => {
     </div>
 
 <div className=" h-full md:h-full lg:h-[140vh] z-[12]  xl:h-[120vh] bg-[#0d0237]"
-     style={{ backgroundImage: "url('/imgs/revenue_bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 2 }}
+     style={{ backgroundImage: "url('/imgs/revenue-bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 2 }}
      data-aos="zoom-in">
   <div className='flex pt-28 h-full w-full pl-6 pr-6'>
     <div className='grid lg:grid-cols-3 grid-cols-1 z-[12] gap-12 lg:gap-0 w-full'>
@@ -67,10 +67,10 @@ const Revenue_Background = () => {
         <h2 className='pt-6 leading-[3.25rem] text-[50px] text-white font-extrabold pb-6'>Unlock Revenue Growth‍ For Your Business</h2>
         <p className='text-[17px] text-white'>We are 100+ professional software engineers with more than 10 years of experience in delivering superior pro. Believe it because you've seen it.</p>
         <div className='flex items-center mt-4 group'>
-          <button className='mt-8 text-orange-600 bg-transparent text-[18px] font-semibold leading-none capitalize border border-orange-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-orange-600 ease-in delay-100 hover:text-white group'>
+          <button className='mt-8 text-sky-600 bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
             <span><Link href="/Services"> View all more </Link> </span>
           </button>
-          <div className='flex items-center justify-center w-[50px] h-[50px] rounded-full bg-orange-600 mt-8 ml-2 group-hover:-translate-x-52 transition duration-200 delay-150 ease-in-out'>
+          <div className='flex items-center justify-center w-[50px] h-[50px] rounded-full bg-sky-600 mt-8 ml-2 group-hover:-translate-x-52 transition duration-200 delay-150 ease-in-out'>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-move-up-right">
               <path d="M13 5H19V11" />
               <path d="M19 5L5 19" />
@@ -79,10 +79,10 @@ const Revenue_Background = () => {
         </div>
       </div>
       <div className='grid-cols-1 col-span-1 order-3 lg:order-2' data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <div className='-z-10 flex justify-start xl:-translate-x-32 xl:translate-y-4 lg:h-[109vh] xl:h-[100vh] md:w-[50vw]'>
-          <Image className='' src={"/imgs/revenue_bg-image-center.webp"} width={600} height={600} alt='revenue_girl_bg'></Image>
-        </div>
-      </div>
+  <div className='overflow-hidden -z-50 xl:-translate-x-32 xl:translate-y-4 lg:h-[109vh] xl:h-[100vh] md:w-[50vw]'>
+    <Image className='object-cover w-full h-full' src={"/imgs/revenue-center.webp"} width={800} height={600} alt='revenue_girl_bg' /></div>
+</div>
+
       <div className='grid-cols-1 col-span-1 order-2 lg:order-3 text-white z-10'>
         <div className='flex justify-start items-center mb-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="teal" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-badge-check">

@@ -28,18 +28,18 @@ const Work_Process = () => {
         
         <div className='group' data-aos="fade-up">
           <div className="max-w-[202px] h-[202px] mx-auto mb-[22px] rounded-full overflow-hidden">
-            <Image className='object-cover' src="/imgs/image_parallax_3.webp" width={220} height={100} alt='work_process_1' />
+            <Image className='object-cover' src="/imgs/image-parallax-3.webp" width={220} height={100} alt='work_process_1' />
           </div>
           <div className='flex justify-center'>
-            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-orange-500 transition ease-in duration-200 delay-200">
-              01 <span className='text-[56px] text-orange-600 font-light'>| </span>
+            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-purple-500 transition ease-in duration-200 delay-200">
+              01 <span className='text-[56px] text-sky-600 font-light'>| </span>
             </div>
           </div>
           <div className='flex justify-center'>
             <span className='font-semibold text-[20px]'>Listen Problems</span>
           </div>
           <div className='flex justify-center pr-5 pl-10'>
-            <span className='font-medium text-[14px]'>We're here to listen and solve any digital issues you face—just hit us up!</span>
+            <span className='font-medium text-[14px]'>We're here to assist with any digital challenges you encounter—just reach out to us!</span>
           </div>
         </div>
 
@@ -48,11 +48,11 @@ const Work_Process = () => {
             <span className='font-semibold text-[20px]'>Make Some Research</span>
           </div>
           <div className='flex justify-center pb-2 pr-5 pl-10'>
-            <span className='font-medium text-[14px]'>We're exploring digital agencies to help our online presence stay tuned!</span>
+            <span className='font-medium text-[14px]'>We're partnering with digital agencies to enhance our online presence—stay tuned!</span>
           </div>
           <div className='flex justify-center'>
-            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-orange-500 transition ease-in duration-200 delay-200">
-              02 <span className='text-[56px] text-orange-600 font-light'>| </span>
+            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-purple-500 transition ease-in duration-200 delay-200">
+              02 <span className='text-[56px] text-sky-600 font-light'>| </span>
             </div>
           </div>
           <div className="max-w-[202px] h-[202px] mx-auto mb-[22px] rounded-full overflow-hidden">
@@ -65,15 +65,15 @@ const Work_Process = () => {
             <Image className='object-cover' src="/imgs/work_process_3.webp" width={220} height={100} alt='work_process_3' />
           </div>
           <div className='flex justify-center'>
-            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-orange-500 transition ease-in duration-200 delay-200">
-              03 <span className='text-[56px] text-orange-600 font-light'>| </span>
+            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-purple-500 transition ease-in duration-200 delay-200">
+              03 <span className='text-[56px] text-sky-600 font-light'>| </span>
             </div>
           </div>
           <div className='flex justify-center'>
             <span className='font-semibold text-[20px]'>Make Shorting</span>
           </div>
           <div className='flex justify-center pr-5 pl-10'>
-            <span className='font-medium text-[14px]'>Let’s streamline our tasks to boost efficiency and clarity.</span>
+            <span className='font-medium text-[14px]'>Let's optimize our tasks for better efficiency and clarity.</span>
           </div>
         </div>
 
@@ -82,11 +82,11 @@ const Work_Process = () => {
             <span className='font-semibold text-[20px]'>Do Final Work</span>
           </div>
           <div className='flex justify-center pb-2 pr-5 pl-10'>
-            <span className='font-medium text-[14px]'>Wrapping up the final touches on our project—almost there!</span>
+            <span className='font-medium text-[14px]'>Putting the finishing touches on our project—so close to completion!</span>
           </div>
           <div className='flex justify-center'>
-            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-orange-500 transition ease-in duration-200 delay-200">
-              04 <span className='text-[56px] text-orange-600 font-light'>| </span>
+            <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-purple-500 transition ease-in duration-200 delay-200">
+              04 <span className='text-[56px] text-sky-600 font-light'>| </span>
             </div>
           </div>
           <div className="max-w-[202px] h-[202px] mx-auto mb-[22px] rounded-full overflow-hidden">

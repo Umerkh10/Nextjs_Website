@@ -37,7 +37,7 @@ const ContactForm = () => {
         <div className='pt-28'>
             <div className='grid lg:grid-cols-3 grid-cols-1  '>
                 <div className='grid-cols-1 col-span-1 ml-3' data-aos='fade-down'>
-                    <Image src={"/imgs/contact_form.webp"} width={500} height={500} alt='contact-form'></Image>
+                    <Image src={"/imgs/contact-form.webp"} width={500} height={500} alt='contact-form'></Image>
                 </div>
                 <div className='grid-cols-1 col-span-2 ' data-aos='fade-up'>
                     <div className='lg:ml-40'>

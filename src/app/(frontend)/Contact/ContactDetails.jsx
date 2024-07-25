@@ -21,7 +21,7 @@ const ContactDetails = () => {
        }}>
   </div>
   <div className='relative z-10'data-aos='fade-up' > 
-    <div style={{backgroundImage:"url('/imgs/contact-info-bg.png')",backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat' }}
+    <div style={{backgroundImage:"url('/imgs/footer-bg.webp')",backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat' }}
     className=' md:max-w-[460px] m-auto xl:ml-[700px] pt-12 pb-12 pr-10 pl-10 h-[90vh] '>
       <span className='text-gray-200 text-5xl font-extrabold flex justify-center'>Contact Info</span>
       <div className='flex  gap-0 mt-10'>

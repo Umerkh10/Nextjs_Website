@@ -26,7 +26,7 @@ const AboutCard = () => {
                             </div>
                             <div className='font-extrabold text-4xl '>SEO <br /> Service</div>
                         </div>
-                        <div className='pt-4 text-lg font-medium pr-6 italic '>We don’t just work with concrete and steel. We are Approachable, with even</div>
+                        <div className='pt-4 text-base font-medium pr-6 italic '>We don’t just optimize search rankings; we are Accessible, providing clear, actionable insights and support.</div>
 
                         <Link href="/SeoService" >  <div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>More Info  <PlusIcon className='p-1 group-hover:rotate-180 transition ease-in duration-200 ' />
@@ -41,7 +41,7 @@ const AboutCard = () => {
                             </div>
                             <div className='font-extrabold text-4xl '>Web <br /> Development</div>
                         </div>
-                        <div className='pt-4 text-lg font-medium pr-6 italic'>We don’t just work with concrete and steel. We are Approachable, with even</div>
+                        <div className='pt-4 text-base font-medium pr-6 italic'>We don’t just build websites; we create engaging digital experiences. We are approachable, with even the most complex challenges made simple.</div>
 
                         <Link href="/WebDevelopment" > <div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>
@@ -58,7 +58,7 @@ const AboutCard = () => {
                             </div>
                             <div className='font-extrabold text-4xl '>Graphic <br /> Design</div>
                         </div>
-                        <div className='pt-4 text-lg font-medium pr-6 italic'>We don’t just work with concrete and steel. We are Approachable, with even</div>
+                        <div className='pt-4 text-base font-medium pr-6 italic'>We don’t just build websites; we create engaging digital experiences. We are approachable, with even the most complex challenges made simple.</div>
 
                         <Link href="/GraphicDesign"><div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>
@@ -74,7 +74,7 @@ const AboutCard = () => {
                             </div>
                             <div className='font-extrabold text-4xl '>App <br /> Development</div>
                         </div>
-                        <div className='pt-4 text-lg font-medium pr-6 italic'>We don’t just work with concrete and steel. We are Approachable, with even</div>
+                        <div className='pt-4 text-base font-medium pr-6 italic'>We don't just code apps; we create experiences. We're approachable, with innovative solutions tailored to your needs.</div>
 
                         <Link href="/AppDevelopment" > <div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>
