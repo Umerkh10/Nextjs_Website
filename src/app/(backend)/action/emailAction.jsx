@@ -23,7 +23,7 @@ export default async function EmailAction(state, formData) {
         });
 
         let mailOptions = {
-            from: '"Webnike.com" <testing@graderz.org>', 
+            from: '"Webnike.org" <testing@graderz.org>', 
             to: 'mumarkhan383@gmail.com',
             subject: 'Hello ✔', 
             text: 'Hello world?', 
@@ -39,7 +39,7 @@ export default async function EmailAction(state, formData) {
                     <li><b>Phone Number:</b> ${phone}</li>
                     <li><b>Subject:</b> ${selection}</li>
                 </ul>
-                <p>Best regards,<br>Graderz.org</p>
+                <p>Best regards,<br>Webnike.org</p>
             </div>
 `
         };

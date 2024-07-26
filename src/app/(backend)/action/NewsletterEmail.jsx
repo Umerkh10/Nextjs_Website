@@ -22,7 +22,7 @@ export default async function NewsletterEmail(state, formData) {
         });
 
         let mailOptions = {
-            from: '"Webnike.com" <testing@graderz.org>',
+            from: '"Webnike.org" <testing@graderz.org>',
             to: 'mumarkhan383@gmail.com',
             subject: 'Thank You✔',
             text: 'Hello world?',
@@ -36,7 +36,7 @@ export default async function NewsletterEmail(state, formData) {
                         <li><b>Email Address:</b> ${email}</li>
                   
                     </ul>
-                    <p>Best regards,<br>Graderz.org</p>
+                    <p>Best regards,<br>Webnike.org</p>
                 </div>
     `
         };

@@ -1,4 +1,5 @@
 "use client"
+import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react'
 import CountUp from 'react-countup';
@@ -9,6 +10,13 @@ const WhyUsApp = () => {
         triggerOnce: false,
         threshold: 0.1,
     });
+    const handleClick = () => {
+        if (typeof window !== 'undefined' && typeof window.openChat !== 'undefined') {
+          window.openChat();
+        } else {
+          console.error('openChat function is not available');
+        }
+      };
   return (
     <div className='bg-slate-200 dark:bg-transparent pt-10'>
         <div className='grid lg:grid-cols-3 grid-cols-1 p-5'>
@@ -47,6 +55,18 @@ const WhyUsApp = () => {
                             <div className='text-center font-semibold text-lg text-white'>Client Retention</div>
                         </div>
                     </div>
+                </div>
+
+                <div data-aos="fade-up" className='p-5 lg:h-[40vh] mt-5 rounded-2xl ' style={{backgroundImage:"url('/imgs/bg-graphic-design.webp')",backgroundSize:'cover',backgroundPosition:'center' }}>
+                <div className='text-gray-200 pt-3 text-3xl font-bold text-center'>The Benefits of Professional App Development</div>
+                <div className='text-gray-200 text-lg pt-3 font-semibold text-center'> Unlock your business's potential with expertly crafted apps designed to drive growth, enhance user experience, and stay ahead of the competition.</div>
+
+                <div className='flex justify-center pt-5 '>
+            <button onClick={handleClick} className='mt-5 border rounded-2xl w-[60vw] md:w-[35vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-sky-500 font-medium text-white group hover:bg-sky-700 transition ease-in duration-200 delay-200 '> 
+                Let's Talk App Development
+                <ArrowRight className='ml-2 group-hover:translate-x-20 ease-in-out duration-200 delay-200'/>
+            </button>
+                  </div>
                 </div>
 
             </div>

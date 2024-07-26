@@ -24,7 +24,7 @@ export default async function ContactEmail(state, formData) {
         });
 
         let mailOptions = {
-            from: '"Webnike.com" <testing@graderz.org>',
+            from: '"Webnike.org" <testing@graderz.org>',
             to: 'mumarkhan383@gmail.com',
             subject: 'Thank You✔',
             text: 'Hello world?',
@@ -41,7 +41,7 @@ export default async function ContactEmail(state, formData) {
                         <li><b>Subject:</b> ${subject}</li>
                     </ul>
                     <p>${cover}</p>
-                    <p>Best regards,<br>Graderz.org</p>
+                    <p>Best regards,<br>Webnike.org</p>
                 </div>
     `
         };
