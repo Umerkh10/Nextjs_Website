@@ -6,6 +6,11 @@ import ServiceClients from './ServiceClients'
 import ServiceAwards from './ServiceAwards'
 import ContactFooter from '../Contact/ContactFooter'
 
+export const metadata = {
+  title: 'Services',
+  description: "Webnike Portfolio Website",
+};
+
 const page = () => {
   return (
     <div>

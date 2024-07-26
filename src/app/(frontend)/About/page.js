@@ -6,6 +6,11 @@ import AboutCard from './AboutCard'
 import AboutFaq from './AboutFaq'
 import ProjectTab from './ProjectTab'
 
+export const metadata = {
+  title: 'About Us',
+  description: "Webnike Portfolio Website",
+};
+
 const page = () => {
   return (
     <>

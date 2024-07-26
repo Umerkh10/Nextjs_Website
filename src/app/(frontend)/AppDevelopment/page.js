@@ -13,6 +13,11 @@ import AppFaq from './AppFaq'
 import ContactFooter from '../Contact/ContactFooter'
 import AppForm from './AppForm'
 
+export const metadata = {
+  title: 'App Development',
+  description: "Webnike Portfolio Website",
+};
+
 const page = () => {
   return (
     <div>
@@ -25,7 +30,6 @@ const page = () => {
         <AppIndustry/>
         <AppIntegration/>
         <AppWorkflow/>
-        <AppPartners/>
         <AppForm/>
         <AppFaq/>
         <ContactFooter/>

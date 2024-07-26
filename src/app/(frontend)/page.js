@@ -12,10 +12,13 @@ import Footer from './Footer'
 import Revenue_Background from './Revenue_Background'
 import Loader from './Loader'
 
+export const metadata = {
+  title: 'Home | Webnike',
+  description: "Webnike Portfolio Website",
+};
+
 
 const HomePage = () => {
-
-
 
   return (
     <div className='relative '>

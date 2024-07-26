@@ -8,6 +8,11 @@ import GraphicForm from './GraphicForm'
 import GraphicFaq from './GraphicFaq'
 import ContactFooter from '../Contact/ContactFooter'
 
+export const metadata = {
+  title: 'Graphic Design',
+  description: "Webnike Portfolio Website",
+};
+
 const page = () => {
   return (
     <div>

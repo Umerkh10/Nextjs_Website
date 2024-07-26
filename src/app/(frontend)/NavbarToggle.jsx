@@ -71,6 +71,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
               <li><Link href="/Contact" className="text-3xl hover:text-purple-500 transition duration-300">Contact Us</Link></li>
             </ul>
           </nav>
+          
           <div className="md:hidden mt-8 w-full px-4">
             <input type="text" placeholder="Search..." className="w-full pr-7 pl-7 h-14 mb-5 outline-none rounded-md text-gray-900" />
             <button className="w-full pt-2 pb-2 rounded-md bg-white font-medium text-gray-900 hover:text-white hover:bg-purple-800 transition duration-500 ease-in">

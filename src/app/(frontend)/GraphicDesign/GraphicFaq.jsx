@@ -63,7 +63,7 @@ const GraphicFaq = () => {
 
             </div>
             <div className='lg:pt-10 lg:pl-10'>
-                <div data-aos="zoom-in"><Image src="/imgs/graphic-faq.webp" width={600} height={600} alt='graphic_faq'></Image></div>
+                <div data-aos="zoom-in"><Image src="/imgs/graphic_faq.webp" width={600} height={600} alt='graphic_faq'></Image></div>
             </div>
         </div>
     </div>

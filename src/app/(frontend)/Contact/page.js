@@ -6,6 +6,11 @@ import ContactForm from './ContactForm'
 import ContactDetails from './ContactDetails'
 import ContactFooter from './ContactFooter'
 
+export const metadata = {
+  title: 'Contact Us',
+  description: "Webnike Portfolio Website",
+};
+
 const Page = () => {
   return (
     <div>

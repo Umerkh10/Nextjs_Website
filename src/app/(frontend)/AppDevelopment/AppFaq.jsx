@@ -1,8 +1,27 @@
 "use client"
 import { SwordsIcon } from 'lucide-react';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import { useInView } from 'react-intersection-observer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AppFaq = () => {
+
+    const { ref, inView } = useInView({
+        triggerOnce: false, 
+        threshold: 0.1, 
+      });
+
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            offset: 100,
+          });
+      }, [inView]);
+
+      
+      console.log(inView);
+
     const [openIndex, setOpenIndex] = useState(null);
     const [sOpen,setIsOpen] = useState(false)
 
@@ -36,7 +55,7 @@ const AppFaq = () => {
         <div className='p-10'>
 
 {questions.map((item, index) => (
-    <div data-aos="flip-down" className="md:pt-6 pt-8 "  key={index}>
+    <div data-aos="flip-down" className="md:pt-6 pt-8 " ref={ref}  key={index}>
         <div 
             className="cursor-pointer py-6 px-4 rounded-xl text-lg  font-bold flex justify-between group bg-gradient-to-r from-purple-700 to-indigo-900 text-white transition ease-in duration-150 delay-100 "
             onClick={() => toggleAccordion(index) }  >

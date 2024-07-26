@@ -10,6 +10,11 @@ import WebForm from './WebForm'
 import ToolsWeUse from './ToolsWeUse'
 import ContactFooter from '../Contact/ContactFooter'
 
+export const metadata = {
+  title: 'Web Development',
+  description: "Webnike Portfolio Website",
+};
+
 const page = () => {
   return (
     <div>

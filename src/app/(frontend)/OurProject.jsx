@@ -59,7 +59,7 @@ const OurProject = () => {
         </div>
         <div className='flex flex-col lg:grid lg:grid-cols-2 mt-10  text-foreground/80 p-4 ' data-aos="fade-down">
     <div className='pl-10 pr-10'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>10 February 2024</div>
+        <div className='pt-10 text-sky-600 text-[20px] font-normal'>17 January 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
@@ -81,6 +81,7 @@ const OurProject = () => {
         <div className='text-3xl font-bold cursor-pointer  group-hover:text-purple-600 transition ease-in delay-100 duration-100'>
             SEO WEBSITE DESIGN
         </div>
+        <Link href="SeoService">
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
             <Image src="/about_imgs/seo-about-1.webp" width={600} height={500} alt="our-project-image"className={isImageHovered ? 'grayscale-[1]' : ''}/>
             {isImageHovered && (
@@ -90,12 +91,13 @@ const OurProject = () => {
                 </div>
             )}
         </div>
+        </Link>
     </div>
 </div>
 
 <div  className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4 ' data-aos="fade-up">
     <div className='pl-10 pr-10 order-2'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>10 February 2024</div>
+        <div className='pt-10 text-sky-600 text-[20px] font-normal'>20 April 2022</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
@@ -117,6 +119,7 @@ const OurProject = () => {
         <div className='text-3xl font-bold cursor-pointer group-hover:text-purple-600 transition ease-in delay-100 duration-100'>
         GRAPHIC WEBSITE DESIGN
         </div>
+        <Link href="/GraphicDesign">
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
             <Image src="/about_imgs/about-graphic-2.webp" width={600} height={500} alt="our-project-image"className={isImageHovered ? 'grayscale-[1]' : ''}/>
             {isImageHovered && (
@@ -126,11 +129,12 @@ const OurProject = () => {
                 </div>
             )}
         </div>
+        </Link>
     </div>
 </div>
 <div   className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-down">
     <div className='pl-10 pr-10'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>10 February 2024</div>
+        <div className='pt-10 text-sky-600 text-[20px] font-normal'>10 March 2021</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
@@ -152,6 +156,7 @@ const OurProject = () => {
         <div className='text-3xl font-bold cursor-pointer group-hover:text-purple-600 transition ease-in delay-100 duration-100'>
          WEBSITE DEVELOPMENT DESIGN
         </div>
+        <Link href="/WebDevelopment">
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
             <Image src="/about_imgs/about-web-2.webp" width={600} height={500} alt="our-project-image"className={isImageHovered ? 'grayscale-[1]' : ''}/>
             {isImageHovered && (
@@ -161,11 +166,13 @@ const OurProject = () => {
                 </div>
             )}
         </div>
+        </Link>
+
     </div>
 </div>
 <div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80'data-aos="fade-up" >
     <div className='pl-10 pr-10 order-2'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>10 February 2024</div>
+        <div className='pt-10 text-sky-600 text-[20px] font-normal'>09 February 2019</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
             <span className='text-gray-500 text-lg font-medium'>Client:</span>
@@ -187,6 +194,7 @@ const OurProject = () => {
         <div className='text-3xl font-bold cursor-pointer group-hover:text-purple-600 transition ease-in delay-100 duration-100'>
          APP DEVELOPMENT DESIGN
         </div>
+        <Link href="/AppDevelopment">
         <div className='relative mt-5 transition ease-in duration-200 delay-100' onMouseMove={handleMouseMove}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
             <Image src="/about_imgs/about-app-2.webp" width={600} height={500} alt="our-project-image"className={isImageHovered ? 'grayscale-[1]' : ''}/>
             {isImageHovered && (
@@ -196,6 +204,7 @@ const OurProject = () => {
                 </div>
             )}
         </div>
+        </Link>
     </div>
 </div>
 </div>

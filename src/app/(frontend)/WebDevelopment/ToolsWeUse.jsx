@@ -16,11 +16,12 @@ const ToolsWeUse = () => {
 
         <div className='grid lg:grid-cols-2 grid-cols-1'>
             <div className=' p-5' data-aos="fade-up">
-                <div className='text-purple-500 text-lg font-medium italic'>Tools Are Important</div>
-                <div className='font-extrabold text-4xl '>What Kind of Tools We Use at Webnike</div>
+                <div className='text-purple-500 text-lg font-medium italic'>Tools Play a Crucial Role</div>
+                <div className='font-extrabold text-4xl '>Explore the Tools We Utilize at Webnike</div>
             </div>
             <div className=' p-5' data-aos="fade-down">
-                <div className='text-purple-500 text-lg font-semibold lg:pt-7 italic'>Key work tools are essential. Here are some examples of tools which we use every day in our work and in cooperation with clients</div>
+                <div className='text-purple-500 text-lg font-semibold lg:pt-7 italic'>
+                Essential work tools play a crucial role. Here are some examples of tools we use daily in our tasks and collaborations with clients.</div>
             </div>
         </div>
 
@@ -31,7 +32,7 @@ const ToolsWeUse = () => {
                 <Image src="/imgs/google-workspace.png" width={100} height={100} alt="Google Workspace" ></Image>
                 <div className='group-hover:text-gray-200'>
                     <h2 class="text-xl font-semibold ">Workspace</h2>
-                    <p>We use the most popular tools from Google Workspace.</p>
+                    <p>We leverage top tools from Google Workspace.</p>
                 </div>
             </div>
         </div>
@@ -41,7 +42,7 @@ const ToolsWeUse = () => {
             <Image src="/imgs/figma.png" width={100} height={100} alt="figma" ></Image>
                 <div className='group-hover:text-gray-200'>
                     <h2 class="text-xl font-semibold ">Figma</h2>
-                    <p>We build our designs using the most popular design programme.</p>
+                    <p>We create our designs using the leading design software.</p>
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@ const ToolsWeUse = () => {
             <Image src="/imgs/slack.png" width={100} height={100} alt="slack" ></Image>
                 <div className='group-hover:text-gray-200'>
                     <h2 class="text-xl font-semibold ">Slack</h2>
-                    <p>Our primary communication tool. We use them for business communication and small-talks.</p>
+                    <p>Our main communication platform. It's used for both business interactions and casual conversations.</p>
                 </div>
             </div>
         </div>
@@ -61,7 +62,7 @@ const ToolsWeUse = () => {
             <Image src="/imgs/sentry.png" width={100} height={100} alt="sentry" ></Image>
                 <div className='group-hover:text-gray-200'>
                     <h2 class="text-xl font-semibold">Sentry</h2>
-                    <p>We use Sentry to monitor and report errors in our apps in real time.</p>
+                    <p>We leverage Sentry for real-time monitoring and error reporting in our applications.</p>
                 </div>
             </div>
         </div>
@@ -71,7 +72,7 @@ const ToolsWeUse = () => {
             <Image src="/imgs/bitbucket.png" width={100} height={100} alt="bitbucket" ></Image>
                 <div className='group-hover:text-gray-200'>
                     <h2 class="text-xl font-semibold">Bitbucket</h2>
-                    <p>Source code management via Git-based version control, bug tracking and release planning.</p>
+                    <p>Version control with Git, bug tracking, and release planning through source code management.</p>
                 </div>
             </div>
         </div>
@@ -81,7 +82,7 @@ const ToolsWeUse = () => {
             <Image src="/imgs/jira.png" width={100} height={100} alt="jira" ></Image>
                 <div className='group-hover:text-gray-200'>
                     <h2 class="text-xl font-semibold">Jira</h2>
-                    <p>We manage projects, monitor progress and prioritise tasks.</p>
+                    <p>We oversee projects, track progress, and prioritize tasks.</p>
                 </div>
             </div>
         </div>
@@ -92,7 +93,7 @@ const ToolsWeUse = () => {
 
                 <div className='group-hover:text-gray-200'>
                     <h2 class="text-xl font-semibold">Confluence</h2>
-                    <p>We create, store and share documentation and design expertise.</p>
+                    <p>We develop, archive, and disseminate our documentation and design knowledge.</p>
                 </div>
             </div>
         </div>
@@ -103,7 +104,7 @@ const ToolsWeUse = () => {
 
                 <div className='group-hover:text-gray-200 '>
                     <h2 class="text-xl font-semibold pt-2">AWS</h2>
-                    <p className='text-sm pt-2'>AWS (Amazon Web Services) is an extensive cloud platform offering computing services, data storage and other IT solutions.</p>
+                    <p className='text-sm pt-2'>AWS (Amazon Web Services) is a comprehensive cloud platform that provides a wide range of computing services, data storage options, and various IT solutions.</p>
                 </div>
             </div>
         </div>

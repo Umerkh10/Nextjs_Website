@@ -31,19 +31,19 @@ const FrontendTs = () => {
 </TabsList>
 
 <TabsContent value="HTML"><div className='md:pl-24 md:pr-24 pl-10 pr-10 pt-5'>
-The HTML abbreviation comes from "HyperText Markup Language" and forms the foundation of any website. As a markup language, it enables you to structurally describe the content and visual elements of your website, such as headings, paragraphs and links. Thanks to its versatility and simplicity of use, it is an indispensable tool for every webmaster. HTML not only serves as the starting point for every page, but is also key to ensuring that it is accessible and displays correctly in various browsers.</div></TabsContent>
+The acronym HTML stands for "HyperText Markup Language," which is the cornerstone of any website. As a markup language, it allows you to define the structure and presentation of web content, including headings, paragraphs, and links. Due to its flexibility and ease of use, it is an essential tool for every web developer. HTML not only serves as the foundation for every webpage but also plays a crucial role in ensuring accessibility and proper display across different browsers.</div></TabsContent>
 
 <TabsContent value="React"><div className='md:pl-24 md:pr-24 pl-10 pr-10 pt-5'>
-React is a popular JavaScript library created by Facebook that has revolutionised the development of interactive user interfaces. Its main advantages are component architecture enabling code reuse, significantly speeding up the development process. Thanks to the virtual DOM, React ensures optimal performance through intelligent updates and rendering. It is also extremely flexible, allowing integration with different backends and other libraries or frameworks. In short, React is the choice of many developers because of its effectiveness, efficiency, and versatility.
+React is a widely-used JavaScript library developed by Facebook, which has transformed the way interactive user interfaces are built. Its primary benefits include a component-based architecture that promotes code reuse and accelerates development. By leveraging the virtual DOM, React delivers high performance through smart updates and rendering. Additionally, React is highly flexible, making it easy to integrate with various backends and other libraries or frameworks. In summary, React is favored by many developers for its effectiveness, efficiency, and adaptability.
 </div></TabsContent>
 
 <TabsContent value="Next"><div className='md:pl-24 md:pr-24 pl-10 pr-10 pt-5'>
-It is a modern framework based on React that takes the development of web applications to a higher level. It provides support for server-side rendering (SSR) and static page generation (SSG), resulting in better performance and SEO optimisation. Due to automatic code splitting, applications created in Next.js are lighter and load faster. The built-in development environment and hot-reloading speed up the creation process, while its integration with multiple data sources makes Next.js a comprehensive solution for modern web projects.
+Next.js is an advanced framework built on React that elevates web application development. It offers server-side rendering (SSR) and static site generation (SSG), enhancing both performance and SEO. With automatic code splitting, Next.js applications are more efficient and load quickly. The integrated development environment and hot-reloading feature accelerate the development process, while its compatibility with various data sources makes Next.js a robust solution for contemporary web projects.
 </div>
 </TabsContent>
 
 <TabsContent value="JS"><div className='md:pl-24 md:pr-24 pl-10 pr-10 pt-5'>
-By choosing JavaScript, you are choosing one of the most comprehensive programming languages in the world, which allows you to create dynamic websites and extensive web applications. Thanks to continuous evolution and huge support from the community, JavaScript is becoming the key to modern and responsive design. From interactive user interfaces to seamless connections to a variety of backend technologies, JavaScript enables your vision to become a reality on the Internet.
+Opting for JavaScript means selecting one of the most versatile programming languages globally, enabling the creation of dynamic websites and robust web applications. Its ongoing evolution and strong community support have made JavaScript essential for modern, responsive design. Whether crafting interactive user interfaces or ensuring smooth integration with various backend technologies, JavaScript brings your online vision to life.
 </div></TabsContent>
 </Tabs>
 

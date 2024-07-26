@@ -27,11 +27,11 @@ const handleClick = () => {
             <div className='p-5 ' data-aos="fade-up">
 
                 <div className='group transition ease-in duration-500 delay-500'>
-                <div className='lg:mt-52 mt-32 text-lg uppercase font-bold  group-hover:italic group-hover:animate-bounce pl-3'>Offer</div>
+                <div className='lg:mt-52 mt-32 text-lg uppercase font-bold  group-hover:italic group-hover:animate-bounce pl-3'>Provide professional</div>
                 <div className='uppercase pt-1 font-extrabold text-2xl md:text-[44px] text-purple-700 dark:text-gray-200  group-hover:italic group-hover:animate-bounce  '>Corporate websites and </div>
-                <div className='uppercase mt-0 md:mt-2  font-extrabold text-xl md:text-[28px] lg:text-[35px] group-hover:italic group-hover:animate-bounce  text-blue-950 dark:text-gray-200'>Services</div>
+                <div className='uppercase mt-0 md:mt-2  font-extrabold text-xl md:text-[28px] lg:text-[35px] group-hover:italic group-hover:animate-bounce  text-blue-950 dark:text-gray-200'>comprehensive services.</div>
 
-                <div className='md:pt-10 pt-7 text-lg font-medium group-hover:italic group-hover:animate-bounce '>We design corporate websites and services based on the best standards. We always build responsive solutions that adapt to the user's device.</div>
+                <div className='md:pt-10 pt-7 text-lg font-medium group-hover:italic group-hover:animate-bounce '>We create corporate websites and services adhering to top standards. Our responsive solutions are designed to seamlessly adapt to any user's device.</div>
                 </div>
 
                 <div className='lg:flex  '>
@@ -43,7 +43,7 @@ const handleClick = () => {
                   </div>
             </div>
             <div className='group p-5'>
-                <div data-aos="fade-up" className='group-hover:animate-bounce transition ease-out duration-700 delay-700'><Image className='lg:mt-36 mt-10' src="/imgs/WebBanner.webp" width={600} height={600} alt='webbnner'></Image></div>
+                <div data-aos="fade-up" className=' transition ease-out duration-200 delay-200'><Image className='lg:mt-36 mt-10' src="/imgs/WebBanner.webp" width={600} height={600} alt='webbnner'></Image></div>
             </div>
         </div>
     </div>

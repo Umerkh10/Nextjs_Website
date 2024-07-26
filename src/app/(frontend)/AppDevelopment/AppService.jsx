@@ -51,7 +51,7 @@ const AppService = () => {
                     <SwiperSlide>
                         <div className='group mt-5'>
                             <div className='relative group-hover:scale-105 group-hover:border-violet-800 border-[5px]  group-hover:bg-slate-900 transition ease-in duration-200 delay-100 border-sky-400 lg:h-[55vh] lg:w-[25vw] rounded-xl p-4 overflow-hidden'>
-                                <div style={{ backgroundImage: "url('/imgs/graphic_card_bg.png')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
+                                <div style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
                                 <div className='relative z-10'>
                                     <div className='flex justify-between'>
                                         <div className='bg-slate-300 group-hover:bg-zinc-300 transition ease-in duration-200 delay-100 border rounded-full h-24 w-24 flex justify-center items-center'>
@@ -60,8 +60,8 @@ const AppService = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>01</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Flutter App Development</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Flutter framework allows for developing high-quality apps for iOS and Android platforms using a single codebase.</div>
-                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>The Flutter framework enables the creation of top-notch applications for both iOS and Android platforms with just one codebase.</div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const AppService = () => {
                     <SwiperSlide>
                         <div className='group mt-5'>
                             <div className='relative group-hover:scale-105 group-hover:border-violet-800 border-[5px]  group-hover:bg-slate-900 transition ease-in duration-200 delay-100 border-sky-400 lg:h-[55vh] lg:w-[25vw] rounded-xl p-4 overflow-hidden'>
-                                <div style={{ backgroundImage: "url('/imgs/graphic_card_bg.png')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
+                                <div style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
                                 <div className='relative z-10'>
                                     <div className='flex justify-between'>
                                         <div className='bg-slate-300 group-hover:bg-zinc-300 transition ease-in duration-200 delay-100 border rounded-full h-24 w-24 flex justify-center items-center'>
@@ -80,8 +80,8 @@ const AppService = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500'>02</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Unity App Development</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Unity is a powerful and popular game engine that helps businesses create high-quality mobile applications.</div>
-                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Unity is a robust and widely-used game engine that assists companies in developing top-notch mobile applications.</div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                     Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ const AppService = () => {
                     <SwiperSlide>
                         <div className='group mt-5'>
                             <div className='relative group-hover:scale-105 group-hover:border-violet-800 border-[5px]  group-hover:bg-slate-900 transition ease-in duration-200 delay-100 border-sky-400 lg:h-[55vh] lg:w-[25vw] rounded-xl p-4 overflow-hidden'>
-                                <div style={{ backgroundImage: "url('/imgs/graphic_card_bg.png')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
+                                <div style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
                                 <div className='relative z-10'>
                                     <div className='flex justify-between'>
                                         <div className='bg-slate-300 group-hover:bg-zinc-300 transition ease-in duration-200 delay-100 border rounded-full h-24 w-24 flex justify-center items-center'>
@@ -100,8 +100,8 @@ const AppService = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500'>03</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>React Native</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Our React Native developers are committed to delivering top-quality iOS and Android apps that meet and exceed our client’s expectations.</div>
-                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Our React Native experts are dedicated to crafting exceptional iOS and Android applications that surpass our clients' expectations</div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                     Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ const AppService = () => {
                     <SwiperSlide>
                         <div className='group mt-5'>
                             <div className=' relative group-hover:scale-105 group-hover:border-violet-800 border-[5px]  group-hover:bg-slate-900 transition ease-in duration-200 delay-100 border-sky-400 lg:h-[55vh] lg:w-[25vw] rounded-xl p-4 overflow-hidden'>
-                                <div style={{ backgroundImage: "url('/imgs/graphic_card_bg.png')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
+                                <div style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
                                 <div className='relative z-10'>
                                     <div className='flex justify-between'>
                                         <div className='bg-slate-300 group-hover:bg-zinc-300 transition ease-in duration-200 delay-100 border rounded-full h-24 w-24 flex justify-center items-center'>
@@ -120,8 +120,8 @@ const AppService = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>04</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Cross-Platform Development</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Cross-Platform app development is the perfect solution for businesses targeting multiple platforms while reducing development time and cost.</div>
-                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Cross-Platform offers an ideal solution for businesses aiming to reach various platforms, all while cutting down on both development time and expenses.</div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                     Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ const AppService = () => {
                     <SwiperSlide>
                         <div className='group mt-5'>
                             <div className='relative group-hover:scale-105 group-hover:border-violet-800 border-[5px]  group-hover:bg-slate-900 transition ease-in duration-200 delay-100 border-sky-400 lg:h-[55vh] lg:w-[25vw] rounded-xl p-4 overflow-hidden'>
-                                <div style={{ backgroundImage: "url('/imgs/graphic_card_bg.png')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
+                                <div style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
                                 <div className='relative z-10'>
                                     <div className='flex justify-between'>
                                         <div className='bg-slate-300 group-hover:bg-zinc-300 transition ease-in duration-200 delay-100 border rounded-full h-24 w-24 flex justify-center items-center'>
@@ -140,8 +140,8 @@ const AppService = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>05</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Hybrid App Development</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>With our team of experienced developers, companies can leverage the power of hybrid technology to build top-quality mobile apps.</div>
-                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>By harnessing the expertise of our skilled developers, businesses can tap into hybrid technology to create exceptional mobile applications.</div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                     Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ const AppService = () => {
                     <SwiperSlide>
                         <div className='group mt-5'>
                             <div className='relative group-hover:scale-105 group-hover:border-violet-800 border-[5px]  group-hover:bg-slate-900 transition ease-in duration-200 delay-100 border-sky-400 lg:h-[55vh] lg:w-[25vw] rounded-xl p-4 overflow-hidden'>
-                                <div style={{ backgroundImage: "url('/imgs/graphic_card_bg.png')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
+                                <div style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
                                 <div className='relative z-10'>
                                     <div className='flex justify-between'>
                                         <div className='bg-slate-300 group-hover:bg-zinc-300 transition ease-in duration-200 delay-100 border rounded-full h-24 w-24 flex justify-center items-center'>
@@ -160,8 +160,9 @@ const AppService = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>06</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Android App Development</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Android is the most widely used OS; developing an Android app can help businesses reach a broad audience.</div>
-                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>
+                                    Android holds the top spot among operating systems, and creating an Android app can enable businesses to connect with a vast user base.</div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                         Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>
@@ -171,7 +172,7 @@ const AppService = () => {
                     <SwiperSlide>
                         <div className='group mt-5'>
                             <div className='relative group-hover:scale-105 group-hover:border-violet-800 border-[5px]  group-hover:bg-slate-900 transition ease-in duration-200 delay-100 border-sky-400 lg:h-[55vh] lg:w-[25vw] rounded-xl p-4 overflow-hidden'>
-                                <div style={{ backgroundImage: "url('/imgs/graphic_card_bg.png')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
+                                <div style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundPosition: 'center', backgroundSize: 'cover', transition: 'transform 0.5s ease-in-out' }} className='absolute inset-0 transform translate-y-full  group-hover:translate-y-0'></div>
                                 <div className='relative z-10'>
                                     <div className='flex justify-between'>
                                         <div className='bg-slate-300 group-hover:bg-zinc-300 transition ease-in duration-200 delay-100 border rounded-full h-24 w-24 flex justify-center items-center'>
@@ -180,8 +181,9 @@ const AppService = () => {
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>07</div>
                                     </div>
                                     <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>IOS App Development</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>iOS apps are built with security in mind, protecting user data and preventing potential security threats.</div>
-                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-orange-600 ease-in transition duration-200 delay-100 overflow-hidden '>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>
+                                    iOS apps are designed with a strong focus on security, ensuring user data is safeguarded and potential threats are mitigated.</div>
+                                    <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                     Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
                             </div>

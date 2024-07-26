@@ -26,12 +26,12 @@ const WhyUsDev = () => {
             <div className='mt-10 p-5'>
                 <div>
                     <div className='text-purple-700  text-lg font-semibold italic'>WHY US</div>
-                    <span className='text-slate-800 dark:text-gray-200 text-4xl font-bold'>What Are We Guided By</span>
+                    <span className='text-slate-800 dark:text-gray-200 text-4xl font-bold'>How We Are Driven</span>
                     <div className='text-slate-800 dark:text-gray-200 text-3xl font-extrabold'>When Working</div>
                 </div>
             </div>
             <div className='lg:mt-20 p-5 '>
-                <div className='text-purple-700 text-base font-semibold italic'> We do not implement a single CMS. We work on many solutions and advise which ones will work best depending on the project and expectations.</div>
+                <div className='text-purple-700 text-base font-semibold italic'> We don't stick to just one CMS. We explore multiple solutions and recommend the best fit based on the project's needs and goals.</div>
             </div>
         </div>
         <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 p-5' data-aos="fade-up">

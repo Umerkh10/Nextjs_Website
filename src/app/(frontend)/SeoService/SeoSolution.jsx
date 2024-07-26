@@ -22,7 +22,7 @@ const SeoSolution = () => {
       };
 
   return (
-    <div className='lg:h-[80vh] xl:h-[70vh] bg-purple-900 mt-[550px] xl:mt-0 lg:mt-10' data-aos="fade-down"> 
+    <div className='lg:h-[80vh] xl:h-[70vh] bg-purple-900 mt-[580px]  xl:mt-0 lg:mt-10' data-aos="fade-down"> 
     <div  style={{backgroundImage:"url('/imgs/seo_solution_bg.webp')",backgroundSize:'cover', backgroundPosition:'center',backgroundBlendMode:'overlay'}}></div>
 
     <div className='grid lg:grid-cols-2 grid-cols-1 p-10 gap-5 '>

@@ -81,22 +81,22 @@ const AppIndustry = () => {
 
 
   const imageSources = [
-    "/imgs/ecommerce.webp",
-    "/imgs/Fashion-tab.webp",
-    "/imgs/Healthcare.webp",
-    "/imgs/Real-estate.webp",
-    "/imgs/Blockchain.webp",
-    "/imgs/industry_mob-1.webp",
-    "/imgs/Metaverse.webp",
-    "/imgs/Food-Delivery.webp",
-    "/imgs/Travel.webp",
-    "/imgs/Entertainment-tab.webp",
-    "/imgs/Social-networking.webp",
-    "/imgs/Sports.webp",
-    "/imgs/e-Learning-tab.webp",
-    "/imgs/Gaming.webp",
-    "/imgs/Fintech.webp",
-    "/imgs/On-Demand.webp"
+    "/imgs/ecommerce-app.webp",
+    "/imgs/fashion-app.webp",
+    "/imgs/health-app.webp",
+    "/imgs/realestate-app.webp",
+    "/imgs/blockchain-app.webp",
+    "/imgs/fitness-app.webp",
+    "/imgs/metaverse-app.webp",
+    "/imgs/delivery-app.webp",
+    "/imgs/travel-app.webp",
+    "/imgs/entertainment-app.webp",
+    "/imgs/social-networking-app.webp",
+    "/imgs/sports-app.webp",
+    "/imgs/elearning-app.webp",
+    "/imgs/gaming-app.webp",
+    "/imgs/fintech-app.webp",
+    "/imgs/on-demand-app.webp"
   ];
 
   const currentImage = imageSources[image - 1] || imageSources[0];
@@ -125,8 +125,8 @@ const AppIndustry = () => {
         </div>
 
         <div className='' data-aos="fade-down">
-          <div className='flex justify-center items-center mt-5'>
-            <Image src={currentImage} width={300} height={300} alt='site-1'></Image>
+          <div className='flex justify-center items-center mt-10'>
+            <Image className='rounded-xl' src={currentImage} width={300} height={300} alt='site-1'></Image>
           </div>
         </div>
       </div>

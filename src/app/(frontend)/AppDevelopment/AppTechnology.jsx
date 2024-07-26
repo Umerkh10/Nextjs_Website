@@ -22,7 +22,7 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>01</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Flutter</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Flutter is an open-source UI development framework. It uses the Dart programming language to build high-quality, cross-platform mobile applications for Android & iOS.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Flutter is a versatile, open-source UI toolkit that leverages the Dart programming language to create high-performance, cross-platform mobile apps for both Android and iOS.</div>
                             
                             </div>
                         </div>
@@ -41,7 +41,7 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>02</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Python</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Python is a popular technology for mobile app development because of its simplicity, flexibility, and ease of use. It is a versatile and powerful language that can be used for high-quality mobile app development.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Python is a favored choice for mobile app development due to its straightforwardness, adaptability, and user-friendliness. It’s a robust and versatile language that excels in creating high-quality mobile applications.</div>
                             
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>03</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Java</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Java is a robust and reliable language that offers many benefits for app development services, particularly for enterprise applications that require high performance, scalability, and security.</div>                           
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Java is a powerful and dependable language that provides numerous advantages for app development, especially for enterprise solutions that demand top-notch performance, scalability, and security.</div>                           
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ const AppTechnology = () => {
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Swift
                                 </div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>iOS apps built with Swift offer native performance, an easy learning curve, strong community support, interoperability with other languages, safer code, and future-proofing since it is developed and maintained by Apple.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>iOS apps developed using Swift provide native performance, a smooth learning experience, robust community support, compatibility with other languages, enhanced code safety, and future-proofing due to its ongoing development and maintenance by Apple.</div>
                             
                             </div>
                         </div>
@@ -98,7 +98,8 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>05</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>React Native</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>React Native allows app developers to use a single codebase to create apps for both iOS and Android platforms. It helps to build high-performance apps that can utilize the device’s capabilities.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>
+                                React Native enables developers to build apps for both iOS and Android using a unified codebase. This framework supports the creation of high-performance applications that leverage the full potential of the device.</div>
                             </div>
                         </div>
                     </div>
@@ -116,7 +117,8 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>06</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Kotlin</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Kotlin is a powerful language for Android app development that provides many benefits, such as interoperability with Java and modern features for faster and safer app development.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>
+                                Kotlin is an excellent language for Android app development, offering advantages like seamless Java interoperability and modern features that enhance both the speed and security of app creation.</div>
                             </div>
                         </div>
                     </div>
@@ -134,7 +136,7 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>07</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Ionic</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Ionic is a popular open-source framework used for building hybrid mobile applications. It uses web technologies such as HTML, CSS, and JavaScript to create applications that work on iOS and Android devices.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Ionic is a widely-used open-source framework designed for developing hybrid mobile apps. It leverages web technologies like HTML, CSS, and JavaScript to build applications that run seamlessly on both iOS and Android platforms.</div>
                             
                             </div>
                         </div>
@@ -153,7 +155,7 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>08</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Xamarin</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Xamarin technology is used for building cross-platform mobile applications with native performance and a shared codebase in C#. It provides access to native features and integration with Visual Studio, making it a powerful and efficient development framework.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>Xamarin technology enables the creation of cross-platform mobile apps with native performance and a unified C# codebase. It offers access to native functionalities and seamless integration with Visual Studio, making it a robust and effective development framework.</div>
                             
                             </div>
                         </div>
@@ -172,7 +174,7 @@ const AppTechnology = () => {
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>09</div>
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Phonegap</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>PhoneGap technology is used for developing mobile apps using technologies like HTML, CSS, and JavaScript. It provides access to native features and integration with Adobe Creative Cloud, which makes it a powerful and efficient app development framework.</div>                           
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>PhoneGap is a framework for building mobile applications with web technologies such as HTML, CSS, and JavaScript. It enables access to native device capabilities and integrates with Adobe Creative Cloud, making it a robust and effective tool for app development.</div>                           
                             </div>
                         </div>
                     </div>

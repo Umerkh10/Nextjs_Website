@@ -10,6 +10,12 @@ import SeoTestimonial from './SeoTestimonial'
 import SeoSolution from './SeoSolution'
 import ContactFooter from '../Contact/ContactFooter'
 
+
+export const metadata = {
+  title: 'SEO Service',
+  description: "Webnike Portfolio Website",
+};
+
 const page = () => {
   return (
     <div>

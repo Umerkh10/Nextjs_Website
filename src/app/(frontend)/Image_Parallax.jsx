@@ -23,18 +23,18 @@ const Image_Parallax = () => {
 
     return (
         <div className='grid lg:grid-cols-4 md:grid-cols-4 grid-rows-2 md:pb-0 pb-20 sm:grid-cols-1 pt-8 pr-4 pl-4 gap-4 text-foreground/85'>
-            <div className='grid grid-rows-2 col-span-4 md:col-span-2' data-aos="fade-up">
+            <div className='grid grid-rows-2 col-span-4 mt-2 md:col-span-2' data-aos="fade-up">
                 <div className='col-span-1 relative'>
-                    <Image className='object-cover custom-transform' src={"/imgs/image-parallax.webp"} layout='fill' alt='parallax1'></Image>
+                    <Image className='rounded-2xl' src={"/imgs/image_parallax_1.webp"} width={600} height={600} alt='parallax1'></Image>
                 </div>
                 <div className='col-span-1 mt-3 lg:w-[30vw] lg:h-[45vh]  relative h-[40vh] w-[90vw] md:h-[50vh] md:w-[46vw] xl:h-[50vh] xl:w-[48vw]' >
-                    <Image className='' src={"/imgs/img-parallax-2.webp"} layout='fill' alt='parallax2'></Image>
+                    <Image className='rounded-2xl' src={"/imgs/Image-parallax-2.webp"} width={600} height={500} alt='parallax2'></Image>
                 </div>
             </div>
-            <div className='bg-purple-500 col-span-4 md:col-span-2 relative' data-aos="fade-up" ref={ref}>
-                <Image className='object-cover' src={"/imgs/image-parallax-3.webp"} layout='fill' alt='parallax3'></Image>
-                <div className='absolute rotate-[90deg] top-[135px] right-[-140px] bg-purple-800 border-[5px] border-[#F0E3F8] rounded-[100px] p-[20px] px-[10px]'>
-                    <span className='font-extrabold text-white text-2xl'> {inView ? <CountUp end={20} duration={2.75} /> : '0'}</span>
+            <div className=' col-span-4 md:col-span-2 relative' data-aos="fade-up" ref={ref}>
+                <Image className='rounded-2xl' src={"/imgs/image_parallax_3.webp"} width={600} height={600} alt='parallax3'></Image>
+                <div className='absolute rotate-[90deg] top-[125px] right-[-135px] xl:right-[-90px] bg-purple-800 border-[5px] border-[#F0E3F8] rounded-[100px] p-[20px] px-[10px]'>
+                    <span className='font-extrabold text-white text-2xl'> {inView ? <CountUp end={10} duration={2.75} /> : '0'}</span>
                     <span className='text-white text-xl font-medium'>+ Years of Working Experience</span>
                 </div>
             </div>
@@ -58,29 +58,29 @@ const Image_Parallax = () => {
                                 <div className='w-[68px] h-[68px] flex items-center justify-center bg-purple-200 border-purple-700 border border-dashed rounded-lg group'>
                                     <Image className='group-hover:animate-bounce' src={"/imgs/time-passing.png"} width={40} height={60} alt='time-passing'></Image>
                                 </div>
-                                <h4 className='font-semibold capitalize text-lg'>Commit to a Detailed Delivery Schedule</h4>
+                                <h4 className='font-semibold capitalize text-lg'> Detailed Delivery Schedule</h4>
                             </div>
                         </div>
                         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-3 pl-1'>
                             <div className='col-span-1'>
                                 <div className='flex items-center gap-2'>
                                     <div className='w-[25px] h-[25px] rounded-full border-2 border-black flex items-center mb-3'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="darkorange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                                     </div>
-                                    <span className='font-medium text-[17px]'>Production or trading of goods</span>
+                                    <span className='font-medium text-[15px]'>Production or trading of goods</span>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <div className='w-[25px] h-[25px] rounded-full border-2 border-black flex items-center'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="darkorange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
                                     </div>
-                                    <span className='font-medium text-[17px]'>100% Better results</span>
+                                    <span className='font-medium text-[15px]'>100% Better results</span>
                                 </div>
                             </div>
                             <div className='col-span-1'>
                                 <div className='flex items-center gap-2 mt-2'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /><path d="M14.05 2a9 9 0 0 1 8 7.94" /><path d="M14.05 6A5 5 0 0 1 18 10" /></svg>
                                     <div className='leading-[0.6] pl-2'>
-                                        <h5 className='font-bold text-[22px]'>021-34155132</h5>
+                                        <h5 className='font-bold text-[20px]'>021-34155132</h5>
                                         <br />
                                         <p className='text-[14px] font-semibold text-sky-600'>Have Any Question?</p>
                                     </div>

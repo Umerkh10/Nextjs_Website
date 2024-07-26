@@ -22,7 +22,7 @@ const Revenue_Background = () => {
     return (
         <>
     <div
-      className='flex relative justify-center mt-16 pt-3 pb-10 w-full border rounded-tr-[150px] z-[10] rounded-tl-[150px] bl-[0px] br-[0px] bg-[#0ea0b0] h-[screen] md:h-[30vh]'
+      className='flex relative justify-center mt-16 pt-3 pb-10 w-full border rounded-tr-[150px] z-[10] rounded-tl-[150px] bl-[0px] br-[0px] bg-[#9028cc] h-[screen] md:h-[30vh]'
       style={{ zIndex: 1 }}
       data-aos="fade-up"
       ref={ref}

@@ -17,12 +17,12 @@ const WorkProcessDev = () => {
                 <div className='mt-10 p-5'>
                     <div>
                         <div className='text-purple-700 text-lg font-semibold italic'>WHY US</div>
-                        <span className='text-slate-800 dark:text-gray-200 text-4xl font-bold'>How Do We Build Corporate</span>
+                        <span className='text-slate-800 dark:text-gray-200 text-4xl font-bold'>Crafting Premier  Corporate</span>
                         <div className='text-slate-800 dark:text-gray-200 text-3xl font-extrabold'>Services</div>
                     </div>
                 </div>
                 <div className='lg:mt-20 p-5 '>
-                    <div className='text-purple-700  text-base font-semibold italic'> We try to understand the specifics of your business and industry to provide the best-suited solutions. Find out how we do it!
+                    <div className='text-purple-700  text-base font-semibold italic'> We strive to grasp the unique aspects of your business and industry to deliver the most tailored solutions. Discover how we achieve this!
                     </div>
                 </div>
             </div>
@@ -39,8 +39,8 @@ const WorkProcessDev = () => {
                                     </div>
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>01</div>
                                 </div>
-                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>We collect requirements</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We collect expectations for the project. We determine what goals the service is to achieve and what processes it should support.</div>
+                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>We gather specifications</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We gather project requirements by defining the desired outcomes for the service and identifying the processes it needs to facilitate.</div>
                             
                             </div>
                         </div>
@@ -58,8 +58,9 @@ const WorkProcessDev = () => {
                                     </div>
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>02</div>
                                 </div>
-                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Person Analysis</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We analyse who is the recipient of the website, for what purpose and in what context they will use it.</div>
+                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Individual Evaluation</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>
+                                We assess the website's target audience, their intended use, and the context in which they will interact with it.</div>
                             
                             </div>
                         </div>
@@ -77,8 +78,9 @@ const WorkProcessDev = () => {
                                     </div>
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>03</div>
                                 </div>
-                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Mock-ups, schematics and prototypes</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We build website mockups, develop flows for individual functionalities and create prototypes based on collected and analysed data.</div>                           
+                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Drafts, designs, and models</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>
+                                We design website mockups, develop functional workflows, and create prototypes based on analyzed data and insights.</div>                           
                             </div>
                         </div>
                     </div>
@@ -97,7 +99,7 @@ const WorkProcessDev = () => {
                                 </div>
                                 <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Graphic design
                                 </div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We design graphics of individual subpages that correspond to the developed communication hierarchy and are consistent with BrandBook and Corporate Identity.</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We create designs for each subpage that align with the established communication hierarchy and adhere to the BrandBook and Corporate Identity.</div>
                             
                             </div>
                         </div>
@@ -115,8 +117,8 @@ const WorkProcessDev = () => {
                                     </div>
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>05</div>
                                 </div>
-                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Programming works</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We turn the developed assumptions and drawn designs into functional solutions prepared for design sprints.</div>
+                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Crafting solutions through code</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We transform conceptual ideas and design drafts into actionable solutions ready for design sprints.</div>
                             </div>
                         </div>
                     </div>
@@ -133,8 +135,8 @@ const WorkProcessDev = () => {
                                     </div>
                                     <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-sky-200 '>06</div>
                                 </div>
-                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Multi-platform tests</div>
-                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We test the entire website along with the developed functionalities on various platforms, browsers and scenarios.</div>
+                                <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Cross-platform testing</div>
+                                <div className='pt-3 text-[14px] font-medium group-hover:text-gray-200'>We thoroughly test the entire website and its functionalities across different platforms, browsers, and scenarios.</div>
                             </div>
                         </div>
                     </div>

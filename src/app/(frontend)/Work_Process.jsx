@@ -28,7 +28,7 @@ const Work_Process = () => {
         
         <div className='group' data-aos="fade-up">
           <div className="max-w-[202px] h-[202px] mx-auto mb-[22px] rounded-full overflow-hidden">
-            <Image className='object-cover' src="/imgs/image-parallax-3.webp" width={220} height={100} alt='work_process_1' />
+            <Image className='object-cover' src="/imgs/work_process_1.webp" width={220} height={100} alt='work_process_1' />
           </div>
           <div className='flex justify-center'>
             <div className="text-[56px] font-bold leading-[1.17] text-[rgba(254,117,36,0.15)] relative z-[1] mr-7 mb-[25px] group-hover:text-purple-500 transition ease-in duration-200 delay-200">

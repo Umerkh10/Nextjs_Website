@@ -22,28 +22,28 @@ const WhyUsApp = () => {
                 <div className='grid grid-cols-2 pt-8' ref={ref}>
                     <div className='flex justify-center items-center group' data-aos="flip-up">
                         <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200 '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={1000} duration={2.75} /> : '0'}+</div>
+                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={800} duration={2.75} /> : '0'}+</div>
                             <div className='text-center font-semibold text-lg text-white'>Projects Launched</div>
                         </div>
                     </div>
 
                     <div className='flex justify-center items-center group' data-aos="flip-down">
                         <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700  group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={10} duration={2.75} /> : '0'}+</div>
+                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={6} duration={2.75} /> : '0'}+</div>
                             <div className='text-center font-semibold text-lg text-white'>Years Of Experience</div>
                         </div>
                     </div>
 
                     <div className='flex justify-center items-center group mt-4' data-aos="flip-left">
                         <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white'>{inView ? <CountUp end={450} duration={2.75} /> : '0'}+</div>
+                            <div className='text-center mt-8 font-extrabold text-3xl text-white'>{inView ? <CountUp end={400} duration={2.75} /> : '0'}+</div>
                             <div className='text-center font-semibold text-lg text-white'>Delighted Clients</div>
                         </div>
                     </div>
 
                     <div className='flex justify-center items-center group mt-4' data-aos="flip-right">
                         <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={90} duration={2.75} /> : '0'}%</div>
+                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={95} duration={2.75} /> : '0'}%</div>
                             <div className='text-center font-semibold text-lg text-white'>Client Retention</div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const WhyUsApp = () => {
                         <div className='flex justify-center items-center'>
                         <Image className='group-hover:rotate-doors mt-4' src="/imgs/people.png" width={60} height={50} alt='group' ></Image>
                         </div>
-                        <div className='text-base font-semibold text-center text-slate-900'>Skilled Team</div>
+                        <div className='text-base font-semibold text-center text-slate-900'>Experienced Team</div>
                     </div>
 
                     <div data-aos="flip-up" className='pt-4 flex justify-end'>
@@ -65,7 +65,7 @@ const WhyUsApp = () => {
                         <div className='flex justify-center items-center'>
                         <Image className='group-hover:rotate-doors mt-4' src="/imgs/scalability.png" width={60} height={50} alt='group' ></Image>
                         </div>
-                        <div className='text-base font-semibold text-center text-slate-900 pt-2'>Increased ROI</div>
+                        <div className='text-base font-semibold text-center text-slate-900 pt-2'>Enhanced ROI</div>
                     </div>
                     </div>
 
@@ -73,7 +73,7 @@ const WhyUsApp = () => {
                         <div className='flex justify-center items-center'>
                         <Image className='group-hover:rotate-doors mt-4' src="/imgs/medal.png" width={60} height={50} alt='group' ></Image>
                         </div>
-                        <div className='text-base font-semibold text-center text-slate-900'>Great Customer Loyalty</div>
+                        <div className='text-base font-semibold text-center text-slate-900'> Customer Commitment</div>
                     </div>
 
                     <div data-aos="flip-up" className='pt-4 flex justify-end'>
@@ -81,7 +81,7 @@ const WhyUsApp = () => {
                         <div className='flex justify-center items-center'>
                         <Image className='group-hover:rotate-doors mt-4' src="/imgs/solution.png" width={60} height={50} alt='group' ></Image>
                         </div>
-                        <div className='text-base font-semibold text-center text-slate-900 pt-2'>Agile Methodology</div>
+                        <div className='text-base font-semibold text-center text-slate-900 pt-2'>Agile Approach</div>
                     </div>
                     </div>
 
@@ -89,7 +89,7 @@ const WhyUsApp = () => {
                         <div className='flex justify-center items-center'>
                         <Image className='group-hover:rotate-doors mt-4' src="/imgs/ux.png" width={60} height={50} alt='group' ></Image>
                         </div>
-                        <div className='text-base font-semibold text-center text-slate-900'>Engaging UX Design</div>
+                        <div className='text-base font-semibold text-center text-slate-900'>Captivating UX Design</div>
                     </div>
 
                     <div data-aos="flip-up" className='pt-4 flex justify-end'>
@@ -97,7 +97,7 @@ const WhyUsApp = () => {
                         <div className='flex justify-center items-center'>
                         <Image className='group-hover:rotate-doors mt-4' src="/imgs/encrypted.png" width={60} height={50} alt='group' ></Image>
                         </div>
-                        <div className='text-base font-semibold text-center text-slate-900 pt-2'>100% Secured</div>
+                        <div className='text-base font-semibold text-center text-slate-900 pt-2'>Secured</div>
                     </div>
                     </div>
 
