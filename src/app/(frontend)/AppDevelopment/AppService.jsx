@@ -119,8 +119,8 @@ const AppService = () => {
                                         </div>
                                         <div className='font-extrabold text-7xl opacity-10 group-hover:opacity-100 transition ease-in duration-200 delay-100 group-hover:text-violet-500 '>04</div>
                                     </div>
-                                    <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Cross-Platform Development</div>
-                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Cross-Platform offers an ideal solution for businesses aiming to reach various platforms, all while cutting down on both development time and expenses.</div>
+                                    <div className='group-hover:text-gray-200 text-[20px] font-bold pt-4'>Cross-Platform </div>
+                                    <div className='pt-3 text-base font-medium group-hover:text-gray-200'>Cross-Platform offers an ideal solution for businesses , all while cutting down on both development time and expenses.</div>
                                     <button onClick={handleClick} className=' border-black group-hover:border-white dark:border-white group-hover:text-gray-200 border rounded-xl lg:w-[14vw] md:w-[20vw] w-[40vw] h-[8vh] lg:h-[6vh] flex justify-center items-center mt-5 hover:bg-sky-500 ease-in transition duration-200 delay-100 overflow-hidden '>
                                     Get Started <ArrowRight className='-rotate-45 ml-1 ' /></button>
                                 </div>
