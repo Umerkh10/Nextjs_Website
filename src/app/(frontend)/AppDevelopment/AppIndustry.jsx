@@ -106,7 +106,7 @@ const AppIndustry = () => {
 
       <div className='grid lg:grid-cols-3 grid-cols-1 p-6 '>
         <div className='col-span-2' data-aos="fade-up">
-          <div className='text-4xl font-extrabold'>Industry Wise App Development Solutions</div>
+          <div className='md:text-4xl text-3xl font-extrabold'>Industry Wise App Development Solutions</div>
           <div className="scroll-container grid md:grid-cols-2 grid-cols-1 h-[80vh] overflow-y-scroll scroll-smooth pr-5 gap-5 mt-5">
             {descriptions.map((desc, index) => (
               <div
@@ -116,7 +116,7 @@ const AppIndustry = () => {
                 className="flex justify-center items-center group">
                 <div className="border-[3px] h-[45vh] lg:h-[32vh] border-sky-400 rounded-lg bg-purple-500 group-hover:bg-purple-700 
                 transition ease-in duration-200 delay-200 group-hover:scale-105 p-4">
-                  <div className="text-xl font-semibold text-gray-100 ">{desc.title}</div>
+                  <div className="md:text-xl text-lg font-semibold text-gray-100 ">{desc.title}</div>
                   <div className='text-gray-100'>{desc.text}</div>
                 </div>
               </div>

@@ -21,7 +21,7 @@ const WhyUsApp = () => {
     <div className='bg-slate-200 dark:bg-transparent pt-10'>
         <div className='grid lg:grid-cols-3 grid-cols-1 p-5'>
             <div className='col-span-2' data-aos="fade-up">
-                <div className='text-5xl font-extrabold'>Why Choose Webnike For <br />App Development</div>
+                <div className='md:text-5xl text-4xl font-extrabold'>Why Choose Webnike For <br />App Development</div>
 
                 <div className=' font-medium pt-4'>WebNike is a leading provider of top-notch app development services, dedicated to transforming your innovative ideas into powerful, user-friendly applications. With a team of highly skilled developers, cutting-edge technology, and a commitment to excellence,</div>
 
@@ -29,40 +29,40 @@ const WhyUsApp = () => {
 
                 <div className='grid grid-cols-2 pt-8' ref={ref}>
                     <div className='flex justify-center items-center group' data-aos="flip-up">
-                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200 '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={800} duration={2.75} /> : '0'}+</div>
-                            <div className='text-center font-semibold text-lg text-white'>Projects Launched</div>
+                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[22vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200 '>
+                            <div className='text-center mt-8 font-extrabold md:text-3xl text-2xl text-white '>{inView ? <CountUp end={800} duration={2.75} /> : '0'}+</div>
+                            <div className='text-center font-semibold md:text-lg text-white'>Projects Launched</div>
                         </div>
                     </div>
 
                     <div className='flex justify-center items-center group' data-aos="flip-down">
-                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700  group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={6} duration={2.75} /> : '0'}+</div>
-                            <div className='text-center font-semibold text-lg text-white'>Years Of Experience</div>
+                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[22vh] lg:w-[14vw] bg-purple-700  group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
+                            <div className='text-center mt-8 font-extrabold md:text-3xl text-2xl text-white '>{inView ? <CountUp end={6} duration={2.75} /> : '0'}+</div>
+                            <div className='text-center font-semibold md:text-lg text-white'>Years Of Experience</div>
                         </div>
                     </div>
 
                     <div className='flex justify-center items-center group mt-4' data-aos="flip-left">
-                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white'>{inView ? <CountUp end={400} duration={2.75} /> : '0'}+</div>
-                            <div className='text-center font-semibold text-lg text-white'>Delighted Clients</div>
+                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[22vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
+                            <div className='text-center mt-8 font-extrabold md:text-3xl text-2xl text-white'>{inView ? <CountUp end={400} duration={2.75} /> : '0'}+</div>
+                            <div className='text-center font-semibold md:text-lg px-2 text-white'>Delighted Clients</div>
                         </div>
                     </div>
 
                     <div className='flex justify-center items-center group mt-4' data-aos="flip-right">
-                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[20vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
-                            <div className='text-center mt-8 font-extrabold text-3xl text-white '>{inView ? <CountUp end={95} duration={2.75} /> : '0'}%</div>
-                            <div className='text-center font-semibold text-lg text-white'>Client Retention</div>
+                        <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[22vh] lg:w-[14vw] bg-purple-700 p-1 group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
+                            <div className='text-center mt-8 font-extrabold md:text-3xl text-2xl text-white '>{inView ? <CountUp end={95} duration={2.75} /> : '0'}%</div>
+                            <div className='text-center font-semibold md:text-lg px-2 text-white'>Client Retention</div>
                         </div>
                     </div>
                 </div>
 
                 <div data-aos="fade-up" className='p-5 lg:h-[40vh] mt-5 rounded-2xl ' style={{backgroundImage:"url('/imgs/bg-graphic-design.webp')",backgroundSize:'cover',backgroundPosition:'center' }}>
-                <div className='text-gray-200 pt-3 text-3xl font-bold text-center'>The Benefits of Professional App Development</div>
-                <div className='text-gray-200 text-lg pt-3 font-semibold text-center'> Unlock your business's potential with expertly crafted apps designed to drive growth, enhance user experience, and stay ahead of the competition.</div>
+                <div className='text-gray-200 pt-3 md:text-3xl text-2xl font-bold text-center'>The Benefits of Professional App Development</div>
+                <div className='text-gray-200 md:text-lg pt-3 font-semibold text-center'> Unlock your business's potential with expertly crafted apps designed to drive growth, enhance user experience, and stay ahead of the competition.</div>
 
                 <div className='flex justify-center pt-5 '>
-            <button onClick={handleClick} className='mt-5 border rounded-2xl w-[60vw] md:w-[35vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-sky-500 font-medium text-white group hover:bg-sky-700 transition ease-in duration-200 delay-200 '> 
+            <button onClick={handleClick} className='mt-5 border rounded-2xl w-[65vw] md:w-[35vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-sky-500 font-medium text-white group hover:bg-sky-700 transition ease-in duration-200 delay-200 '> 
                 Let's Talk App Development
                 <ArrowRight className='ml-2 group-hover:translate-x-20 ease-in-out duration-200 delay-200'/>
             </button>

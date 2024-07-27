@@ -57,7 +57,7 @@ const AppFaq = () => {
 {questions.map((item, index) => (
     <div data-aos="flip-down" className="md:pt-6 pt-8 " ref={ref}  key={index}>
         <div 
-            className="cursor-pointer py-6 px-4 rounded-xl text-lg  font-bold flex justify-between group bg-gradient-to-r from-purple-700 to-indigo-900 text-white transition ease-in duration-150 delay-100 "
+            className="cursor-pointer py-6 px-4 rounded-xl md:text-lg  font-medium flex justify-between group bg-gradient-to-r from-purple-700 to-indigo-900 text-white transition ease-in duration-150 delay-100 "
             onClick={() => toggleAccordion(index) }  >
             {item.question}
             <SwordsIcon className='  group-hover:rotate-180 group-hover:stroke-gray-100 transition ease-in duration-200 delay-100 '/>

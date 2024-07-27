@@ -23,7 +23,7 @@ const AppBannner = () => {
                 </div>
 
                 <div className='lg:flex pt-5 '>
-            <button onClick={handleClick} className='mt-5 border rounded-2xl w-[60vw] md:w-[35vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-sky-400 font-medium text-white group hover:bg-sky-700 transition ease-in duration-200 delay-200 '> 
+            <button onClick={handleClick} className='mt-5 border rounded-2xl w-[65vw] md:w-[35vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-sky-400 font-medium text-white group hover:bg-sky-700 transition ease-in duration-200 delay-200 '> 
                 Let's Talk App Development
                 <ArrowRight className='ml-2 group-hover:translate-x-20 ease-in-out duration-200 delay-200'/>
             </button>
