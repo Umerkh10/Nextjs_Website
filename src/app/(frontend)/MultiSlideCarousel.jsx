@@ -6,16 +6,22 @@ import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const MultipleSlideCarousel = () => {
-  useEffect(() => {
+  const { ref, inView } = useInView({
+    triggerOnce: false, 
+    threshold: 0.1, 
+  });
+
+useEffect(() => {
     AOS.init({
-      duration: 1000, 
-      offset: 100, 
-    });
-  }, []);
+        duration: 800,
+        offset: 100,
+      });
+  }, [inView]);
   return (
-    <div className="w-full relative pl-5 pr-5 gap-2" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
+    <div className="w-full relative pl-5 pr-5 gap-2" ref={ref} data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
       <Swiper
         loop={true}
         slidesPerView={3}
