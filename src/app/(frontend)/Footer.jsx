@@ -53,7 +53,7 @@ console.log(pending);
                 </div>
                 <div className='flex items-center justify-center'>
                   <p className='pt-4 text-white font-medium text-[20px]'>
-                  We’re a team of over 100 seasoned software engineers, each with over a decade of experience in crafting exceptional products
+                  We’re team of over 100 seasoned software engineers, each with over a decade of experience in crafting exceptional products
                   </p>
                 </div>
                 <div className="flex items-center mt-10">
