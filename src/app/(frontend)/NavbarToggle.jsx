@@ -4,8 +4,9 @@ import gsap from 'gsap';
 import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from './SearchBar';
+
 import { ArrowDown, MenuIcon } from 'lucide-react';
+import { Command, CommandEmpty, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/components/ui/command';
 
 const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
   }, [isMenuopen]);
 
   const [isOpen, setIsOpen] = useState(false);
+  const [searchInput, setsearchInput] = useState(null);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -87,7 +89,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
 
           <div className="md:hidden mt-20 w-full px-4">
             <Command >
-              <CommandInput placeholder=" Search..." />
+              <CommandInput  placeholder=" Search..." />
               <CommandList>
                 <CommandEmpty>No results found.</CommandEmpty>
 
