@@ -56,30 +56,34 @@ const Slider = () => {
       </div>
 
       <Swiper modules={[ Autoplay,]} spaceBetween={30} slidesPerView={1}
-       autoplay={{ delay: 5000, disableOnInteraction: false }}  loop={true} ref={swiperRef} className='w-full h-full'>
+       autoplay={{ delay: 5000, disableOnInteraction: true }}  loop={true} ref={swiperRef} className='w-full h-full'>
         {/* First Slide */}
         <SwiperSlide>
         <div id='slider' className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1'>
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
        
-            <Image className='xl:ml-16 -translate-x-[4.25rem] md:-translate-x-0 lg:-translate-x-0 xl:-translate-x-0 -translate-y-52 xl:-translate-y-12 lg:translate-y-4 md:-translate-y-48 text-to-reveal' src='/imgs/home-banner-2.webp' width={600} height={600} alt='banner' />
+            <Image className='xl:ml-16 -translate-x-[4.25rem] md:-translate-x-0 lg:-translate-x-0 xl:-translate-x-0 translate-y-2 xl:-translate-y-12 lg:translate-y-4 md:-translate-y-48 text-to-reveal' src='/imgs/home-banner-2.webp' width={600} height={600} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
             <div className='flex flex-col h-full w-2/3 mt md:pl-10'>
               <div className='h-auto w-full mt-5'>
-                <span className='inline-block text-white font-extrabold text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-10 translate-x-8 text-to-reveal'>We Are</span>
+                <span className='inline-block text-white font-extrabold text-3xl md:text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-6 translate-x-4 text-to-reveal'>We Are</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block text-white font-extrabold text-[140px] lg:translate-y-1 lg:translate-x-[-3.5rem] translate-y-1 translate-x-2 mb-2 text-to-reveal'>Creat</span>
+                <span className='inline-block text-white font-extrabold text-[90px] md:text-[140px] lg:translate-y-1 lg:translate-x-[-3.5rem] translate-y-1 translate-x-2 mb-2 text-to-reveal'>Creat</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block text-white font-extrabold uppercase text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] -translate-y-24 translate-x-4 text-to-reveal'>Ive</span>
-                <span className='inline-block rotate-[90deg] font-black text-white text-[42px] translate-x-[13rem] translate-y-[-13rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
+                <span className='inline-block text-white font-extrabold uppercase text-[80px] md:text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] md:-translate-y-[5.5rem]  -translate-y-12 translate-x-4 text-to-reveal'>Ive</span>
+
+                <span className='inline-block rotate-[90deg] font-black text-white text-[22px] md:text-[42px] 
+                translate-x-[6rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block -translate-y-[14rem] translate-x-2 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-2 md:-translate-y-[155px] font-extrabold text-white text-[60px] text-to-reveal'>Agency</span>
-                <p className='font-medium text-white text-[15px] inline-block -translate-y-56 translate-x-2 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
-                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-52 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+                <span className='inline-block -translate-y-[5rem] translate-x-4 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-4 md:-translate-y-[150px] font-extrabold text-white text-[30px] md:text-[60px] text-to-reveal'>Agency</span>
+
+                <p className='font-medium text-white text-[15px] inline-block md:-tra -translate-y-20 translate-x-3 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
+
+                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
@@ -96,25 +100,29 @@ const Slider = () => {
         <SwiperSlide>
         <div  className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1'>
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
-            <Image className='xl:ml-16 -translate-x-[4.25rem] md:-translate-x-0 lg:-translate-x-0 xl:-translate-x-0 -translate-y-52 xl:-translate-y-12 lg:translate-y-4 md:-translate-y-48 text-to-reveal'
+            <Image className='xl:ml-16 -translate-x-[4.25rem] md:-translate-x-0 lg:-translate-x-0 xl:-translate-x-0 -translate-y-20 xl:-translate-y-12 lg:translate-y-4 md:-translate-y-48 text-to-reveal'
              src='/imgs/home-banner-1.webp' width={600} height={600} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
             <div className='flex flex-col h-full w-2/3 mt md:pl-10'>
               <div className='h-auto w-full mt-5'>
-                <span className='inline-block text-white font-extrabold text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-10 translate-x-8 text-to-reveal'>We Are</span>
+                <span className='inline-block text-white font-extrabold text-3xl md:text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-6 translate-x-4 text-to-reveal'>We Are</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block text-white font-extrabold text-[140px] lg:translate-y-1 lg:translate-x-[-3.5rem] translate-y-1 translate-x-2 mb-2 text-to-reveal'>Creat</span>
+                <span className='inline-block text-white font-extrabold text-[90px] md:text-[140px] lg:translate-y-1 lg:translate-x-[-3.5rem] translate-y-1 translate-x-2 mb-2 text-to-reveal'>Creat</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block text-white font-extrabold uppercase text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] -translate-y-24 translate-x-4 text-to-reveal'>Ive</span>
-                <span className='inline-block rotate-[90deg] font-black text-white text-[42px] translate-x-[13rem] translate-y-[-13rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
+                <span className='inline-block text-white font-extrabold uppercase text-[80px] md:text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] md:-translate-y-[5.5rem]  -translate-y-12 translate-x-4 text-to-reveal'>Ive</span>
+
+                <span className='inline-block rotate-[90deg] font-black text-white text-[22px] md:text-[42px] 
+                translate-x-[6rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block -translate-y-[14rem] translate-x-2 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-2 md:-translate-y-[155px] font-extrabold text-white text-[60px] text-to-reveal'>Agency</span>
-                <p className='font-medium text-white text-[15px] inline-block -translate-y-56 translate-x-2 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
-                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-52 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+                <span className='inline-block -translate-y-[5rem] translate-x-4 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-4 md:-translate-y-[150px] font-extrabold text-white text-[30px] md:text-[60px] text-to-reveal'>Agency</span>
+
+                <p className='font-medium text-white text-[15px] inline-block md:-tra -translate-y-20 translate-x-3 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
+
+                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
@@ -132,25 +140,29 @@ const Slider = () => {
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
             <div className='hidden  lg:flex mt-20 pl-7 text-to-reveal' > 
             </div>
-            <Image className='lg:flex mt-20 pl-7 xl:ml-16 -translate-x-[2.25rem] md:translate-x-10 lg:-translate-x-0 xl:-translate-x-9 -translate-y-64 xl:-translate-y-40 lg:-translate-y-28 md:-translate-y-48 text-to-reveal'
+            <Image className='lg:flex mt-20 pl-7 xl:ml-16 -translate-x-[2.25rem] md:translate-x-10 lg:-translate-x-0 xl:-translate-x-9 -translate-y-10 xl:-translate-y-40 lg:-translate-y-28 md:-translate-y-48 text-to-reveal'
              src='/imgs/home-banner-3.webp' width={600} height={600} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
             <div className='flex flex-col h-full w-2/3 mt md:pl-10'>
               <div className='h-auto w-full mt-5'>
-                <span className='inline-block text-white font-extrabold text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-10 translate-x-8 text-to-reveal'>We Are</span>
+                <span className='inline-block text-white font-extrabold text-3xl md:text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-6 translate-x-4 text-to-reveal'>We Are</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block text-white font-extrabold text-[140px] lg:translate-y-1 lg:translate-x-[-3.5rem] translate-y-1 translate-x-2 mb-2 text-to-reveal'>Creat</span>
+                <span className='inline-block text-white font-extrabold text-[90px] md:text-[140px] lg:translate-y-1 lg:translate-x-[-3.5rem] translate-y-1 translate-x-2 mb-2 text-to-reveal'>Creat</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block text-white font-extrabold uppercase text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] -translate-y-24 translate-x-4 text-to-reveal'>Ive</span>
-                <span className='inline-block rotate-[90deg] font-black text-white text-[42px] translate-x-[13rem] translate-y-[-13rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
+                <span className='inline-block text-white font-extrabold uppercase text-[80px] md:text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] md:-translate-y-[5.5rem]  -translate-y-12 translate-x-4 text-to-reveal'>Ive</span>
+
+                <span className='inline-block rotate-[90deg] font-black text-white text-[22px] md:text-[42px] 
+                translate-x-[6rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
               </div>
               <div className='h-auto w-full'>
-                <span className='inline-block -translate-y-[14rem] translate-x-2 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-2 md:-translate-y-[155px] font-extrabold text-white text-[60px] text-to-reveal'>Agency</span>
-                <p className='font-medium text-white text-[15px] inline-block -translate-y-56 translate-x-2 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience. </p>
-                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-52 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+                <span className='inline-block -translate-y-[5rem] translate-x-4 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-4 md:-translate-y-[150px] font-extrabold text-white text-[30px] md:text-[60px] text-to-reveal'>Agency</span>
+
+                <p className='font-medium text-white text-[15px] inline-block md:-tra -translate-y-20 translate-x-3 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
+
+                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
