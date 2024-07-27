@@ -33,7 +33,7 @@ const Image_Parallax = () => {
             </div>
             <div className=' col-span-4 md:col-span-2 relative' data-aos="fade-up" ref={ref}>
                 <Image className='rounded-2xl' src={"/imgs/image_parallax_3.webp"} width={600} height={600} alt='parallax3'></Image>
-                <div className='absolute rotate-[90deg] top-[125px] right-[-135px] xl:right-[-90px] bg-purple-800 border-[5px] border-[#F0E3F8] rounded-[100px] p-[20px] px-[10px]'>
+                <div className='absolute rotate-[90deg] top-[130px] right-[-135px] xl:right-[-95px] bg-purple-800 border-[5px] border-[#F0E3F8] rounded-[100px] p-[20px] px-[10px]'>
                     <span className='font-extrabold text-white text-2xl'> {inView ? <CountUp end={10} duration={2.75} /> : '0'}</span>
                     <span className='text-white text-xl font-medium'>+ Years of Working Experience</span>
                 </div>
