@@ -87,6 +87,7 @@ const Footer = () => {
                   <form className="relative w-full" action={action} ref={formRef}>
                     <div className="relative w-full">
                       <input
+                      placeholder='Email Address'
                         required
                         class="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-black bg-white"
                         type="email"
