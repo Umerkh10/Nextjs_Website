@@ -6,7 +6,7 @@ import gsap from 'gsap';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
-import { Moon, Sun } from 'lucide-react';
+import { ArrowBigDown, ArrowDown, Moon, Sun } from 'lucide-react';
 
 
 const Navbar = () => {
@@ -65,21 +65,12 @@ const Navbar = () => {
          
               <div class="group inline-block">
                 <button
-                  class="outline-none focus:outline-none py-1 rounded-sm flex items-center min-w-10"
-                >
+                  class="outline-none focus:outline-none py-1 rounded-sm flex items-center min-w-10">
                   <span class="pr-1 text-gray-200 text-lg font-medium flex-1 hover:text-sky-600 transition duration-200 ease-in">
                     <Link href="/Services">Services</Link></span>
                   <span>
-                    <svg
-                      class="fill-white h-4 w-4 transform group-hover:-rotate-180
-        transition duration-200 ease-in-out"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                    </svg>
+                    <ArrowDown className='fill-white stroke-white h-4 w-4 transform group-hover:-rotate-180
+        transition duration-200 ease-in-out'/>
                   </span>
                 </button>
                 <ul
