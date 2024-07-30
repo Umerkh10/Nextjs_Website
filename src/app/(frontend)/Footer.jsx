@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
@@ -34,11 +34,38 @@ console.log(pending);
           toast.error(state.error)
       }
   },[state])
+
+  const [isVisible, setIsVisible] = useState(false);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
+    return () => {
+      if (observer && observer.disconnect) {
+        observer.disconnect();
+      }
+    };
+  }, []);
   return (
     <>
       <div>
         <div className='relative z-50 px-4'>
-          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl' style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center', }}>
+          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl'ref={containerRef} style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center',minHeight: '80vh' }}>
             <div className='flex flex-col lg:grid lg:grid-cols-2'>
               <div className='lg:pt-0 pt-4 lg:order-1 order-2' data-aos="fade-up" >
                 <div className='xl:h-[71vh] lg:h-[79vh] overflow-hidden'>
@@ -71,7 +98,7 @@ console.log(pending);
           </div>
         </div>
 
-        <div className='relative mt-[-255px] mb-0 pt-[330px]' style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }}>
+        <div className='relative mt-[-255px] mb-0 pt-[330px]' ref={containerRef} style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
           <div className='lg:grid lg:grid-cols-3 flex flex-col' data-aos="fade-right"  data-aos-offset="100" data-aos-easing="ease-in-sine" >
             <div className='pl-6'>
               <div className='' >
