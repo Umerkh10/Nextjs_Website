@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
@@ -19,6 +19,33 @@ const Revenue_Background = () => {
         triggerOnce: false, 
         threshold: 0.1, 
       });
+
+      const [isVisible, setIsVisible] = useState(false);
+      const containerRef = useRef(null);
+    
+      useEffect(() => {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                setIsVisible(true);
+                observer.disconnect();
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+    
+        if (containerRef.current) {
+          observer.observe(containerRef.current);
+        }
+    
+        return () => {
+          if (observer && observer.disconnect) {
+            observer.disconnect();
+          }
+        };
+      }, []);
     return (
         <>
     <div
@@ -56,8 +83,15 @@ const Revenue_Background = () => {
     </div>
 
 <div className=" h-full md:h-full lg:h-[140vh] z-[12]  xl:h-[120vh] bg-[#0d0237]"
-     style={{ backgroundImage: "url('/imgs/revenue-bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 2 }}
-     data-aos="zoom-in">
+       ref={containerRef}
+       style={{
+         backgroundImage: isVisible ? "url('/imgs/revenue-bg.webp')" : 'none',
+         backgroundSize: 'cover',
+         backgroundPosition: 'center',
+         zIndex: 2,
+         minHeight: '100vh' // ensure there's space for the observer to trigger
+       }}
+       data-aos="zoom-in">
   <div className='flex pt-28 h-full w-full pl-6 pr-6'>
     <div className='grid lg:grid-cols-3 grid-cols-1 z-[12] gap-12 lg:gap-0 w-full'>
       <div className='grid-cols-1 order-1 lg:order-1'>
