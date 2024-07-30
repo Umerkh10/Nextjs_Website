@@ -83,7 +83,7 @@ const Footer = () => {
                     We’re team of over 100 seasoned software engineers, each with over a decade of experience in crafting exceptional products
                   </p>
                 </div>
-                <div className="flex items-center mt-10">
+                <div className="flex items-center mt-7">
                   <form className="relative w-full" action={action} ref={formRef}>
                     <div className="relative w-full">
                       <input
@@ -92,7 +92,7 @@ const Footer = () => {
                         class="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-black bg-white"
                         type="email"
                         name="email"/>
-                        <button disabled={pending} className=" absolute bg-orange-600 right-5 top-1/2 transform -translate-y-1/2 border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
+                        <button disabled={pending} className=" mt-4 md:w-56 w-full bg-orange-600 right-5 transform  border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
                           Subscribe Now
                         </button>
                     </div>
