@@ -65,7 +65,7 @@ const Footer = () => {
     <>
       <div>
         <div className='relative z-50 px-4'>
-          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl' ref={containerRef} style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '80vh' }}>
+          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl' ref={containerRef} style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
             <div className='flex flex-col lg:grid lg:grid-cols-2'>
               <div className='lg:pt-0 pt-4 lg:order-1 order-2' data-aos="fade-up" >
                 <div className='xl:h-[71vh] lg:h-[79vh] overflow-hidden'>
