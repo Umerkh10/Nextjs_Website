@@ -1,6 +1,6 @@
 import { Poppins } from 'next/font/google'
 import "../globals.css";
-import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeProvider } from "@/app/(frontend)/ThemeProvider";
 import { Toaster } from "sonner";
 import TawkTo from "@/lib/Tawkto";
 
