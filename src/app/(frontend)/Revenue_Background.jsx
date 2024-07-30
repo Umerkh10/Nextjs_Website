@@ -56,28 +56,28 @@ const Revenue_Background = () => {
     >
       <div className='grid grid-cols-1 md:grid-cols-4 gap-[5.75rem] ml-10 mr-10 pl-4 pr-4 pt-4'>
         <div className='grid-cols-1 col-span-1'>
-          <h4 className='text-[90px] md:text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
+          <h4 className='text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
             {inView ? <CountUp end={12} duration={2.75} /> : '0'}K
           </h4>
-          <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white truncate lg:-translate-y-11'>PROJECTS DONE</p>
+          <p className=' md:text-[20px] inline-block font-semibold leading-[1.15] text-white truncate lg:-translate-y-11'>PROJECTS DONE</p>
         </div>
         <div className='grid-cols-2 col-span-1'>
-          <h4 className='text-[90px] md:text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
+          <h4 className='text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
             {inView ? <CountUp end={35} duration={2.75} /> : '0'}+
           </h4>
-          <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>Team Members</p>
+          <p className='md:text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>Team Members</p>
         </div>
         <div className='grid-cols-3 col-span-1'>
-          <h4 className='text-[90px] md:text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
+          <h4 className='text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
             {inView ? <CountUp end={10} duration={2.75} /> : '0'}K
           </h4>
-          <p className='text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>happy clients</p>
+          <p className='md:text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>happy clients</p>
         </div>
         <div className='grid-cols-4 col-span-1'>
-          <h4 className='text-[90px] md:text-[60px] lg:text-[100px] inline-block font-black leading-none opacity-[26%]'>
+          <h4 className='text-[60px] lg:text-[100px] inline-block font-black leading-none opacity-[26%]'>
             {inView ? <CountUp end={18} duration={2.75} /> : '0'}+
           </h4>
-          <p className='text-[20px] font-semibold leading-[1.15] text-white uppercase lg:-translate-y-11'>awards</p>
+          <p className='md:text-[20px] font-semibold leading-[1.15] text-white uppercase lg:-translate-y-11'>awards</p>
         </div>
       </div>
     </div>
@@ -98,10 +98,10 @@ const Revenue_Background = () => {
         <div className='flex justify-start'>
           <div className='rounded-full pl-7 pr-7 pt-1 pb-1 bg-slate-800 text-purple-500 font-semibold text-lg'>Why Choose Us</div>
         </div>
-        <h2 className='pt-6 leading-[3.25rem] text-[50px] text-white font-extrabold pb-6'>Boost Your Business Revenue </h2>
-        <p className='text-[17px] text-white'>We are a team of over 100 seasoned software engineers with a decade of experience in delivering top-notch products. Believe it because you've seen it</p>
+        <h2 className='pt-6 leading-[3.25rem] text-4xl md:text-[50px] text-white font-extrabold pb-6'>Boost Your Business Revenue </h2>
+        <p className='md:text-[17px] text-white'>We are a team of over 100 seasoned software engineers with a decade of experience in delivering top-notch products. Believe it because you've seen it</p>
         <div className='flex items-center mt-4 group'>
-          <button className='mt-8 text-sky-600 bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+          <button className='mt-8 text-sky-600 bg-transparent md:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
             <span><Link href="/Services"> View  more </Link> </span>
           </button>
           <div className='flex items-center justify-center w-[50px] h-[50px] rounded-full bg-sky-600 mt-8 ml-2 group-hover:-translate-x-52 transition duration-200 delay-150 ease-in-out'>
@@ -123,33 +123,33 @@ const Revenue_Background = () => {
             <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
             <path d="m9 12 2 2 4-4" />
           </svg>
-          <div className='text-gray-100 font-semibold text-[26px] pl-2'>Premium Standards</div>
+          <div className='text-gray-100 font-semibold   text-xl md:text-[26px] pl-2'>Premium Standards</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>A high standard represents the pinnacle of quality and excellence</div>
+        <div className='text-white md:text-[18px] mb-6'>A high standard represents the pinnacle of quality and excellence</div>
         <div className='flex justify-start items-center mb-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="teal" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-badge-check">
             <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
             <path d="m9 12 2 2 4-4" />
           </svg>
-          <div className='text-gray-100 font-semibold text-[26px] pl-2'>Prioritizing People</div>
+          <div className='text-gray-100 font-semibold text-xl md:text-[26px] pl-2'>Prioritizing People</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>fostering meaningful connections, and creating environments where everyone can thrive.</div>
+        <div className='text-white md:text-[18px] mb-6'>fostering meaningful connections, and creating environments where everyone can thrive.</div>
         <div className='flex justify-start items-center mb-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="teal" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-badge-check">
             <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
             <path d="m9 12 2 2 4-4" />
           </svg>
-          <div className='text-gray-100 font-semibold text-[26px] pl-2'>Innovative Approaches</div>
+          <div className='text-gray-100 font-semibold  text-xl md:text-[26px] pl-2'>Innovative Approaches</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>Different thinking fuels innovation and opens doors to new possibilities</div>
+        <div className='text-white md:text-[18px] mb-6'>Different thinking fuels innovation and opens doors to new possibilities</div>
         <div className='flex justify-start items-center mb-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="teal" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-badge-check">
             <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
             <path d="m9 12 2 2 4-4" />
           </svg>
-          <div className='text-gray-100 font-semibold text-[26px] pl-2'>The Expertise Team</div>
+          <div className='text-gray-100 font-semibold  text-xl md:text-[26px] pl-2'>The Expertise Team</div>
         </div>
-        <div className='text-white text-[18px] mb-6'>Group dedicated to delivering exceptional results through their combined knowledge, experience, and collaboration.</div>
+        <div className='text-white md:text-[18px] mb-6'>Group dedicated to delivering exceptional results through their combined knowledge, experience, and collaboration.</div>
       </div>
     </div>
   </div>

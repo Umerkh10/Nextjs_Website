@@ -36,7 +36,7 @@ const Work_Process = () => {
             </div>
           </div>
           <div className='flex justify-center'>
-            <span className='font-semibold text-[20px]'>Listen Problems</span>
+            <span className='font-semibold md:text-[20px]'>Listen Problems</span>
           </div>
           <div className='flex justify-center pr-5 pl-10'>
             <span className='font-medium text-[14px]'>We're here to assist with any digital challenges you encounter—just reach out to us!</span>
@@ -45,7 +45,7 @@ const Work_Process = () => {
 
         <div className='group' data-aos="fade-down">
           <div className='flex justify-center'>
-            <span className='font-semibold text-[20px]'>Make Some Research</span>
+            <span className='font-semibold md:text-[20px]'>Make Some Research</span>
           </div>
           <div className='flex justify-center pb-2 pr-5 pl-10'>
             <span className='font-medium text-[14px]'>We're partnering with digital agencies to enhance our online presence—stay tuned!</span>
@@ -70,7 +70,7 @@ const Work_Process = () => {
             </div>
           </div>
           <div className='flex justify-center'>
-            <span className='font-semibold text-[20px]'>Make Shorting</span>
+            <span className='font-semibold md:text-[20px]'>Make Shorting</span>
           </div>
           <div className='flex justify-center pr-5 pl-10'>
             <span className='font-medium text-[14px]'>Let's optimize our tasks for better efficiency and clarity.</span>
@@ -79,7 +79,7 @@ const Work_Process = () => {
 
         <div className='group' data-aos="fade-down">
           <div className='flex justify-center'>
-            <span className='font-semibold text-[20px]'>Do Final Work</span>
+            <span className='font-semibold md:text-[20px]'>Do Final Work</span>
           </div>
           <div className='flex justify-center pb-2 pr-5 pl-10'>
             <span className='font-medium text-[14px]'>Putting the finishing touches on our project—so close to completion!</span>

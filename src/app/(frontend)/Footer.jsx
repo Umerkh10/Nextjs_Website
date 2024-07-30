@@ -74,12 +74,12 @@ const Footer = () => {
               </div>
               <div className='lg:order-2 order-1'>
                 <div className='flex items-center'>
-                  <h2 className='pt-20 text-white font-bold text-[38px]'>
+                  <h2 className='pt-20 text-white font-bold text-3xl md:text-[38px]'>
                     Join Our Mailing  <span className='underline'>List for Updates!</span>
                   </h2>
                 </div>
                 <div className='flex items-center justify-center'>
-                  <p className='pt-4 text-white font-medium text-[20px]'>
+                  <p className='pt-4 text-white font-medium md:text-[20px]'>
                     We’re team of over 100 seasoned software engineers, each with over a decade of experience in crafting exceptional products
                   </p>
                 </div>
@@ -118,7 +118,7 @@ const Footer = () => {
 
             <div className='pl-6 pt-4 lg:pt-0'>
               <div className='flex items-center gap-3'>
-                <span className='text-white text-[26px] font-semibold '>Links </span>
+                <span className='text-white text-xl md:text-[26px] font-semibold '>Links </span>
                 <div class="block w-full h-[2px] bg-white opacity-15 leading-[1.6rem]"></div>
               </div>
               <div className='mt-10'>
@@ -131,42 +131,42 @@ const Footer = () => {
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/SeoService">SEO Service</Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/SeoService">SEO Service</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'>
                         <Link href="/GraphicDesign">Graphic Design</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/WebDevelopment">Web Development </Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/WebDevelopment">Web Development </Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/AppDevelopment">App Development </Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/AppDevelopment">App Development </Link></span>
                     </div>
                   </div>
                   <div className=''>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/About">About</Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/About">About</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Terms">Terms</Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Terms">Terms</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Contact">Contact Us</Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Contact">Contact Us</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Privacy">Privacy Policy</Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Privacy">Privacy Policy</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
-                      <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/ReturnRefund">Return Refund</Link></span>
+                      <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/ReturnRefund">Return Refund</Link></span>
                     </div>
                   </div>
                 </div>

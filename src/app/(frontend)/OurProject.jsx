@@ -44,11 +44,11 @@ const OurProject = () => {
         <div ref={ref}>
 
         <div className=' mx-auto mt-10 w-full text-foreground/80' data-aos="fade-right" >
-            <div className='pl-10 md:pb-8 pb-4 text-[20px] text-purple-700 font-bold'>Our Projects</div>
+            <div className='pl-10 md:pb-8 pb-4 md:text-[20px] text-purple-700 font-bold'>Our Projects</div>
             <div className='flex flex-col lg:flex-row lg:justify-between  pl-10 pr-10 '>
-                <div className='md:text-5xl text-4xl font-black '> Explore Our Best <br /> Recently Completed Projects </div>
+                <div className='md:text-5xl text-3xl font-black '> Explore Our Best <br /> Recently Completed Projects </div>
                 <div className='flex justify-end items-center w-[72%] xl:w-[20%] lg:w-[27%] md:w-[40%] group'>
-                    <button className='mt-8 text-sky-600 bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+                    <button className='mt-8 text-sky-600 bg-transparent md:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                         <span><Link href="/About"> View more </Link> </span>
                     </button>
                     <div className='flex items-center justify-center w-[50px] h-[50px] rounded-full bg-sky-600 mt-8 ml-2 group-hover:-translate-x-52 transition duration-200 delay-150 ease-in-out '>
@@ -59,21 +59,21 @@ const OurProject = () => {
         </div>
         <div className='flex flex-col lg:grid lg:grid-cols-2 mt-10  text-foreground/80 p-4 ' data-aos="fade-down">
     <div className='pl-10 pr-10'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>17 January 2024</div>
+        <div className='pt-10 text-sky-600 md:text-[20px] font-normal'>17 January 2024</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14  text-lg font-medium'>Thomas Halvorson</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Client:</span>
+            <span className='pl-14  md:text-lg font-medium'>Thomas Halvorson</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Services:</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700  text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700  md:text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700  md:text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700  md:text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700  md:text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700  md:text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>
@@ -97,21 +97,21 @@ const OurProject = () => {
 
 <div  className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4 ' data-aos="fade-up">
     <div className='pl-10 pr-10 order-2'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>20 April 2022</div>
+        <div className='pt-10 text-sky-600 md:text-[20px] font-normal'>20 April 2022</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14 text-lg font-medium'>Megan Bremer</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Client:</span>
+            <span className='pl-14 md:text-lg font-medium'>Megan Bremer</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Services:</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>
@@ -134,21 +134,21 @@ const OurProject = () => {
 </div>
 <div   className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4' data-aos="fade-down">
     <div className='pl-10 pr-10'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>10 March 2021</div>
+        <div className='pt-10 text-sky-600 md:text-[20px] font-normal'>10 March 2021</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14 text-lg font-medium'>Roy Wilson</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Client:</span>
+            <span className='pl-14 md:text-lg font-medium'>Roy Wilson</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Services:</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>
@@ -172,21 +172,21 @@ const OurProject = () => {
 </div>
 <div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4'data-aos="fade-up" >
     <div className='pl-10 pr-10 order-2'>
-        <div className='pt-10 text-sky-600 text-[20px] font-normal'>09 February 2019</div>
+        <div className='pt-10 text-sky-600 md:text-[20px] font-normal'>09 February 2019</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Client:</span>
-            <span className='pl-14 text-lg font-medium'>Jason Bartz</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Client:</span>
+            <span className='pl-14 md:text-lg font-medium'>Jason Bartz</span>
         </div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
         <div className='flex mt-4'>
-            <span className='text-gray-500 text-lg font-medium'>Services:</span>
+            <span className='text-gray-500 md:text-lg font-medium'>Services:</span>
             <div className='flex flex-col pl-10'>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Brand Guidelines</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Website Design</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Content Creation</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Frontend Development</li>
-                <li className='list-disc marker:text-purple-700 text-lg font-medium'>Backend Development</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Brand Guidelines</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Website Design</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Content Creation</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Frontend Development</li>
+                <li className='list-disc marker:text-purple-700 md:text-lg font-medium'>Backend Development</li>
             </div>
         </div>
     </div>

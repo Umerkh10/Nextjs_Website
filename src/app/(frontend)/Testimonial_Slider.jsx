@@ -50,7 +50,7 @@ const Testimonial_Slider = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="gold" stroke="gold" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
             </div>
             <div className='flex justify-center items-center pt-4'>
-            <p className='font-normal text-[20px] '>“You just cannot ask more of them. They give it all. Amazing concepts. Creative suggestions. Good customer service and fast turnaround times.”</p>
+            <p className='font-normal md:text-[20px] '>“You just cannot ask more of them. They give it all. Amazing concepts. Creative suggestions. Good customer service and fast turnaround times.”</p>
             </div>
             </div>
             <div class="flex items-center justify-between flex-wrap gap-2.5 p-6 px-7.5 border-t border-l-slate-500">
@@ -75,7 +75,7 @@ const Testimonial_Slider = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="gold" stroke="gold" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
             </div>
             <div className='flex justify-center items-center pt-4'>
-            <p className='font-normal text-[18px] '>“Totally the agency you would want to be on your side! I love the way they take interest in your work and treat is like their very own, phenomenal creations and delivery.”</p>
+            <p className='font-normal md:text-[18px] '>“Totally the agency you would want to be on your side! I love the way they take interest in your work and treat is like their very own, phenomenal creations and delivery.”</p>
             </div>
             </div>
             <div class="flex items-center justify-between flex-wrap gap-2.5 p-6 px-7.5 border-t border-l-slate-500">
@@ -99,7 +99,7 @@ const Testimonial_Slider = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="gold" stroke="gold" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
             </div>
             <div className='flex justify-center items-center pt-4'>
-            <p className='font-normal text-[20px] '>“Top-notch service, incredible designs. There is nothing more you could ask for! Thanks to the Webnike Team for their remarkable effort.”</p>
+            <p className='font-normal md:text-[20px] '>“Top-notch service, incredible designs. There is nothing more you could ask for! Thanks to the Webnike Team for their remarkable effort.”</p>
             </div>
             </div>
             <div class="flex items-center justify-between flex-wrap gap-2.5 p-6 px-7.5 border-t border-l-slate-500">
@@ -123,7 +123,7 @@ const Testimonial_Slider = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="gold" stroke="gold" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
             </div>
             <div className='flex justify-center items-center pt-4'>
-            <p className='font-normal text-[18px] '>“ They came up with some seriously cool concepts for my project, way more than I even expected. On top of that, they were super helpful throughout the whole process”</p>
+            <p className='font-normal md:text-[18px] '>“ They came up with some seriously cool concepts for my project, way more than I even expected. On top of that, they were super helpful throughout the whole process”</p>
             </div>
             </div>
             <div class="flex items-center justify-between flex-wrap gap-2.5 p-6 px-7.5 border-t border-l-slate-500">
