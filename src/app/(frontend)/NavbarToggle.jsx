@@ -142,14 +142,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
             </div>
 
 
-            {/* <div className="mb-12">
-              <input type="text" placeholder="Search..." className="pr-7 pl-7 h-14 mb-5 outline-none rounded-md text-gray-900" />
-              <br />
-              <button className=" pt-2 pb-2 pl-4 pr-4  rounded-md bg-white font-medium text-gray-900 hover:text-white hover:bg-purple-800 transition duration-500 ease-in">
-                <span className='flex items-center pl-1'>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-search"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
-                  Search</span> </button>
-            </div> */}
+ 
 
           </div>
         </div>
