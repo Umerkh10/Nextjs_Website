@@ -76,14 +76,14 @@ const Slider = () => {
                 <span className='inline-block text-white font-extrabold uppercase text-[80px] md:text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] md:-translate-y-[5.5rem]  -translate-y-12 translate-x-4 text-to-reveal'>Ive</span>
 
                 <span className='inline-block rotate-[90deg] font-black text-white text-[22px] md:text-[42px] 
-                translate-x-[7rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
+                translate-x-[7.25rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
               </div>
               <div className='h-auto w-full'>
                 <span className='inline-block -translate-y-[5rem] translate-x-4 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-4 md:-translate-y-[150px] font-extrabold text-white text-[30px] md:text-[60px] text-to-reveal'>Agency</span>
 
                 <p className='font-medium text-white text-[15px] inline-block md:-tra -translate-y-20 translate-x-3 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
 
-                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent lg:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
@@ -115,14 +115,14 @@ const Slider = () => {
                 <span className='inline-block text-white font-extrabold uppercase text-[80px] md:text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] md:-translate-y-[5.5rem]  -translate-y-12 translate-x-4 text-to-reveal'>Ive</span>
 
                 <span className='inline-block rotate-[90deg] font-black text-white text-[22px] md:text-[42px] 
-                translate-x-[7rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
+                translate-x-[7.25rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
               </div>
               <div className='h-auto w-full'>
                 <span className='inline-block -translate-y-[5rem] translate-x-4 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-4 md:-translate-y-[150px] font-extrabold text-white text-[30px] md:text-[60px] text-to-reveal'>Agency</span>
 
                 <p className='font-medium text-white text-[15px] inline-block md:-tra -translate-y-20 translate-x-3 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
 
-                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent lg:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
@@ -155,14 +155,14 @@ const Slider = () => {
                 <span className='inline-block text-white font-extrabold uppercase text-[80px] md:text-[140px] lg:-translate-y-24 lg:translate-x-[-3rem] md:-translate-y-[5.5rem]  -translate-y-12 translate-x-4 text-to-reveal'>Ive</span>
 
                 <span className='inline-block rotate-[90deg] font-black text-white text-[22px] md:text-[42px] 
-                translate-x-[7rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
+                translate-x-[7.25rem] translate-y-[-9.5rem] md:-translate-x-8 md:-translate-y-28 lg:-translate-y-[215px] lg:translate-x-[143px] xl:-translate-y-[115px] xl:translate-x-[-95px] text-to-reveal'>Digital</span>
               </div>
               <div className='h-auto w-full'>
                 <span className='inline-block -translate-y-[5rem] translate-x-4 lg:-translate-y-[14rem] lg:translate-x-[-3.5rem] xl:-translate-y-[165px] xl:translate-x-[-3.5rem] md:translate-x-4 md:-translate-y-[150px] font-extrabold text-white text-[30px] md:text-[60px] text-to-reveal'>Agency</span>
 
                 <p className='font-medium text-white text-[15px] inline-block md:-tra -translate-y-20 translate-x-3 lg:-translate-y-56 lg:translate-x-[-3.25rem] xl:-translate-y-[10.5rem] xl:translate-x-[-3.5rem] md:-translate-y-40 md:translate-x-2 text-to-reveal'>At Webnike, we blend innovation with design, crafting compelling digital experiences that captivate and engage your audience.</p>
 
-                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
+                <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent md:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
