@@ -100,8 +100,8 @@ const Slider = () => {
         <SwiperSlide>
         <div  className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1'>
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
-            <Image className='xl:ml-20 -translate-x-[1.75rem] md:-translate-x-0 lg:-translate-x-0 xl:translate-x-10 translate-y-8 xl:-translate-y-12 lg:translate-y-4 md:-translate-y-48 text-to-reveal'
-             src='/imgs/home_banner_1.webp' width={600} height={600} alt='banner' />
+            <Image className='xl:ml-8 -translate-x-[1.75rem] md:-translate-x-0 lg:-translate-x-0 xl:translate-x-10 translate-y-24 xl:translate-y-4 lg:translate-y-4 md:-translate-y-48 text-to-reveal'
+             src='/imgs/home_1.webp' width={700} height={700} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
             <div className='flex flex-col h-full w-2/3 mt md:pl-10'>
