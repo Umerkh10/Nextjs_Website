@@ -38,7 +38,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
         <div className="flex flex-col items-center  w-full md:overflow-hidden overflow-scroll h-full p-8">
           <div className="flex items-center justify-between mb-[1rem] sm:mb-8  gap-4 w-full">
             <Link href="/">
-              <Image src="/imgs/webmoon-white-logo.png" width={200} height={200} className="h-auto max-w-full mb-8" alt="webnike Logo"></Image>
+              <Image loading='eager' src="/imgs/webmoon-white-logo.png" width={200} height={200} className="h-auto max-w-full mb-8" alt="webnike Logo"></Image>
             </Link>
             <button onClick={() => setisMenuopen(false)} className=' block md:hidden -mt-14 border rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] p-1 bg-gray-600 hover:bg-purple-600 transition duration-500 ease-in'>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
