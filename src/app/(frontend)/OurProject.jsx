@@ -132,7 +132,7 @@ const OurProject = () => {
         </Link>
     </div>
 </div>
-<div   className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80' data-aos="fade-down">
+<div   className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4' data-aos="fade-down">
     <div className='pl-10 pr-10'>
         <div className='pt-10 text-sky-600 text-[20px] font-normal'>10 March 2021</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
@@ -170,7 +170,7 @@ const OurProject = () => {
 
     </div>
 </div>
-<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80'data-aos="fade-up" >
+<div className='flex flex-col lg:grid lg:grid-cols-2 mt-10 text-foreground/80 p-4'data-aos="fade-up" >
     <div className='pl-10 pr-10 order-2'>
         <div className='pt-10 text-sky-600 text-[20px] font-normal'>09 February 2019</div>
         <div className='h-[1px] bg-gray-400 mt-4'></div>
