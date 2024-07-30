@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
-import { useFormState,useFormStatus } from "react-dom"
+import { useFormState, useFormStatus } from "react-dom"
 import NewsletterEmail from '../(backend)/action/NewsletterEmail';
 import { toast } from 'sonner';
 import { useRouter } from 'next/navigation';
@@ -12,28 +12,28 @@ import { useRouter } from 'next/navigation';
 const Footer = () => {
   const [state, action] = useFormState(NewsletterEmail, null);
   const formRef = useRef(null)
-  const {pending} = useFormStatus()
-console.log(pending);
+  const { pending } = useFormStatus()
+  console.log(pending);
   useEffect(() => {
     AOS.init({
-      duration: 1000, 
-      offset: 200, 
+      duration: 1000,
+      offset: 200,
     });
   }, []);
 
-  const router= useRouter()
+  const router = useRouter()
 
-  useEffect(()=>{
-      if(state?.success){
-          formRef?.current?.reset()
-          // toast.success(state.success)
-          router.push('/ThankYou')
+  useEffect(() => {
+    if (state?.success) {
+      formRef?.current?.reset()
+      // toast.success(state.success)
+      router.push('/ThankYou')
 
-      }
-      if(state?.error){
-          toast.error(state.error)
-      }
-  },[state])
+    }
+    if (state?.error) {
+      toast.error(state.error)
+    }
+  }, [state])
 
   const [isVisible, setIsVisible] = useState(false);
   const containerRef = useRef(null);
@@ -65,31 +65,35 @@ console.log(pending);
     <>
       <div>
         <div className='relative z-50 px-4'>
-          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl'ref={containerRef} style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center',minHeight: '80vh' }}>
+          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl' ref={containerRef} style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '80vh' }}>
             <div className='flex flex-col lg:grid lg:grid-cols-2'>
               <div className='lg:pt-0 pt-4 lg:order-1 order-2' data-aos="fade-up" >
                 <div className='xl:h-[71vh] lg:h-[79vh] overflow-hidden'>
-                <Image className='md:translate-x-16 ' src="/imgs/newsletter-img.png" width={400} height={400} alt='footer_bg'/>
+                  <Image className='md:translate-x-16 ' src="/imgs/newsletter-img.png" width={400} height={400} alt='footer_bg' />
                 </div>
               </div>
               <div className='lg:order-2 order-1'>
                 <div className='flex items-center'>
                   <h2 className='pt-20 text-white font-bold text-[38px]'>
-                  Join Our Mailing  <span className='underline'>List for Updates!</span>
+                    Join Our Mailing  <span className='underline'>List for Updates!</span>
                   </h2>
                 </div>
                 <div className='flex items-center justify-center'>
                   <p className='pt-4 text-white font-medium text-[20px]'>
-                  We’re team of over 100 seasoned software engineers, each with over a decade of experience in crafting exceptional products
+                    We’re team of over 100 seasoned software engineers, each with over a decade of experience in crafting exceptional products
                   </p>
                 </div>
                 <div className="flex items-center mt-10">
                   <form className="relative w-full" action={action} ref={formRef}>
                     <div className="relative w-full">
-                      <input placeholder="Enter Your Email Address Here.." name='email' required type="email" className="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-[rgba(69,71,83,0.5)] text-lg"/>
-                      <button disabled={pending}  className=" absolute bg-orange-600 right-5 top-1/2 transform -translate-y-1/2 border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
-                        Subscribe Now
-                      </button>
+                      <input
+                        required
+                        class="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-black bg-white"
+                        type="email"
+                        name="email"/>
+                        <button disabled={pending} className=" absolute bg-orange-600 right-5 top-1/2 transform -translate-y-1/2 border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
+                          Subscribe Now
+                        </button>
                     </div>
                   </form>
                 </div>
@@ -99,11 +103,11 @@ console.log(pending);
         </div>
 
         <div className='relative mt-[-255px] mb-0 pt-[330px]' ref={containerRef} style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
-          <div className='lg:grid lg:grid-cols-3 flex flex-col' data-aos="fade-right"  data-aos-offset="100" data-aos-easing="ease-in-sine" >
+          <div className='lg:grid lg:grid-cols-3 flex flex-col' data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
             <div className='pl-6'>
               <div className='' >
                 <Link href='/'>
-                <Image src={"/imgs/webmoon-white-logo.png"} width={200} height={200} alt='footer_logo' ></Image>
+                  <Image src={"/imgs/webmoon-white-logo.png"} width={200} height={200} alt='footer_logo' ></Image>
                 </Link>
               </div>
               <div className='flex justify-start pt-3'>
@@ -203,7 +207,7 @@ console.log(pending);
                 </div>
               </div>
             </div>
-            
+
           </div>
           <div className='h-[1px] bg-gray-600 mt-8'></div>
           <div className='lg:grid lg:grid-cols-2' >
@@ -214,14 +218,14 @@ console.log(pending);
               <div className='flex justify-end'>
                 <span className='text-gray-300 font-medium pl-4 pt-4 pb-4  pr-4 hover:cursor-pointer hover:text-sky-500 '> <Link href="/Privacy"> Privacy Policy</Link></span>
                 <span className='text-gray-300 font-medium pl-4 pt-4 pb-4  pr-4 hover:cursor-pointer hover:text-sky-500'><Link href="/Terms"> Terms Of Use</Link> </span>
-        
-            
+
+
               </div>
             </div>
           </div>
 
         </div>
-        
+
       </div>
     </>
   )
