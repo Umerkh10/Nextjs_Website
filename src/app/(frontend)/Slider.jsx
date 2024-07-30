@@ -141,7 +141,7 @@ const Slider = () => {
             <div className='hidden  lg:flex mt-20 pl-7 text-to-reveal' > 
             </div>
             <Image className='lg:flex mt-20 pl-7 xl:ml-16 -translate-x-[2.25rem] md:translate-x-10 lg:-translate-x-0 xl:-translate-x-9 -translate-y-10 xl:-translate-y-40 lg:-translate-y-28 md:-translate-y-48 text-to-reveal'
-             src='/imgs/home-banner-3.webp' width={600} height={600} alt='banner' />
+             src='/imgs/home_banner_3.webp' width={600} height={600} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
             <div className='flex flex-col h-full w-2/3 mt md:pl-10'>
