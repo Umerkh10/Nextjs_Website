@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className='relative'>
           <div className='absolute -mt-2.5 left-0 w-5/6 h-[110px] bg-purple-800 rounded-tl-none rounded-tr-[100px] rounded-br-[100px] rounded-bl-none z-[-2]'>
             <Link href="/" className='inline-block grow-0 shrink-0 basis-auto mr-0  ml-4'>
-              <Image loading='eager' className='max-w-full h-auto pt-[1.5rem] pl-2' src="/imgs/webmoon-white-logo.png" alt="logo" width={150} height={100}></Image>
+              <Image loading='lazy' className='max-w-full h-auto pt-[1.5rem] pl-2' src="/imgs/webmoon-white-logo.png" alt="logo" width={150} height={100}></Image>
             </Link>
           </div>
           <div className=' absolute right-0 bg-slate-700 hidden sm:block md:w-3/6 lg:w-[75%] xl:w-[87%]  border-l-2 border-l-orange-600 h-20 z-[-1] rounded-tl-[100px] rounded-tr-none rounded-br-none rounded-bl-[100px]'>
