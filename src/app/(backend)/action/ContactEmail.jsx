@@ -36,8 +36,8 @@ export default async function ContactEmail(state, formData) {
                         <li><b>Last Name:</b> ${last_name}</li>
                         <li><b>Email Address:</b> ${email_address}</li>
                         <li><b>Subject:</b> ${subject}</li>
+                        <li><b>Cover:</b> ${cover}</li>
                     </ul>
-                    <p>${cover}</p>
                 </div>
     `
         };
