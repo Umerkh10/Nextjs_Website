@@ -37,7 +37,7 @@ const WhyUsApp = () => {
 
                     <div className='flex justify-center items-center group' data-aos="flip-down">
                         <div className=' border-[5px] border-orange-500 rounded-lg h-[25vh] lg:h-[22vh] lg:w-[14vw] bg-purple-700  group-hover:border-sky-300 group-hover:scale-110 transition ease-in duration-200 delay-200  '>
-                            <div className='text-center mt-8 font-extrabold md:text-3xl text-2xl text-white '>{inView ? <CountUp end={6} duration={2.75} /> : '0'}+</div>
+                            <div className='text-center mt-8 font-extrabold md:text-3xl text-2xl text-white '>{inView ? <CountUp end={10} duration={2.75} /> : '0'}+</div>
                             <div className='text-center font-semibold md:text-lg text-white'>Years Of Experience</div>
                         </div>
                     </div>
