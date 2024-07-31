@@ -31,7 +31,7 @@ const AppBannner = () => {
 
             </div>
             <div className='lg:pt-0 pt-5' data-aos="fade-down">
-                <Image className='-ml-5' src="/imgs/app-banner-2.webp" width={800} height={500} alt='app-banner'></Image>
+                <Image className='-ml-5' loading='lazy' src="/imgs/app-banner-2.webp" width={800} height={500} alt='app-banner'></Image>
             </div>
         </div>
         </div>

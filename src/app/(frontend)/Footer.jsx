@@ -65,10 +65,10 @@ const Footer = () => {
     <>
       <div>
         <div className='relative z-50 px-4'>
-          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl' ref={containerRef} style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
+          <div className='lg:pb-5 pt-5 pl-6 pr-6 rounded-2xl' ref={containerRef} style={{ backgroundImage: "url('/imgs/bg-newsletter.webp')", backgroundSize: 'cover', backgroundPosition: 'center', }}>
             <div className='flex flex-col lg:grid lg:grid-cols-2'>
               <div className='lg:pt-0 pt-4 lg:order-1 order-2' data-aos="fade-up" >
-                <div className='xl:h-[71vh] lg:h-[79vh] overflow-hidden'>
+                <div className='overflow-hidden'>
                   <Image className='md:translate-x-16 ' src="/imgs/newsletter-img.png" width={400} height={400} alt='footer_bg' />
                 </div>
               </div>
