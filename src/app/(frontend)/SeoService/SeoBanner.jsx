@@ -36,7 +36,7 @@ const handleClick = () => {
             </div>
         </div>
         <div className='bg-purple-400  '>
-            <div className='flex items-center justify-center xl:pt-24 lg:pt-28 pt-20 '><Image loading='lazy' src={"/imgs/seo-banner.png"} width={600} height={600} alt='Seo_banner' ></Image></div>
+            <div className='flex items-center justify-center xl:pt-24 lg:pt-28 pt-20 '><Image priority={true} src={"/imgs/seo-banner.png"} width={600} height={600} alt='Seo_banner' ></Image></div>
         </div>
     </div>
   )
