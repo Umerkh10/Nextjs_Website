@@ -14,26 +14,23 @@ export default async function ContactEmail(state, formData) {
         // const nodemailer = require('nodemailer');
 
         const transporter = nodemailer.createTransport({
-            host: 'mail.graderz.org',
+            host: 'business76.web-hosting.com',
             port: 587,
             secure: false, // true for 465, false for other ports
             auth: {
-                user: 'testing@graderz.org', // your SMTP username
-                pass: '31$}f_25ddl#' // your SMTP password
+                user: 'support@webnike.com', // your SMTP username
+                pass: 'ch.lF$}deEjC' // your SMTP password
             }
         });
 
         let mailOptions = {
-            from: '"Webnike.org" <testing@graderz.org>',
-            to: 'mumarkhan383@gmail.com',
-            subject: 'Thank You✔',
+            from: 'support@webnike.com',
+            to: 'support@webnike.com',
+            subject: 'Contact Us Form',
             text: 'Hello world?',
             html: `
                 <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-                    <h2>Welcome to Webnike</h2>
-                    <p>Hello <b>${first_name}</b>,</p>
-                    <p>Thank you for joining our community. We are excited to have you!</p>
-                    <p><b>Your Details:</b></p>
+                    <p><b>Details:</b></p>
                     <ul>
                         <li><b>First Name:</b> ${first_name}</li>
                         <li><b>Last Name:</b> ${last_name}</li>
@@ -41,7 +38,6 @@ export default async function ContactEmail(state, formData) {
                         <li><b>Subject:</b> ${subject}</li>
                     </ul>
                     <p>${cover}</p>
-                    <p>Best regards,<br>Webnike.org</p>
                 </div>
     `
         };

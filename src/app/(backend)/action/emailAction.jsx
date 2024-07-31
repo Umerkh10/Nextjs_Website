@@ -13,33 +13,29 @@ export default async function EmailAction(state, formData) {
 
    
         const transporter = nodemailer.createTransport({
-            host: 'mail.graderz.org',
+            host: 'business76.web-hosting.com',
             port: 587,
             secure: false, // true for 465, false for other ports
             auth: {
-                user: 'testing@graderz.org', // your SMTP username
-                pass: '31$}f_25ddl#' // your SMTP password
+                user: 'support@webnike.com', // your SMTP username
+                pass: 'ch.lF$}deEjC' // your SMTP password
             }
         });
 
         let mailOptions = {
-            from: '"Webnike.org" <testing@graderz.org>', 
-            to: 'mumarkhan383@gmail.com',
-            subject: 'Hello ✔', 
+            from: 'support@webnike.com', 
+            to: 'support@webnike.com',
+            subject: 'Service Form', 
             text: 'Hello world?', 
             html:  `
             <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-                <h2>Welcome to Webnike</h2>
-                <p>Hello <b>${name}</b>,</p>
-                <p>Thank you for joining our community. We are excited to have you!</p>
-                <p><b>Your Details:</b></p>
+                <p><b> Details:</b></p>
                 <ul>
                     <li><b>Name:</b> ${name}</li>
                     <li><b>Email Address:</b> ${email}</li>
                     <li><b>Phone Number:</b> ${phone}</li>
                     <li><b>Subject:</b> ${selection}</li>
                 </ul>
-                <p>Best regards,<br>Webnike.org</p>
             </div>
 `
         };
