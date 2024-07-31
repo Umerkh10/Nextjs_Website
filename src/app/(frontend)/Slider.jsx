@@ -46,7 +46,7 @@ const Slider = () => {
   };
 
   return (
-    <div className='h-[200vh] xl:h-[110vh] lg:h-[125vh] pt-36 max-w-screen w-full relative overflow-hidden bg-none'>
+    <div className=' xl:h-[110vh] lg:h-[125vh] pt-36 max-w-screen w-full relative overflow-hidden bg-none'>
       <div style={{ backgroundImage: "url('/imgs/bg-workprocess-web.webp')", backgroundSize: 'cover', backgroundPosition: 'center' }}
         className='absolute top-0 left-0 h-full w-full z-[-1] '>
         <div className='flex justify-center items-center h-full mt-[380px] mr-32 '>
@@ -62,7 +62,7 @@ const Slider = () => {
         <div id='slider' className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1'>
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
        
-            <Image className='xl:ml-16 -translate-x-[4.25rem] md:-translate-x-0 lg:-translate-x-0 xl:-translate-x-0 translate-y-2 xl:-translate-y-12 lg:translate-y-4 md:-translate-y-48 text-to-reveal' src='/imgs/home-banner-2.webp' width={600} height={600} alt='banner' />
+            <Image className='xl:ml-16 -translate-x-[4.25rem] md:-translate-x-0 lg:-translate-x-0 xl:-translate-x-0 translate-y-16 xl:-translate-y-12 lg:translate-y-4 md:-translate-y-48 text-to-reveal' src='/imgs/home-banner-2.webp' width={600} height={600} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
             <div className='flex flex-col h-full w-2/3 mt md:pl-10'>
@@ -100,7 +100,7 @@ const Slider = () => {
         <SwiperSlide>
         <div  className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1'>
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
-            <Image className='xl:ml-8 -translate-x-[1.75rem] md:-translate-x-0 lg:-translate-x-0 xl:translate-x-10 translate-y-24 xl:translate-y-4 lg:translate-y-4 md:-translate-y-48 text-to-reveal'
+            <Image className='xl:ml-8 -translate-x-[1.75rem] md:-translate-x-0 lg:-translate-x-0 xl:translate-x-10 translate-y-40 xl:translate-y-4 lg:translate-y-4 md:-translate-y-48 text-to-reveal'
              src='/imgs/home_1.webp' width={700} height={700} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
@@ -140,7 +140,7 @@ const Slider = () => {
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
             <div className='hidden  lg:flex mt-20 pl-7 text-to-reveal' > 
             </div>
-            <Image className='lg:flex mt-20 pl-7 xl:ml-16 -translate-x-[2.25rem] md:translate-x-10 lg:-translate-x-0 xl:-translate-x-9 translate-y-10 xl:-translate-y-20 lg:-translate-y-28 md:-translate-y-48 text-to-reveal'
+            <Image className='lg:flex mt-20 pl-7 xl:ml-16 -translate-x-[2.25rem] md:translate-x-10 lg:-translate-x-0 xl:-translate-x-9 translate-y-24 xl:-translate-y-20 lg:-translate-y-28 md:-translate-y-48 text-to-reveal'
              src='/imgs/home-banner-3.webp' width={700} height={700} alt='banner' />
           </div>
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
