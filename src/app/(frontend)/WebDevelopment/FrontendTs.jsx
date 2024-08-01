@@ -13,8 +13,8 @@ const FrontendTs = () => {
     });
 }, []);
   return (
-    <div className='bg-slate-200 dark:bg-transparent'>
-        <div data-aos="fade-up" className='pt-6 text-center md:text-2xl text-xl font-extrabold text-purple-700'>Tech Stack </div>
+    <div className='bg-slate-200 dark:bg-transparent pt-12 pb-12'>
+        <div data-aos="fade-up" className=' text-center md:text-2xl text-xl font-extrabold text-purple-700'>Tech Stack </div>
     <div data-aos="fade-down" className='pt-2 text-center md:text-5xl text-3xl font-bold italic '>Frontend Development</div>
     <Tabs defaultValue="HTML" className="text-center p-8" data-aos="fade-down">
 <TabsList>

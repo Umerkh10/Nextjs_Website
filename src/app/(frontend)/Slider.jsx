@@ -67,7 +67,7 @@ const Slider = () => {
           <div className='col-span-1 order-1 lg:order-2 mx-auto flex items-center w-full'>
             <div className='flex flex-col h-full w-2/3 mt md:pl-10'>
               <div className='h-auto w-full mt-5'>
-                <span className='inline-block text-white font-extrabold text-3xl md:text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-6 translate-x-4 text-to-reveal'>We Are</span>
+                <span className='inline-block text-white font-extrabold text-3xl md:text-5xl lg:translate-y-10 lg:translate-x-[-2rem] translate-y-6 translate-x-4 text-to-reveal'>We Are </span>
               </div>
               <div className='h-auto w-full'>
                 <span className='inline-block text-white font-extrabold text-[90px] md:text-[140px] lg:translate-y-1 lg:translate-x-[-3.5rem] translate-y-1 translate-x-2 mb-2 text-to-reveal'>Creat</span>

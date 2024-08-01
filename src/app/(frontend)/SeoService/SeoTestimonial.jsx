@@ -15,7 +15,7 @@ const SeoTestimonial = () => {
         });
     }, []);
     return (
-        <div className='grid lg:grid-cols-2 grid-cols-1 h-[90vh] pt-20 bg-gray-200 dark:bg-transparent '>
+        <div className='grid lg:grid-cols-2 grid-cols-1 h-[90vh] pt-20  bg-gray-200 dark:bg-transparent '>
             <div className='p-8 mt-6' data-aos="fade-up">
                 <Image src={"/imgs/seo_testimonal_bg.webp"} width={800} height={600} alt='seo_testimonial'></Image>
             </div>

@@ -12,7 +12,7 @@ const ServiceAwards = () => {
         });
       }, []);
   return (
-    <div className='lg:grid lg:grid-cols-3 flex flex-col pl-4 pr-4 '>
+    <div className='lg:grid lg:grid-cols-3 flex flex-col pt-10 pl-4 pr-4 '>
         <div className=' '>
             <span className='md:text-lg text-blue-500 font-semibold ml-10'>AWARD</span>
             <h2 className='ml-5 text-3xl md:text-5xl font-extrabold'>Our Awards</h2>

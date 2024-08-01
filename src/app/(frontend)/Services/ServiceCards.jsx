@@ -14,11 +14,12 @@ const ServiceCards = () => {
       }, []);
     return (
         <>
-            <div className='mt-14 text-center text-foreground/85'>
+            <div className='mt-20 text-center text-foreground/85'>
                 <span className='text-blue-800 md:text-lg font-semibold'>Best Services</span>
                 <h2 className='text-3xl md:text-5xl font-extrabold mt-3'>We Provide Best Services</h2>
             </div>
-            <div className='lg:grid lg:grid-cols-3 gap-3 flex flex-col p-3  mt-4'>
+
+            <div className='lg:grid lg:grid-cols-3 gap-5 flex flex-col pl-5 pr-5 pt-10 mt-4'>
                 <div data-aos="fade-up" className='bg-gray-100 rounded-2xl h-[350px] dark:bg-black dark:hover:bg-purple-700 p-4 group hover:bg-purple-700 transition ease-in duration-150 delay-200 '>
                     <div className='flex justify-between'>
                         <div className='border rounded-full w-24 h-24 bg-purple-700 flex justify-center items-center'>
@@ -54,11 +55,7 @@ const ServiceCards = () => {
                     <div className='mt-4 md:text-lg group-hover:text-white font-semibold opacity-0 translate-y-20 group-hover:-translate-y-2 group-hover:opacity-100 tracking-wider transition ease-in duration-200 delay-200'><Link href="/GraphicDesign">Read More </Link> </div>
                 </div>
 
-            </div>
-
-            <div className='lg:grid lg:grid-cols-3 p-3  gap-3 flex flex-col'>
-
-            <div data-aos="fade-up" className='bg-gray-100 rounded-2xl h-[350px] dark:bg-black dark:hover:bg-purple-700 p-4 group hover:bg-purple-700 transition ease-in duration-150 delay-200 '>
+                <div data-aos="fade-up" className='bg-gray-100 rounded-2xl h-[350px] dark:bg-black dark:hover:bg-purple-700 p-4 group hover:bg-purple-700 transition ease-in duration-150 delay-200 '>
                     <div className='flex justify-between'>
                         <div className='border rounded-full w-24 h-24 bg-purple-700 flex justify-center items-center'>
                             <Image src={"/imgs/service_app-development.png"} width={50} height={30} alt='seo' ></Image> </div>
@@ -70,11 +67,8 @@ const ServiceCards = () => {
                         <Link href="/AppDevelopment">Read More </Link> </div>
                 </div>
 
-          
-                
-         
-
             </div>
+
         </>
     )
 }

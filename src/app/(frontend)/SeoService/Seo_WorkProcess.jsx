@@ -12,9 +12,9 @@ const Seo_WorkProcess = () => {
         });
     }, []);
     return (
-        <div className='pt-14 bg-gray-200 dark:bg-transparent ' >
-            <div className='text-center text-5xl font-semibold text-slate-800 dark:text-gray-300' data-aos="fade-down">Work Process</div>
-            <div className='text-center mt-4 text-lg font-medium text-slate-800 italic  dark:text-gray-300' data-aos="fade-down">Best Seo Optimization Agency</div>
+        <div className='pt-20 bg-gray-200 dark:bg-transparent ' >
+            <div className='text-center text-5xl font-semibold ' data-aos="fade-down">Work Process</div>
+            <div className='text-center mt-3 text-lg font-medium italic ' data-aos="fade-down">Best Seo Optimization Agency</div>
 
             <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-7 gap-10 pb-5 '>
                 <div className='group' data-aos="fade-down">

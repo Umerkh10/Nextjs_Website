@@ -15,12 +15,12 @@ const PopularCaseStudies = () => {
     return (
         <>
         <div className='bg-gray-200 dark:bg-transparent'>
-            <div className='pt-20 text-center md:text-5xl text-4xl  text-slate-800 dark:text-gray-300 font-bold'data-aos="fade-up" > Popular Case Studies</div>
-            <div className='pt-4 text-center text-lg text-slate-800 dark:text-gray-300 font-semibold' data-aos="fade-down" >Best SEO Optimization Agency</div>
+            <div className='pt-28 text-center md:text-5xl text-4xl font-bold'data-aos="fade-up" > Popular Case Studies</div>
+            <div className='pt-2 text-center text-lg font-semibold' data-aos="fade-down" >Best SEO Optimization Agency</div>
 
 
-            <div className='lg:grid lg:grid-cols-4 flex flex-col p-8 lg:p-5 pb-10'>
-                <div className='group' data-aos="flip-right">
+            <div className='lg:grid lg:grid-cols-4 flex flex-col p-8 lg:p-5 '>
+                <div className='group ' data-aos="flip-right">
                 <div className='p-4 group-hover:scale-110 transition ease-in duration-200 delay-100 '>
                         <div className=" bg-sky-200 rounded-2xl ">
                             <div className="flex flex-col items-center lg:h-[65vh] px-3.75">

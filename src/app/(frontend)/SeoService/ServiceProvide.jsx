@@ -14,13 +14,13 @@ const ServiceProvide = () => {
     return (
         <>
         <div className='bg-gray-200 dark:bg-transparent '>
-            <div className='text-center pt-14' data-aos="fade-up">
-                <span className='text-slate-800 dark:text-gray-300 md:text-5xl text-4xl font-extrabold'>Service We Provide</span>
+            <div className='text-center pt-24' data-aos="fade-up">
+                <span className=' md:text-5xl text-4xl font-extrabold'>Service We Provide</span>
             </div>
-            <div className='pt-5 text-center  text-slate-700 dark:text-gray-300 italic md:text-lg font-semibold' data-aos="fade-up">Best SEO Optimization Agency</div>
+            <div className='pt-3 text-center italic md:text-lg font-semibold' data-aos="fade-up">Best SEO Optimization Agency</div>
             <div className='lg:grid lg:grid-cols-2 flex flex-col lg:p-0 p-3' data-aos="fade-up">
                 <div className=''>
-                    <div className='grid md:grid-cols-2 grid-cols-1 gap-5 lg:pt-0 pt-5 lg:gap-0 mt-5 lg:ml-0 md:ml-20 lg:p-10'>
+                    <div className='grid md:grid-cols-2 grid-cols-1 gap-5 lg:pt-10 pt-5 lg:gap-0 mt-5 lg:ml-0 md:ml-20 lg:p-10'>
                         <div className='group'>
                             <div className='flex flex-col justify-center items-center border-[5px] border-black/70 rounded-xl w-full sm:w-[40vw] md:w-[30vw] lg:w-[20vw] p-4 group-hover:scale-105 transition ease-in duration-200 delay-100 group-hover:border-purple-700'>
                                 <div className='flex flex-col pt-6 justify-center items-center h-full w-full'>

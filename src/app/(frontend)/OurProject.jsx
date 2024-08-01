@@ -43,7 +43,7 @@ const OurProject = () => {
         <>
         <div ref={ref}>
 
-        <div className=' mx-auto mt-10 w-full text-foreground/80' data-aos="fade-right" >
+        <div className=' mx-auto mt-14 w-full text-foreground/80' data-aos="fade-right" >
             <div className='pl-10 md:pb-8 pb-4 md:text-[20px] text-purple-700 font-bold'>Our Projects</div>
             <div className='flex flex-col lg:flex-row lg:justify-between  pl-10 pr-10 '>
                 <div className='md:text-5xl text-3xl font-black '> Explore Our Best <br /> Recently Completed Projects </div>
