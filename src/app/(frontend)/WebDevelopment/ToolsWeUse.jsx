@@ -31,7 +31,7 @@ const ToolsWeUse = () => {
             <div class=" space-x-2">
                 <Image src="/imgs/google-workspace.png" width={100} height={100} alt="Google Workspace" ></Image>
                 <div className='group-hover:text-gray-200'>
-                    <h2 class="text-xl font-semibold ">Workspace</h2>
+                    <div class="text-xl font-semibold ">Workspace</div>
                     <p>We leverage top tools from Google Workspace.</p>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const ToolsWeUse = () => {
             <div class=" space-x-2">
             <Image src="/imgs/figma.png" width={100} height={100} alt="figma" ></Image>
                 <div className='group-hover:text-gray-200'>
-                    <h2 class="text-xl font-semibold ">Figma</h2>
+                    <div class="text-xl font-semibold ">Figma</div>
                     <p>We create our designs using the leading design software.</p>
                 </div>
             </div>
@@ -51,7 +51,7 @@ const ToolsWeUse = () => {
             <div class=" space-x-2">
             <Image src="/imgs/slack.png" width={100} height={100} alt="slack" ></Image>
                 <div className='group-hover:text-gray-200'>
-                    <h2 class="text-xl font-semibold ">Slack</h2>
+                    <div class="text-xl font-semibold ">Slack</div>
                     <p>Our main communication platform. It's used for both business interactions and casual conversations.</p>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const ToolsWeUse = () => {
             <div class=" space-x-2">
             <Image src="/imgs/sentry.png" width={100} height={100} alt="sentry" ></Image>
                 <div className='group-hover:text-gray-200'>
-                    <h2 class="text-xl font-semibold">Sentry</h2>
+                    <div class="text-xl font-semibold">Sentry</div>
                     <p>We leverage Sentry for real-time monitoring and error reporting in our applications.</p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const ToolsWeUse = () => {
             <div class=" space-x-2">
             <Image src="/imgs/bitbucket.png" width={100} height={100} alt="bitbucket" ></Image>
                 <div className='group-hover:text-gray-200'>
-                    <h2 class="text-xl font-semibold">Bitbucket</h2>
+                    <div class="text-xl font-semibold">Bitbucket</div>
                     <p>Version control with Git, bug tracking, and release planning through source code management.</p>
                 </div>
             </div>
@@ -81,7 +81,7 @@ const ToolsWeUse = () => {
             <div class=" space-x-2">
             <Image src="/imgs/jira.png" width={100} height={100} alt="jira" ></Image>
                 <div className='group-hover:text-gray-200'>
-                    <h2 class="text-xl font-semibold">Jira</h2>
+                    <div class="text-xl font-semibold">Jira</div>
                     <p>We oversee projects, track progress, and prioritize tasks.</p>
                 </div>
             </div>
@@ -92,7 +92,7 @@ const ToolsWeUse = () => {
             <Image src="/imgs/confluence.png" width={100} height={100} alt="confluence" ></Image>
 
                 <div className='group-hover:text-gray-200'>
-                    <h2 class="text-xl font-semibold">Confluence</h2>
+                    <div class="text-xl font-semibold">Confluence</div>
                     <p>We develop, archive, and disseminate our documentation and design knowledge.</p>
                 </div>
             </div>
@@ -103,7 +103,7 @@ const ToolsWeUse = () => {
             <Image src="/imgs/aws.png" width={100} height={100} alt="AWS" ></Image>
 
                 <div className='group-hover:text-gray-200 '>
-                    <h2 class="text-xl font-semibold pt-2">AWS</h2>
+                    <div class="text-xl font-semibold pt-2">AWS</div>
                     <p className='text-sm pt-2'>AWS (Amazon Web Services) is a comprehensive cloud platform that provides a wide range of computing services, data storage options, and various IT solutions.</p>
                 </div>
             </div>

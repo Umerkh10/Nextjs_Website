@@ -74,9 +74,9 @@ const Footer = () => {
               </div>
               <div className='lg:order-2 order-1'>
                 <div className='flex items-center'>
-                  <h2 className='pt-20 text-white font-bold text-3xl md:text-[38px]'>
+                  <div className='pt-20 text-white font-bold text-3xl md:text-[38px]'>
                     Join Our Mailing  <span className='underline'>List for Updates!</span>
-                  </h2>
+                  </div>
                 </div>
                 <div className='flex items-center justify-center'>
                   <p className='pt-4 text-white font-medium md:text-[20px]'>

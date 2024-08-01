@@ -16,7 +16,7 @@ const ServiceCards = () => {
         <>
             <div className='mt-20 text-center text-foreground/85'>
                 <span className='text-blue-800 md:text-lg font-semibold'>Best Services</span>
-                <h2 className='text-3xl md:text-5xl font-extrabold mt-3'>We Provide Best Services</h2>
+                <div className='text-3xl md:text-5xl font-extrabold mt-3'>We Provide Best Services</div>
             </div>
 
             <div className='lg:grid lg:grid-cols-3 gap-5 flex flex-col pl-5 pr-5 pt-10 mt-4'>

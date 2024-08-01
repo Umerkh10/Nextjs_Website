@@ -42,8 +42,8 @@ const Image_Parallax = () => {
             <div className='grid col-span-4' data-aos="fade-right">
                 <div className='relative ml-5'>
                     <div className='mb-7'>
-                        <h6 className='font-semibold text-[14px] pt-3 pb-5 text-purple-600 uppercase leading-6'>About Us</h6>
-                        <h2 className='font-extrabold text-3xl md:text-5xl mb-6'>Committed to Delivering <br /> Outstanding Service</h2>
+                        <div className='font-semibold text-[14px] pt-3 pb-5 text-purple-600 uppercase leading-6'>About Us</div>
+                        <div className='font-extrabold text-3xl md:text-5xl mb-6'>Committed to Delivering <br /> Outstanding Service</div>
                         <p className='font-normal leading-6 text-[15px]'>Our team comprises over 100 professional software engineers, each with more than a decade of experience in delivering exceptional products. Trust the numbers, they speak for themselves.</p>
 
                         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-5 mb-7'>
@@ -80,7 +80,7 @@ const Image_Parallax = () => {
                                 <div className='flex items-center gap-2 mt-2'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /><path d="M14.05 2a9 9 0 0 1 8 7.94" /><path d="M14.05 6A5 5 0 0 1 18 10" /></svg>
                                     <div className='leading-[0.6] pl-2'>
-                                        <h5 className='font-bold text-[20px]'>021-34155132</h5>
+                                        <div className='font-bold text-[20px]'>021-34155132</div>
                                         <br />
                                         <p className='text-[14px] font-semibold text-sky-600'>Have Any Question?</p>
                                     </div>

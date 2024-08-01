@@ -15,7 +15,7 @@ const ServiceAwards = () => {
     <div className='lg:grid lg:grid-cols-3 flex flex-col pt-10 pl-4 pr-4 '>
         <div className=' '>
             <span className='md:text-lg text-blue-500 font-semibold ml-10'>AWARD</span>
-            <h2 className='ml-5 text-3xl md:text-5xl font-extrabold'>Our Awards</h2>
+            <div className='ml-5 text-3xl md:text-5xl font-extrabold'>Our Awards</div>
             <div className='mt-8'data-aos="fade-up" > <Image src={"/imgs/service-award.webp"} width={500} height={300} alt='service_award' ></Image></div>
         </div>
         <div className='col-span-2  p-8' data-aos="fade-down" >
