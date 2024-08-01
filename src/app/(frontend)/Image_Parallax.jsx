@@ -51,14 +51,14 @@ const Image_Parallax = () => {
                                 <div className='w-[68px] h-[68px] flex items-center justify-center bg-purple-200 border-purple-700 border border-dashed rounded-lg group'>
                                     <Image className='group-hover:animate-bounce' src={"/imgs/charity.png"} width={40} height={40} alt='charity'></Image>
                                 </div>
-                                <h4 className='font-semibold capitalize md:text-lg'>Save More with Our Solutions</h4>
+                                <div className='font-semibold capitalize md:text-lg'>Save More with Our Solutions</div>
                             </div>
 
                             <div className='flex items-center gap-2'>
                                 <div className='w-[68px] h-[68px] flex items-center justify-center bg-purple-200 border-purple-700 border border-dashed rounded-lg group'>
                                     <Image className='group-hover:animate-bounce' src={"/imgs/time-passing.png"} width={40} height={60} alt='time-passing'></Image>
                                 </div>
-                                <h4 className='font-semibold capitalize md:text-lg'> Detailed Delivery Schedule</h4>
+                                <div className='font-semibold capitalize md:text-lg'> Detailed Delivery Schedule</div>
                             </div>
                         </div>
                         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-3 pl-1'>
