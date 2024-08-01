@@ -1,15 +1,14 @@
-import dynamic from 'next/dynamic';
 
-const Navbar = dynamic(() => import('./Navbar'), { ssr: false });
-const Slider = dynamic(() => import('./Slider'), { ssr: false });
-const Rating = dynamic(() => import('./Rating'), { ssr: false });
-const Image_Parallax = dynamic(() => import('./Image_Parallax'), { ssr: false });
-const Card_Carousel = dynamic(() => import('./Card_Carousel'), { ssr: false });
-const OurProject = dynamic(() => import('./OurProject'), { ssr: false });
-const Work_Process = dynamic(() => import('./Work_Process'), { ssr: false });
-const Testimonials = dynamic(() => import('./Testimonials'), { ssr: false });
-const Footer = dynamic(() => import('./Footer'), { ssr: false });
-const Revenue_Background = dynamic(() => import('./Revenue_Background'), { ssr: false });
+import Navbar from './Navbar'
+import Slider from './Slider'
+import Rating from './Rating'
+import Image_Parallax from './Image_Parallax'
+import Card_Carousel from './Card_Carousel'
+import OurProject from './OurProject'
+import Work_Process from './Work_Process'
+import Testimonials from './Testimonials'
+import Footer from './Footer'
+import Revenue_Background from './Revenue_Background'
 
 export const metadata = {
   title: 'Home | Webnike',
