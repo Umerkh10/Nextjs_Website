@@ -15,9 +15,9 @@ const SeoTestimonial = () => {
         });
     }, []);
     return (
-        <div className='grid lg:grid-cols-2 grid-cols-1 h-[90vh] pt-20  bg-gray-200 dark:bg-transparent '>
+        <div className='grid lg:grid-cols-2 grid-cols-1  pt-12  bg-gray-200 dark:bg-transparent '>
             <div className='p-8 mt-6' data-aos="fade-up">
-                <Image src={"/imgs/seo_testimonal_bg.webp"} width={800} height={600} alt='seo_testimonial'></Image>
+                <Image className='rounded-2xl' src={"/imgs/seo_testimonal_bg.webp"} width={800} height={600} alt='seo_testimonial'></Image>
             </div>
             <div className='p-4' data-aos="fade-down">
                 <div className='text-4xl font-bold mt-10 '>What Client's Say About Us</div>

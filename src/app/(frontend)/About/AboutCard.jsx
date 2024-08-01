@@ -16,7 +16,7 @@ const AboutCard = () => {
     return (
         <div className='bg-gray-200 dark:bg-transparent'>
             <div className='pt-14'>
-                <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 lg:gap-3 p-5'>
+                <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 lg:gap-3 p-10'>
 
                     <div data-aos="fade-up" className=' '>
                         <div className='text-2xl font-extrabold underline underline-offset-4 decoration-purple-600 italic'>SEO</div>

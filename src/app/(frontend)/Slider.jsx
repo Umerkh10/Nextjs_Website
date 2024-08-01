@@ -57,7 +57,7 @@ const Slider = () => {
 
       <Swiper modules={[ Autoplay,]} spaceBetween={30} slidesPerView={1}
        autoplay={{ delay: 5000, disableOnInteraction: true }}  loop={true} ref={swiperRef} className='w-full h-full'>
-        {/* First Slide */}
+  
         <SwiperSlide>
         <div id='slider' className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1'>
           <div className='col-span-1 order-2 lg:order-1 w-full mx-auto relative'>
