@@ -34,18 +34,18 @@ const AboutFaq = () => {
             <div className='grid lg:grid-cols-2 grid-cols-1 p-4'>
                 <div className='pl-6'>
                     <div data-aos="fade-up" className='text-xl font-semibold gradient-text italic'>OVER 150,000+ CLIENTS</div>
-                    <div data-aos="fade-down" className='pt-2 font-extrabold text-5xl '>About Us</div>
+                    <div data-aos="fade-down" className='pt-2 font-extrabold text-3xl md:text-5xl '>About Us</div>
                 </div>
 
-                <div className='pr-6'>
-                    <div data-aos="fade-up" className='font-semibold text-lg gradient-text italic'>We don’t just build with concrete and steel. We craft innovative websites and web design concepts with creativity and precision. Our approach is both expert and approachable</div>
+                <div className='pt-4 md:pt-0 md:pr-6'>
+                    <div data-aos="fade-up" className='font-semibold md:text-lg gradient-text italic'>We don’t just build with concrete and steel. We craft innovative websites and web design concepts with creativity and precision. Our approach is both expert and approachable</div>
                 </div>
         </div>
 
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 p-5'>
             <div className=''>
                 <div data-aos="flip-up" className='flex items-center justify-center'>
-                    <Image className='rounded-2xl' src="/imgs/about_faq.webp" width={600} height={600} alt='about-faq-bg'></Image>
+                    <Image priority className='rounded-2xl' src="/imgs/about_faq.webp" width={600} height={600} alt='about-faq-bg'></Image>
                 </div>
             </div>
 

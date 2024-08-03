@@ -22,8 +22,8 @@ const ProjectTab = () => {
       
   return (
     <div className='bg-gray-200 dark:bg-transparent pt-20' ref={ref}>
-        <div className='text-center text-xl font-semibold uppercase gradient-text italic' data-aos="fade-down">Over 150,000+ clients</div>
-        <div className='pt-2 font-extrabold text-5xl text-center uppercase' data-aos="fade-up">Our Projects</div>
+        <div className='text-center md:text-xl font-semibold uppercase gradient-text italic' data-aos="fade-down">Over 150,000+ clients</div>
+        <div className='pt-2 font-extrabold text-4xl md:text-5xl text-center uppercase' data-aos="fade-up">Our Projects</div>
 
 
         <Tabs data-aos="fade-down" defaultValue="seo" className="text-center p-8">
@@ -41,7 +41,7 @@ const ProjectTab = () => {
         </TabsList>
 
         <TabsContent value="seo">
-        <div className='text-center pt-5 text-4xl font-extrabold uppercase italic' data-aos="fade-up">SEO</div>
+        <div className='text-center pt-5 text-3xl md:text-4xl font-extrabold uppercase italic' data-aos="fade-up">SEO</div>
             <div className='grid lg:grid-cols-2 grid-cols-1  gap-5 p-8'>
                 <div className='group '>
                     <div data-aos="flip-down" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
@@ -58,7 +58,7 @@ const ProjectTab = () => {
         </TabsContent>
 
         <TabsContent value="web">
-            <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-down">
+            <div className='text-center pt-8 text-3xl md:text-4xl font-extrabold uppercase italic' data-aos="fade-down">
                 Web Development</div>
              <div className='grid lg:grid-cols-2 grid-cols-1  gap-5 p-8'>
                 <div className='group '>
@@ -79,7 +79,7 @@ const ProjectTab = () => {
             </TabsContent>
 
         <TabsContent value="graphic">
-                <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-right">Graphic Design</div>
+                <div className='text-center pt-8 text-3xl md:text-4xl font-extrabold uppercase italic' data-aos="fade-right">Graphic Design</div>
              <div className='grid lg:grid-cols-2 grid-cols-1  gap-5 p-8'>
                 <div className='group '>
                     <div data-aos="flip-up" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>
@@ -96,7 +96,7 @@ const ProjectTab = () => {
         </TabsContent>
 
         <TabsContent value="app">
-        <div className='text-center pt-8 text-4xl font-extrabold uppercase italic' data-aos="fade-up" >App Development</div>
+        <div className='text-center pt-8 text-3xl md:text-4xl font-extrabold uppercase italic' data-aos="fade-up" >App Development</div>
              <div className='grid lg:grid-cols-2 grid-cols-1  gap-5 p-8'>
                 <div className='group '>
                     <div data-aos="flip-down" className='flex justify-center items-center group-hover:scale-105 transition ease-in duration-200 delay-200'>

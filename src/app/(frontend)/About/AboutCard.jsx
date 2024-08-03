@@ -24,9 +24,9 @@ const AboutCard = () => {
                             <div className='flex justify-center items-center border rounded-3xl w-14 h-24 bg-purple-700'>
                                 <Image className='group-hover:animate-bounce transition ease-in duration-200 delay-200 ' src="/imgs/seo.png" width={40} height={40} alt='seo_about' ></Image>
                             </div>
-                            <div className='font-extrabold text-4xl '>SEO <br /> Service</div>
+                            <div className='font-extrabold text-3xl md:text-4xl '>SEO <br /> Service</div>
                         </div>
-                        <div className='pt-4 text-base font-medium pr-6 italic '>We don’t just optimize search rankings; we are Accessible, providing clear, actionable insights and support.</div>
+                        <div className='pt-4 text-sm md:text-base font-medium pr-6 italic '>We don’t just optimize search rankings; we are Accessible, providing clear, actionable insights and support.</div>
 
                         <Link href="/SeoService" >  <div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>More Info  <PlusIcon className='p-1 group-hover:rotate-180 transition ease-in duration-200 ' />
@@ -39,9 +39,9 @@ const AboutCard = () => {
                             <div className='flex justify-center items-center border rounded-3xl w-14 h-24 bg-purple-700'>
                                 <Image className='group-hover:animate-bounce transition ease-in duration-200 delay-200 ' src="/imgs/web-development.png" width={40} height={40} alt='seo_about' ></Image>
                             </div>
-                            <div className='font-extrabold text-4xl '>Web <br /> Development</div>
+                            <div className='font-extrabold text-3xl md:text-4xl '>Web <br /> Development</div>
                         </div>
-                        <div className='pt-4 text-base font-medium pr-6 italic'>We don’t just build websites; we create engaging digital experiences. We are approachable, with even the most complex challenges made simple.</div>
+                        <div className='pt-4 text-sm md:text-base font-medium pr-6 italic'>We don’t just build websites; we create engaging digital experiences. We are approachable, with even the most complex challenges made simple.</div>
 
                         <Link href="/WebDevelopment" > <div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>
@@ -56,9 +56,9 @@ const AboutCard = () => {
                             <div className='flex justify-center items-center border rounded-3xl w-14 h-24 bg-purple-700'>
                                 <Image className='group-hover:animate-bounce transition ease-in duration-200 delay-200 ' src="/imgs/graphic-design.png" width={40} height={40} alt='seo_about' ></Image>
                             </div>
-                            <div className='font-extrabold text-4xl '>Graphic <br /> Design</div>
+                            <div className='font-extrabold text-3xl md:text-4xl '>Graphic <br /> Design</div>
                         </div>
-                        <div className='pt-4 text-base font-medium pr-6 italic'>We don’t just build websites; we create engaging digital experiences. We are approachable, with even the most complex challenges made simple.</div>
+                        <div className='pt-4 text-sm md:text-base font-medium pr-6 italic'>We don’t just build websites; we create engaging digital experiences. We are approachable, with even the most complex challenges made simple.</div>
 
                         <Link href="/GraphicDesign"><div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>
@@ -72,9 +72,9 @@ const AboutCard = () => {
                             <div className='flex justify-center items-center border rounded-3xl w-14 h-24 bg-purple-700'>
                                 <Image className='group-hover:animate-bounce transition ease-in duration-200 delay-200 ' src="/imgs/web-development.png" width={40} height={40} alt='seo_about' ></Image>
                             </div>
-                            <div className='font-extrabold text-4xl '>App <br /> Development</div>
+                            <div className='font-extrabold text-3xl md:text-4xl '>App <br /> Development</div>
                         </div>
-                        <div className='pt-4 text-base font-medium pr-6 italic'>We don't just code apps; we create experiences. We're approachable, with innovative solutions tailored to your needs.</div>
+                        <div className='pt-4 text-sm md:text-base font-medium pr-6 italic'>We don't just code apps; we create experiences. We're approachable, with innovative solutions tailored to your needs.</div>
 
                         <Link href="/AppDevelopment" > <div className='flex justify-center items-center mt-4 rounded-full w-[35vw] h-[12vh]  md:w-[20vw] md:h-[10vh] lg:w-[14vw] lg:h-[8vh]  border-[3px] border-purple-700 font-semibold group bg-zinc-900 dark:bg-gray-200 dark:text-black
                 dark:hover:bg-purple-700 dark:hover:text-gray-100 hover:bg-purple-600 text-gray-100 transition ease-in duration-200 delay-100 hover:border-black '>
