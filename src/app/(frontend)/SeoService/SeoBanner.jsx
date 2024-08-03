@@ -37,7 +37,7 @@ const handleClick = () => {
         </div>
         <div className='bg-purple-700  '>
             <div className='flex items-center justify-center xl:pt-24 lg:pt-28 pt-20 '>
-            <Image  src={"/imgs/seo_banner.webp"} priority={high} width={600} height={600} alt='Seo_banner'></Image>
+            <Image  src={"/imgs/seo_banner.webp"} priority width={600} height={600} alt='Seo_banner'></Image>
             </div>
         </div>
     </div>
