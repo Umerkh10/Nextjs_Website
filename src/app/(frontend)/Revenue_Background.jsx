@@ -57,25 +57,25 @@ const Revenue_Background = () => {
       <div className='grid grid-cols-1 md:grid-cols-4 gap-[5.75rem] ml-10 mr-10 pl-4 pr-4 pt-4'>
         <div className='grid-cols-1 col-span-1'>
           <div className='text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
-            {inView ? <CountUp end={12} duration={2.75} /> : '0'}K
+            {inView ? <CountUp end={10} duration={2.75} /> : '0'}K
           </div>
           <p className=' md:text-[20px] inline-block font-semibold leading-[1.15] text-white truncate lg:-translate-y-11'>PROJECTS DONE</p>
         </div>
         <div className='grid-cols-2 col-span-1'>
           <div className='text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
-            {inView ? <CountUp end={35} duration={2.75} /> : '0'}+
+            {inView ? <CountUp end={65} duration={2.75} /> : '0'}+
           </div>
           <p className='md:text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>Team Members</p>
         </div>
         <div className='grid-cols-3 col-span-1'>
           <div className='text-[60px] lg:text-[100px] font-black leading-none opacity-[26%]'>
-            {inView ? <CountUp end={10} duration={2.75} /> : '0'}K
+            {inView ? <CountUp end={8} duration={2.75} /> : '0'}K
           </div>
           <p className='md:text-[20px] inline-block font-semibold leading-[1.15] text-white uppercase truncate lg:-translate-y-11'>happy clients</p>
         </div>
         <div className='grid-cols-4 col-span-1'>
           <div className='text-[60px] lg:text-[100px] inline-block font-black leading-none opacity-[26%]'>
-            {inView ? <CountUp end={18} duration={2.75} /> : '0'}+
+            {inView ? <CountUp end={15} duration={2.75} /> : '0'}+
           </div>
           <p className='md:text-[20px] font-semibold leading-[1.15] text-white uppercase lg:-translate-y-11'>awards</p>
         </div>
