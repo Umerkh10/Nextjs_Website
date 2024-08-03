@@ -33,7 +33,7 @@ const UseSeo = () => {
         <div className=' grid lg:grid-cols-2 grid-cols-1 '>
             <div className='bg-purple-900' data-aos="fade-down">
                 <div className='flex justify-center items-center p-10  '>
-                    <Image className='translate-y-10' priority={true} src={"/imgs/seo-whyus.webp"} width={500} height={500} alt='seo_use' ></Image>
+                    <Image className='translate-y-10' src={"/imgs/seo-whyus.webp"} width={500} height={500} alt='seo_use' ></Image>
                 </div>
             </div>
             <div className='bg-purple-900 p-4' ref={ref} data-aos="fade-up">

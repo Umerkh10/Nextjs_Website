@@ -66,7 +66,7 @@ const ServiceProvide = () => {
 
                 </div>
                 <div className='pb-4' data-aos="fade-down">
-                    <div><Image src={"/imgs/seo-provide.png"} priority={true} width={600} height={600} alt='seo_provide'></Image></div>
+                    <div><Image src={"/imgs/seo-provide.png"} width={600} height={600} alt='seo_provide'></Image></div>
                 </div>
             </div>
             </div>
