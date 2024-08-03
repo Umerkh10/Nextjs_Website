@@ -45,7 +45,7 @@ const AboutFaq = () => {
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 p-5'>
             <div className=''>
                 <div data-aos="flip-up" className='flex items-center justify-center'>
-                    <Image className='rounded-2xl' src="/imgs/about-faq.webp" width={600} height={600} alt='about-faq-bg'></Image>
+                    <Image className='rounded-2xl' src="/imgs/about_faq.webp" width={600} height={600} alt='about-faq-bg'></Image>
                 </div>
             </div>
 
