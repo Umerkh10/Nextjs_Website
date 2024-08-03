@@ -13,7 +13,7 @@ const Footer = () => {
   const [state, action] = useFormState(NewsletterEmail, null);
   const formRef = useRef(null)
   const { pending } = useFormStatus()
-  console.log(pending);
+ 
   useEffect(() => {
     AOS.init({
       duration: 1000,

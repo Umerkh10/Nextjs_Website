@@ -20,7 +20,6 @@ const ProjectTab = () => {
       }, [inView]);
 
       
-      console.log(inView);
   return (
     <div className='bg-gray-200 dark:bg-transparent pt-20' ref={ref}>
         <div className='text-center text-xl font-semibold uppercase gradient-text italic' data-aos="fade-down">Over 150,000+ clients</div>

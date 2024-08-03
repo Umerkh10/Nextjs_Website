@@ -19,7 +19,6 @@ const WhyUsDev = () => {
       }, [inView]);
 
       
-      console.log(inView);
   return (
     <div className='bg-gray-200 dark:bg-transparent p-4'  ref={ref}>
         <div className='grid lg:grid-cols-2 grid-cols-1 'data-aos="fade-up" >

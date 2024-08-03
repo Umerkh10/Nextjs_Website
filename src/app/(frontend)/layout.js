@@ -6,7 +6,7 @@ import TawkTo from "@/lib/Tawkto";
 
 
 const poppins = Poppins({
-  weight: ["100","300","400","500","700","900"],
+  weight: ["400","500","700"],
   subsets: ['latin'],
 })
 

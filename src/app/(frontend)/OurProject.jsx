@@ -20,7 +20,6 @@ const OurProject = () => {
       }, [inView]);
 
       
-      console.log(inView);
       
       const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
       const [isImageHovered, setIsImageHovered] = useState(false);

@@ -19,7 +19,6 @@ const Work_Process = () => {
       }, [inView]);
 
       
-      console.log(inView);
   return (
     <>
         <div className='flex justify-center mt-24 text-purple-700 font-bold md:text-lg uppercase'>Work Process</div>

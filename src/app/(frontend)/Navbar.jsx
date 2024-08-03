@@ -15,7 +15,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   const { theme, setTheme } = useTheme()
-  console.log("theme", theme);
+
   const handleTheme = () => {
     if (theme === "light") {
       setTheme("dark")

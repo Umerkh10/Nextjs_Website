@@ -20,7 +20,6 @@ const AppFaq = () => {
       }, [inView]);
 
       
-      console.log(inView);
 
     const [openIndex, setOpenIndex] = useState(null);
     const [sOpen,setIsOpen] = useState(false)

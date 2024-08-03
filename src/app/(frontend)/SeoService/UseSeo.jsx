@@ -20,7 +20,6 @@ const UseSeo = () => {
       }, [inView]);
 
       
-      console.log(inView);
 
     const handleClick = () => {
         if (typeof window !== 'undefined' && typeof window.openChat !== 'undefined') {
