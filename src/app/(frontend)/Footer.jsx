@@ -173,42 +173,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='pl-6 pt-4 lg:pt-0 '>
-              <div className='flex items-center gap-3'>
-                <span className='text-white text-[20px] font-semibold'>Our Gallery</span>
-                <div className="flex-grow h-[2px] bg-white opacity-15"></div>
-              </div>
-              <div className='mt-10'>
-                <div className='lg:grid lg:grid-cols-3 flex flex-col gap-3'>
-                  <div className=''>
-                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
-                      <Image src={"/imgs/footer-link-1.webp"} width={130} height={100} alt='link_images' ></Image>
-                    </div>
-                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
-                      <Image src={"/imgs/footer-link-2.webp"} width={130} height={100} alt='link_images' ></Image>
-                    </div>
-
-                  </div>
-                  <div className=''>
-                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
-                      <Image src={"/imgs/footer-link-3.webp"} width={130} height={100} alt='link_images' ></Image>
-                    </div>
-                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
-                      <Image src={"/imgs/footer-link-4.webp"} width={130} height={100} alt='link_images' ></Image>
-                    </div>
-                  </div>
-                  <div className=''>
-                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
-                      <Image src={"/imgs/footer-link-5.webp"} width={130} height={100} alt='link_images' ></Image>
-                    </div>
-                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
-                      <Image src={"/imgs/footer-link-6.webp"} width={130} height={100} alt='link_images' ></Image>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+       
           </div>
           <div className='h-[1px] bg-gray-600 mt-8'></div>
           <div className='lg:grid lg:grid-cols-2' >
@@ -219,8 +184,6 @@ const Footer = () => {
               <div className='flex justify-end'>
                 <span className='text-gray-300 font-medium pl-4 pt-4 pb-4  pr-4 hover:cursor-pointer hover:text-sky-500 '> <Link href="/Privacy"> Privacy Policy</Link></span>
                 <span className='text-gray-300 font-medium pl-4 pt-4 pb-4  pr-4 hover:cursor-pointer hover:text-sky-500'><Link href="/Terms"> Terms Of Use</Link> </span>
-
-
               </div>
             </div>
           </div>
