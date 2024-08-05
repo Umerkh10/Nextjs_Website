@@ -43,7 +43,7 @@ const handleClick = () => {
                   </div>
             </div>
             <div className='group p-5'>
-                <div data-aos="fade-up" className=' transition ease-out duration-200 delay-200'><Image className='lg:mt-36 mt-10' loading='lazy' src="/imgs/WebBanner.webp" width={600} height={600} alt='webbnner'></Image></div>
+                <div data-aos="fade-up" className=' transition ease-out duration-200 delay-200'><Image className='lg:mt-36 mt-10' priority src="/imgs/WebBanner.webp" width={600} height={600} alt='webbnner'></Image></div>
             </div>
         </div>
     </div>
