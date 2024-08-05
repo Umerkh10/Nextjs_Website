@@ -8,6 +8,7 @@ import { useFormState, useFormStatus } from "react-dom"
 import NewsletterEmail from '../(backend)/action/NewsletterEmail';
 import { toast } from 'sonner';
 import { useRouter } from 'next/navigation';
+import { ChevronRight } from 'lucide-react';
 
 const Footer = () => {
   const [state, action] = useFormState(NewsletterEmail, null);
@@ -26,7 +27,6 @@ const Footer = () => {
   useEffect(() => {
     if (state?.success) {
       formRef?.current?.reset()
-      // toast.success(state.success)
       router.push('/ThankYou')
 
     }
@@ -86,12 +86,7 @@ const Footer = () => {
                 <div className="flex items-center mt-7">
                   <form className="relative w-full" action={action} ref={formRef}>
                     <div className="relative w-full">
-                      <input
-                      placeholder='Email Address'
-                        required
-                        class="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-black bg-white"
-                        type="email"
-                        name="email"/>
+                      <input placeholder='Email Address' required className="w-full h-[68px] rounded-[100px] border-0 outline-none px-6 pr-[150px] text-black bg-white" type="email" name="email"/>
                         <button disabled={pending} className=" mt-4 md:w-56 w-full bg-orange-600 right-5 transform  border-0 outline-none capitalize text-white font-medium text-lg py-3.5 px-8 rounded-[100px]">
                           Subscribe Now
                         </button>
@@ -125,47 +120,47 @@ const Footer = () => {
                 <div className='flex flex-col lg:grid lg:grid-cols-2 '>
                   <div className=' '>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'>
                         <Link href="/Services">Service</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/SeoService">SEO Service</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'>
                         <Link href="/GraphicDesign">Graphic Design</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/WebDevelopment">Web Development </Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/AppDevelopment">App Development </Link></span>
                     </div>
                   </div>
                   <div className=''>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/About">About</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Terms">Terms</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Contact">Contact Us</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Privacy">Privacy Policy</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                      <ChevronRight className='group-hover:translate-x-2 transition ease-in duration-100 delay-100 stroke-purple-700'/>
                       <span className='text-white md:text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/ReturnRefund">Return Refund</Link></span>
                     </div>
                   </div>
@@ -173,7 +168,42 @@ const Footer = () => {
               </div>
             </div>
 
-       
+            <div className='pl-6 pt-4 lg:pt-0 '>
+              <div className='flex items-center gap-3'>
+                <span className='text-white text-[20px] font-semibold'>Our Gallery</span>
+                <div className="flex-grow h-[2px] bg-white opacity-15"></div>
+              </div>
+              <div className='mt-10'>
+                <div className='lg:grid lg:grid-cols-3 flex flex-col gap-3'>
+                  <div className=''>
+                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
+                      <Image src={"/imgs/footer-link-1.webp"} width={130} height={100} alt='link_images' ></Image>
+                    </div>
+                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
+                      <Image src={"/imgs/footer-link-2.webp"} width={130} height={100} alt='link_images' ></Image>
+                    </div>
+
+                  </div>
+                  <div className=''>
+                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
+                      <Image src={"/imgs/footer-link-3.webp"} width={130} height={100} alt='link_images' ></Image>
+                    </div>
+                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
+                      <Image src={"/imgs/footer-link-4.webp"} width={130} height={100} alt='link_images' ></Image>
+                    </div>
+                  </div>
+                  <div className=''>
+                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
+                      <Image src={"/imgs/footer-link-5.webp"} width={130} height={100} alt='link_images' ></Image>
+                    </div>
+                    <div class="inline-block h-[90px] rounded-[10px] overflow-hidden  relative z-[1]">
+                      <Image src={"/imgs/footer-link-6.webp"} width={130} height={100} alt='link_images' ></Image>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
           <div className='h-[1px] bg-gray-600 mt-8'></div>
           <div className='lg:grid lg:grid-cols-2' >
