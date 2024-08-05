@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import Link from 'next/link';
+import { Check, MoveUpRight, PhoneCallIcon } from 'lucide-react';
 
 
 const Image_Parallax = () => {
@@ -65,20 +66,20 @@ const Image_Parallax = () => {
                             <div className='col-span-1'>
                                 <div className='flex items-center gap-2'>
                                     <div className='w-[25px] h-[25px] rounded-full border-2 border-black flex items-center mb-3'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
+                                       <Check className='stroke-purple-500'/>
                                     </div>
                                     <span className='font-medium text-[15px]'>Production or trading of goods</span>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <div className='w-[25px] h-[25px] rounded-full border-2 border-black flex items-center'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5" /></svg>
+                                       <Check className='stroke-purple-500'/>
                                     </div>
                                     <span className='font-medium text-[15px]'>100% Better results</span>
                                 </div>
                             </div>
                             <div className='col-span-1'>
                                 <div className='flex items-center gap-2 mt-2'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /><path d="M14.05 2a9 9 0 0 1 8 7.94" /><path d="M14.05 6A5 5 0 0 1 18 10" /></svg>
+                                   <PhoneCallIcon className='w-14 h-14 stroke-purple-600'/>
                                     <div className='leading-[0.6] pl-2'>
                                         <div className='font-bold text-[20px]'>021-34155132</div>
                                         <br />
@@ -93,7 +94,7 @@ const Image_Parallax = () => {
                                     <span> View all more</span>
                                 </Link>
                                 <div className='flex items-center justify-center w-[50px] h-[50px] rounded-full bg-sky-600 mt-8 ml-2 group-hover:-translate-x-52 transition duration-200 delay-150 ease-in-out'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-up-right"><path d="M13 5H19V11" /><path d="M19 5L5 19" /></svg>
+                                    <MoveUpRight className='stroke-white' />
                                 </div>
                             </div>
                         </div>
