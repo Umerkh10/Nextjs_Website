@@ -15,7 +15,7 @@ const Rating = () => {
 
             </div>
             <div className="slider-item relative group">
-              <Image className="transition-all duration-100" src="/slider_imgs/slider-3.png" width={200} height={200} alt="slider" />
+              <Image className="transition-all duration-100" src="/slider_imgs/slider-3.png" width={160} height={200} alt="slider" />
             </div>
             <div className="slider-item relative group">
               <Image className="transition-all duration-100" src="/slider_imgs/slider-4.png" width={200} height={200} alt="slider" />
