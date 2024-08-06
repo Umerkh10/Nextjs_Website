@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 
-const Navbar = dynamic(() => import('./Navbar')  );
+const Navbar = dynamic(() => import('./Navbar'));
 const Slider = dynamic(() => import('./Slider'));
 const Rating = dynamic(() => import('./Rating'));
 const ImageParallax = dynamic(() => import('./Image_Parallax'));
