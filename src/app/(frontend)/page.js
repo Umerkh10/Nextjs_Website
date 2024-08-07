@@ -1,10 +1,11 @@
 import dynamic from 'next/dynamic';
 
+
 const Navbar = dynamic(() => import('./Navbar'));
 const Slider = dynamic(() => import('./Slider'));
-const Rating = dynamic(() => import('./Rating'));
+import Rating from './Rating';
 const ImageParallax = dynamic(() => import('./Image_Parallax'));
-const CardCarousel = dynamic(() => import('./Card_Carousel'));
+import Card_Carousel from './Card_Carousel';
 const OurProject = dynamic(() => import('./OurProject'));
 const WorkProcess = dynamic(() => import('./Work_Process'));
 const Testimonials = dynamic(() => import('./Testimonials'));
@@ -24,7 +25,7 @@ const HomePage = () => {
         <Slider />
         <Rating />
         <ImageParallax />
-        <CardCarousel />
+        <Card_Carousel />
         <RevenueBackground />
         <OurProject />
         <WorkProcess />
