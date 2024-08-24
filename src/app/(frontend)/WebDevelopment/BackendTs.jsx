@@ -16,8 +16,8 @@ const BackendTs = () => {
     <div className='bg-slate-200 dark:bg-transparent'>
       <div data-aos="fade-down" className='pt-12 text-center md:text-2xl text-xl font-extrabold text-purple-700'>Tech Stack</div>
       <div data-aos="fade-up" className='pt-2 text-center md:text-5xl text-3xl font-bold italic '>Backend Development</div>
-      <Tabs defaultValue="PHP" data-aos="fade-up" className="text-center p-8">
-        <TabsList >
+      <Tabs defaultValue="PHP" data-aos="fade-up" className="text-center p-4">
+        <TabsList  >
           <TabsTrigger  value="PHP"><Image className='' src="/imgs/php-code.png" width={40} height={40} alt='php'></Image>
             <div className='italic font-medium py-2'>PHP</div></TabsTrigger>
 

@@ -11,7 +11,7 @@ const AppIntegration = () => {
             <div className='pt-5 pl-8 pr-8 text-center text-sm italic font-semibold' data-aos="fade-down">App integration involves connecting different software applications to work together seamlessly, enabling data exchange and coordinated functionality. This process allows disparate systems to communicate, share information, and leverage each other’s capabilities, thus enhancing overall efficiency and productivity. Integration can occur through various methods, such as APIs, webhooks, middleware, or custom coding, depending on the complexity and requirements of the systems involved. Effective app integration ensures that information flows smoothly between applications, reducing manual data entry, minimizing errors, and providing a unified user experience. This is particularly crucial in business environments where multiple applications, such as CRM, ERP, and marketing automation tools, need to interact to provide comprehensive and real-time insights for decision-making.</div>
 
             <div className='mt-5'>
-                <Tabs defaultValue="thirdparty" className="text-center p-8" data-aos="fade-down">
+                <Tabs defaultValue="thirdparty" className="text-center p-4 sm:p-8" data-aos="fade-down">
                     <TabsList>
                         <TabsTrigger value="thirdparty"><Image className='' src="/imgs/thirdpartyintegration.png" width={80} height={80} alt='php'></Image></TabsTrigger>
 
@@ -23,7 +23,7 @@ const AppIntegration = () => {
 
                     </TabsList>
 
-                    <TabsContent value="thirdparty"><div className='md:pl-24 md:pr-24 pl-10 pr-10 pt-5'>
+                    <TabsContent value="thirdparty"><div className='md:pl-24 md:pr-24  pt-5'>
                         <div className='font-extrabold md:text-3xl text-2xl uppercase italic lg:mt-4 mt-8 '>Third Party App Integration</div>
 
                         <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 mt-6'>
@@ -53,7 +53,7 @@ const AppIntegration = () => {
 
                     </div></TabsContent>
 
-                    <TabsContent value="crm"><div className='md:pl-24 md:pr-24 pl-10 pr-10 pt-5'>
+                    <TabsContent value="crm"><div className='md:pl-24 md:pr-24  pt-5'>
                         <div className='font-extrabold md:text-3xl text-2xl uppercase italic lg:mt-4 mt-8 '>CRM Integration
                             Applications
                         </div>
@@ -84,7 +84,7 @@ const AppIntegration = () => {
 
                     </div></TabsContent>
 
-                    <TabsContent value="ecommerce"><div className='md:pl-24 md:pr-24 pl-10 pr-10 pt-5'>
+                    <TabsContent value="ecommerce"><div className='md:pl-24 md:pr-24  pt-5'>
 
                     <div className='font-extrabold md:text-3xl text-2xl uppercase italic lg:mt-4 mt-8 '>E-Commerce App Integration</div>
 
@@ -92,11 +92,12 @@ const AppIntegration = () => {
 
 
                             <div className='group' data-aos="flip-up">
-                                <div className='flex justify-center items-center p-2 text-gray-200 rounded border-sky-300 border-[4px] bg-purple-600 text-lg italic font-medium group-hover:scale-105 group-hover:bg-sky-400 group-hover:text-slate-900 group-hover:border-purple-700 transition ease-in duration-200 delay-150 '><Image className='mr-3' src="/imgs/social.png" width={50} height={50} alt='api'></Image> Shopify API</div>
+                                <div className='flex justify-center  items-center p-2 text-gray-200 rounded border-sky-300 border-[4px] bg-purple-600 text-lg italic font-medium group-hover:scale-105 group-hover:bg-sky-400 group-hover:text-slate-900 group-hover:border-purple-700 transition ease-in duration-200 delay-150 '><Image className='mr-3' src="/imgs/social.png" width={50} height={50} alt='api'></Image> Shopify API</div>
                             </div>
 
                             <div className='group' data-aos="flip-down">
-                                <div className='flex justify-center items-center p-2 text-gray-200 rounded border-sky-300 border-[4px] bg-purple-600 text-lg italic font-medium group-hover:scale-105 group-hover:bg-sky-400 group-hover:text-slate-900 group-hover:border-purple-700 transition ease-in duration-200 delay-150 '><Image className='mr-3' src="/imgs/woocommerce.png" width={50} height={50} alt='api'></Image> WooCommerce API</div>
+                                <div className='flex justify-center items-center p-2 text-gray-200 rounded border-sky-300 border-[4px] bg-purple-600 text-lg italic font-medium group-hover:scale-105 group-hover:bg-sky-400 group-hover:text-slate-900 group-hover:border-purple-700 transition ease-in duration-200 delay-150 '>
+                                <Image className='mr-3' src="/imgs/woocommerce.png" width={50} height={50} alt='api'></Image> WooCommerce API</div>
                             </div>
 
                             <div className='group' data-aos="flip-up">

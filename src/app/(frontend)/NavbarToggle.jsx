@@ -59,7 +59,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
                   <Link className='pr-3' href="/Services"> Services</Link>    <MenuIcon/>
                 </button>
                 {isDropdownVisible && (
-                  <ul className="absolute top-full left-0 mt-2 bg-slate-900 shadow-lg rounded-lg w-48 opacity-100 visible transition-all duration-200 ease-in-out transform translate-y-0">
+                  <ul className="z-[999] absolute top-full left-0 mt-2 bg-slate-900 shadow-lg rounded-lg w-48 opacity-100 visible transition-all duration-200 ease-in-out transform translate-y-0">
                     <li>
                       <Link href="/SeoService" className="block px-4 py-2 text-gray-200 hover:bg-purple-500 transition ease-in duration-200">
                         Seo Service

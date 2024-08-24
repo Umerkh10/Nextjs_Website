@@ -13,7 +13,7 @@ const AppBannner = () => {
   };
   return (
     <div>
-        <div style={{backgroundImage:"url('/imgs/App_banner.webp')",backgroundSize:'cover',backgroundPosition:'center' }} className='h-[170vh] lg:h-[100vh]' data-aos="zoom-in" >
+        <div style={{backgroundImage:"url('/imgs/App_banner.webp')",backgroundSize:'cover',backgroundPosition:'center' }} className=' lg:h-[100vh]' data-aos="zoom-in" >
 
         <div className='grid lg:grid-cols-2 grid-cols-1 pt-28'>
             <div className=' pl-10 pr-10 lg:pt-16 pt-5' data-aos="fade-up">

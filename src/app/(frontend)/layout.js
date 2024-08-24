@@ -17,6 +17,11 @@ export const metadata = {
     default: 'Webnike',
   },
   description: "Webnike Portfolio Website",
+  robots: {
+    index: false,
+    follow: false,
+  },
+
 };
 
 export default function RootLayout({ children }) {

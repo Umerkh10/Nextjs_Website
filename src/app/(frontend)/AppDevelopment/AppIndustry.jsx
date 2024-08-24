@@ -114,7 +114,7 @@ const AppIndustry = () => {
                 onMouseEnter={() => OnHover(index)} // Only apply onMouseEnter to the first element (E-Commerce)
                 onMouseLeave={() => setImage(0)} // Only apply onMouseLeave to the first element (E-Commerce)
                 className="flex justify-center items-center group">
-                <div className="border-[3px] h-[45vh] lg:h-[32vh] border-sky-400 rounded-lg bg-purple-500 group-hover:bg-purple-700 
+                <div className="border-[3px]  lg:h-[32vh] border-sky-400 rounded-lg bg-purple-500 group-hover:bg-purple-700 
                 transition ease-in duration-200 delay-200 group-hover:scale-105 p-4">
                   <div className="md:text-xl text-lg font-semibold text-gray-100 ">{desc.title}</div>
                   <div className='text-gray-100'>{desc.text}</div>

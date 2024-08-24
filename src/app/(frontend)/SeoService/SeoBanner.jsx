@@ -27,7 +27,7 @@ const handleClick = () => {
             <div className='mt-5 pl-2 text-lg text-gray-100 font-medium italic'>Unleash the full potential of your business with our top-notch SEO services, boosting organic growth and enhancing online visibility. </div>
             
             <div className='lg:flex  '>
-            <button onClick={handleClick} className='mt-5 border rounded-2xl w-[60vw] md:w-[30vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-sky-600 font-medium text-gray-100 group hover:bg-sky-900 transition ease-in duration-200 delay-200 '> 
+            <button onClick={handleClick} className='mt-5 border rounded-2xl w-[65vw] md:w-[30vw] lg:w-[22vw] h-[10vh] flex items-center justify-center relative overflow-hidden bg-sky-600 font-medium text-gray-100 group hover:bg-sky-900 transition ease-in duration-200 delay-200 '> 
                 Let's Talk About SEO
                 <ArrowRight className='ml-2 group-hover:translate-x-20 ease-in-out duration-200 delay-200'/>
             </button>
