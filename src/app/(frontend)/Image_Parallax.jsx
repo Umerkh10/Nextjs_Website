@@ -89,7 +89,7 @@ const Image_Parallax = () => {
                             </div>
                         </div>
                         <div className='h-[1px] bg-gray-600 mt-8'>
-                            <div className='flex items-center w-[75%] xl:w-[20%] lg:w-[26%] md:w-[40%] group'>
+                            <div className='flex items-center w-[95%] xl:w-[20%] lg:w-[26%] md:w-[40%] group'>
                                 <Link href="/Services" className='mt-8 text-sky-600 bg-transparent md:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-5 group-hover:translate-x-10 transition duration-300 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                                     <span> View all more</span>
                                 </Link>

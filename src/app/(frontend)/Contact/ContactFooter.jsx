@@ -12,6 +12,9 @@ const ContactFooter = () => {
           offset: 200, 
         });
       }, []);
+
+      const currentYear = new Date().getFullYear();
+
   return (
     <div className=' mb-0 pt-[50px]' style={{ backgroundImage: "url('/imgs/footer-bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }}>
     <div className='lg:grid lg:grid-cols-3 flex flex-col' data-aos="fade-right"  data-aos-offset="100" data-aos-easing="ease-in-sine" >
@@ -123,7 +126,7 @@ const ContactFooter = () => {
     <div className='h-[1px] bg-gray-600 mt-8'></div>
     <div className='lg:grid lg:grid-cols-2' >
       <div className=''>
-        <div className='pl-4 pt-4 pb-4 '><span className='text-gray-300  font-medium ' >© 2024 WEBNIKE All Rights Reserved.</span> </div>
+        <div className='pl-4 pt-4 pb-4 '><span className='text-gray-300  font-medium ' >© {currentYear} WEBNIKE All Rights Reserved.</span> </div>
       </div>
       <div className='gap-4'>
         <div className='flex justify-end'>

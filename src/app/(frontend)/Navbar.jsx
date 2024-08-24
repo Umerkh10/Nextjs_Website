@@ -116,7 +116,7 @@ const Navbar = () => {
 
                 </div>
 
-                <button id="theme-button" onClick={handleTheme} aria-label='theme' className={`xl:hidden flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none w-[58px] h-[58px] ${theme === "dark" ? "bg-slate-950" : "bg-orange-500 " }  rounded-full outline-slate-800`}>
+                <button id="theme-button" onClick={handleTheme} aria-label='theme' className={`xl:hidden flex-grow-0 flex-shrink-0 basis-auto flex items-center justify-center leading-none -ml-7 w-[58px] h-[58px] ${theme === "dark" ? "bg-slate-950" : "bg-orange-500 " }  rounded-full outline-slate-800`}>
                    <Sun className='stroke-white'/>
                   </button>
 

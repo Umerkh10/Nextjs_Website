@@ -25,7 +25,7 @@ useEffect(() => {
         <div class="absolute mt-24 top-0 left-0 h-screen md:h-[125vh] lg:w-[58%] lg:h-[78vh] rounded rounded-r-[500px] overflow-hidden -z-10">
             <Image src={"/imgs/Contact_details_bg.webp"} width={800} height={800} alt='bg-testimonial' ></Image>
 </div>
- <div className='w-[34%] md:w-1/4 lg:w-1/6 border rounded-full pt-1 pb-1 text-center ml-4 bg-gray-200'> <span className='text-purple-700 font-semibold'>Our Testimonials </span> </div>
+ <div className='w-[50%] md:w-1/4 lg:w-1/6 border rounded-full pt-1 pb-1 text-center ml-4 bg-gray-200'> <span className='text-purple-700 font-semibold'>Our Testimonials </span> </div>
  <div className='pt-4 pl-4 mb-5'>
     <span className='text-4xl text-white font-bold' >What Our Clients Say </span>
  </div>

@@ -61,6 +61,9 @@ const Footer = () => {
       }
     };
   }, []);
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <div>
@@ -208,7 +211,7 @@ const Footer = () => {
           <div className='h-[1px] bg-gray-600 mt-8'></div>
           <div className='lg:grid lg:grid-cols-2' >
             <div className=''>
-              <div className='pl-4 pt-4 pb-4 '><span className='text-gray-300  font-medium ' >© 2024 WEBNIKE All Rights Reserved.</span> </div>
+              <div className='pl-4 pt-4 pb-4 '><span className='text-gray-300  font-medium ' >© {currentYear} WEBNIKE All Rights Reserved.</span> </div>
             </div>
             <div className='gap-4'>
               <div className='flex justify-end'>
