@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { ChevronsRight } from 'lucide-react';
+import { ChevronsRight, Circle } from 'lucide-react';
 
 const ReturnRefund = () => {
     useEffect(() => {
@@ -27,24 +27,24 @@ const ReturnRefund = () => {
             </div>
             <div className='ml-8 mr-8 mt-10 mb-10 text-foreground/85' data-aos='fade-right' >
                 <div className='text-4xl  font-extrabold'>Return Refund Policy</div>
-                <div className='mt-3 text-base  opacity-80 font-medium '>Refund provides you Webnike Enterprises designs. Our design package allows the users to get the 100% refund granted by Webnike Enterprises while our 100% policy is not available on banner design, stationary design, brochure design, and website design. According to our refund policy:</div>
+                <div className='mt-3 text-base  opacity-80 font-medium '>Refund provides you Webnike  designs. Our design package allows the users to get the 100% refund granted by Webnike  while our 100% policy is not available on banner design, stationary design, brochure design, and website design. According to our refund policy:</div>
 
                 <ul className='flex flex-col mt-5 gap-1 '>
                     <li className='flex font-medium text-base  mb-2 gap-3'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 24 24" fill="" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle fill-purple-800 stroke-purple-800"><circle cx="12" cy="12" r="10" /></svg>
+                     <Circle className='w-8 fill-purple-800 stroke-purple-800'/>
                         If you are not contented with the primary design then you are allowed to request the re-draw or cancellation of the design
                         Keep in mind that the order that needs to be delivered within 24 hours or less than 24 hours is not allowed to be cancelled
                         After the consent of the primary design, no refunds would be paid because the process of coding and development is initiated</li>
 
                     <li className='flex font-medium text-base  mb-2 gap-3'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 24 24" fill="" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle fill-purple-800 stroke-purple-800"><circle cx="12" cy="12" r="10" /></svg>
+                    <Circle className='w-8 fill-purple-800 stroke-purple-800'/>
                         If the customer contacted us after two weeks of release, then he/she may not be allowed to any refund.</li>
                     <li className='flex font-medium text-base  mb-2 gap-3'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 24 24" fill="" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle fill-purple-800 stroke-purple-800"><circle cx="12" cy="12" r="10" /></svg>
-                        If the customer has picked the Webnike Enterprises design, then no refund will be offered</li>
+                    <Circle className='w-8 fill-purple-800 stroke-purple-800'/>
+                        If the customer has picked the Webnike  design, then no refund will be offered</li>
                     <li className='flex  font-medium text-base  mb-2 gap-3' >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 24 24" fill="" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle fill-purple-800 stroke-purple-800 "><circle cx="12" cy="12" r="10" /></svg>
-                        If the client asked for a refund then he/she is not allowed to use the primary design ideas. Unless the client fully paid the dues, the Patent remains the authority of the Webnike Enterprises designs.</li>
+                    <Circle className='w-8 fill-purple-800 stroke-purple-800'/>
+                        If the client asked for a refund then he/she is not allowed to use the primary design ideas. Unless the client fully paid the dues, the Patent remains the authority of the Webnike  designs.</li>
                 </ul>
 
             </div>

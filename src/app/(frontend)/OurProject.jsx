@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useInView } from 'react-intersection-observer';
 import Link from 'next/link';
-import { MoveUpRight } from 'lucide-react';
+import { ArrowRight, MoveUpRight } from 'lucide-react';
 
 const projects = [
     {
@@ -124,10 +124,7 @@ const OurProject = () => {
                                 <Image src={project.image} width={600} height={500} alt="our-project-image" className={isImageHovered ? 'grayscale-[1]' : ''} />
                                 {isImageHovered && (
                                     <div className="absolute flex justify-center items-center bg-sky-600 rounded-full" style={{ width: '80px', height: '80px', left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px`, transform: 'translate(-50%, -50%)', transition: 'transform 0.1s ease-out' }}>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right">
-                                            <path d="M5 12h14" />
-                                            <path d="m12 5 7 7-7 7" />
-                                        </svg>
+                                     <ArrowRight className='stroke-white w-12 h-12'/>
                                     </div>
                                 )}
                             </div>

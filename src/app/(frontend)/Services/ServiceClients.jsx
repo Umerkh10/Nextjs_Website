@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { MoveUpRight } from 'lucide-react';
 
 const ServiceClients = () => {
     useEffect(() => {
@@ -76,7 +77,7 @@ const ServiceClients = () => {
                 <a href="#" className='flex justify-center items-center mt-5 no-underline md:text-lg rounded-xl w-[35%] h-[12%] border-[1px] font-medium text-sky-400 border-sky-500 relative overflow-hidden transition duration-500 group hover:bg-purple-700 hover:text-white  '>
                     <span className=' truncate pr-2'>View All Services </span>
                     <span className=' group-hover:-translate-y-12 group-hover:translate-x-12 transition duration-200 ease-out'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-up-right"><path d="M13 5H19V11"/><path d="M19 5L5 19"/></svg>
+                  <MoveUpRight className='stroke-violet-800 ml-2 mr-2'/>
                     </span>
                   </a>
                 

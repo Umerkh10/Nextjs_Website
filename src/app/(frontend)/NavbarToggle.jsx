@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { ArrowDown, MenuIcon } from 'lucide-react';
+import { ArrowDown, MenuIcon, X } from 'lucide-react';
 import { Command, CommandEmpty, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/components/ui/command';
 
 const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
@@ -41,7 +41,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
               <Image priority src="/imgs/webmoon-white-logo.png" width={200} height={100} className="h-auto max-w-full mb-8" alt="webnike Logo"></Image>
             </Link>
             <button onClick={() => setisMenuopen(false)} className=' block md:hidden -mt-14 border rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] p-1 bg-gray-600 hover:bg-purple-600 transition duration-500 ease-in'>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+              <X/>
             </button>
           </div>
           <nav className="text-white">
@@ -116,7 +116,7 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
           <div className="flex flex-col items-start w-full h-full">
             <div className="flex items-center justify-center mb-40 gap-4 w-full">
               <button onClick={() => setisMenuopen(false)} className='border rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[100px] p-1 bg-gray-600 hover:bg-purple-600 transition duration-500 ease-in'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+              <X className='stroke-white'/>
               </button>
             </div>
 

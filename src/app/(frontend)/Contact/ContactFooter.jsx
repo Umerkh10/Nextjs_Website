@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import { ChevronRight } from 'lucide-react';
 
 const ContactFooter = () => {
     useEffect(() => {
@@ -38,47 +39,47 @@ const ContactFooter = () => {
                 <div className='flex flex-col lg:grid lg:grid-cols-2 '>
                   <div className=' '>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                     <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'>
                         <Link href="/Services">Service</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/SeoService">SEO Service</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'>
                         <Link href="/GraphicDesign">Graphic Design</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/WebDevelopment">Web Development </Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/AppDevelopment">App Development </Link></span>
                     </div>
                   </div>
                   <div className=''>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/About">About</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Terms">Terms</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Contact">Contact Us</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/Privacy">Privacy Policy</Link></span>
                     </div>
                     <div className='flex items-center group pb-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right  group-hover:translate-x-2 transition ease-in duration-100 delay-100 "><path d="m9 18 6-6-6-6" /></svg>
+                       <ChevronRight className='w-4 stroke-purple-600 group-hover:translate-x-2 transition ease-in duration-100 delay-100'/>
                       <span className='text-white text-[18px] pl-2 group-hover:text-sky-500 transition ease-in duration-100 delay-100'><Link href="/ReturnRefund">Return Refund</Link></span>
                     </div>
                   </div>

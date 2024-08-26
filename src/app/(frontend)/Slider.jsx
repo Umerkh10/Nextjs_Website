@@ -6,6 +6,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { ArrowUpRight } from 'lucide-react';
 
 
 
@@ -86,9 +87,7 @@ const Slider = () => {
                 <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent lg:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
-                      <path d="M7 7h10v10" /><path d="M7 17 17 7" />
-                    </svg>
+                  <ArrowUpRight className='m-auto'/>
                   </div>
                 </button>
               </div>
@@ -125,9 +124,7 @@ const Slider = () => {
                 <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent lg:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
-                      <path d="M7 7h10v10" /><path d="M7 17 17 7" />
-                    </svg>
+                  <ArrowUpRight className='m-auto'/>
                   </div>
                 </button>
               </div>
@@ -165,9 +162,7 @@ const Slider = () => {
                 <button onClick={handleClick} className='relative text-to-reveal right-28 lg:-translate-y-[16.5rem] lg:translate-x-[22rem] flex -translate-y-12 translate-x-44 xl:-translate-y-[10rem] xl:translate-x-[29rem] md:-translate-y-36 md:translate-x-[140px] items-center text-white bg-transparent md:text-[18px] font-semibold leading-none capitalize border border-sky-500 rounded-full px-8 py-4 group-hover:translate-x-6 transition duration-200 hover:bg-sky-600 ease-in delay-100 hover:text-white group'>
                   <span>Get Started</span>
                   <div className='flex absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-[70px] w-[60px] h-[60px] rounded-full bg-sky-600 text-white text-center leading-[60px] transition ease duration-200 group-hover:translate-x-[-170px]'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin='round' className='lucide lucide-arrow-up-right m-auto'>
-                      <path d="M7 7h10v10" /><path d="M7 17 17 7" />
-                    </svg>
+                  <ArrowUpRight className='m-auto'/>
                   </div>
                 </button>
               </div>
