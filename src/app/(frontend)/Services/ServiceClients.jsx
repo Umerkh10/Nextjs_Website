@@ -77,7 +77,7 @@ const ServiceClients = () => {
                 <a href="#" className='flex justify-center items-center mt-5 no-underline md:text-lg rounded-xl w-[35%] h-[12%] border-[1px] font-medium text-sky-400 border-sky-500 relative overflow-hidden transition duration-500 group hover:bg-purple-700 hover:text-white  '>
                     <span className=' truncate pr-2'>View All Services </span>
                     <span className=' group-hover:-translate-y-12 group-hover:translate-x-12 transition duration-200 ease-out'>
-                  <MoveUpRight className='stroke-violet-800 ml-2 mr-2'/>
+                  <MoveUpRight className='stroke-sky-500 ml-2 mr-2'/>
                     </span>
                   </a>
                 
