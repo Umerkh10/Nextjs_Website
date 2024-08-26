@@ -74,10 +74,7 @@ const ContactForm = () => {
 function DynamicButton() {
     const { pending } = useFormStatus()
     return (
-        // <div className={`w-full border bg-blue-700 flex justify-center items-center mt-6 p-6 rounded-xl group text-slate-200 dark:hover:bg-slate-200  dark:hover:text-slate-900  hover:bg-slate-900 ${pending ? "text-opacity-70 bg-opacity-70 " : ""} transition ease-in duration-200 delay-100 overflow-hidden`}>
-        // <button disabled={pending} type='submit' className='flex items-center  font-semibold text-lg '>Get Consultations <ArrowRight className='ml-1  group-hover:translate-x-60 transition ease-out duration-150 delay-100' /></button>
-        // </div>
-
+     
         <div className={`rounded-full md:w-[30%] mt-5 pt-4 pb-4 bg-violet-800 flex justify-center items-center group  hover:bg-violet-600 transition ease-in duration-200 delay-200 ${pending ? "text-opacity-70 bg-opacity-70 " : ""}`}>
             <button disabled={pending} className={` text-white font-semibold ${pending && 'animate-bounce'} `} type='submit'>Explore More</button>
         </div>

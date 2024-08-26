@@ -50,8 +50,6 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
               <li><Link href="/About" className="md:text-3xl text-2xl hover:text-purple-500 transition duration-300">About</Link></li>
 
               <li><Link href="/Contact" className="md:text-3xl text-2xl hover:text-purple-500 transition duration-300">Contact Us</Link></li>
-
-
               <div className="relative group">
                 <button
                   className="md:text-3xl flex items-center text-2xl hover:text-purple-500 transition duration-300"
@@ -92,7 +90,6 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
               <CommandInput  placeholder=" Search..." />
               <CommandList>
                 <CommandEmpty>No results found.</CommandEmpty>
-
                 <CommandItem><Link href="/Services">Services </Link></CommandItem>
                 <CommandItem><Link href="/SeoService">Seo Service </Link></CommandItem>
                 <CommandItem><Link href="/GraphicDesign">Graphic Design </Link></CommandItem>
@@ -140,10 +137,6 @@ const NavbarToggle = ({ isMenuopen, setisMenuopen }) => {
                 </CommandList>
               </Command>
             </div>
-
-
- 
-
           </div>
         </div>
       </div>
