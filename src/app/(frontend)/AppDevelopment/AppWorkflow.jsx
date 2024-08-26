@@ -27,7 +27,7 @@ const AppWorkflow = () => {
         <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 p-6' ref={ref}>
 
             <div className='group' data-aos="flip-right">
-                <div className=' border-black border-[4px] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
+                <div className=' border-black border-[4px] h-[57vh] sm:h-[45vh] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
                     <div className='p-3 flex justify-between items-center'>
                         <div className='rounded-full h-14 w-14 border-black bg-sky-400 flex items-center 
                         justify-center '><Image className='group-hover:rotate-doors' src="/imgs/planner.png" width={35} height={35} alt='planner' ></Image></div>
@@ -43,7 +43,7 @@ const AppWorkflow = () => {
 
 
             <div className='group' data-aos="flip-left">
-                <div className=' border-black border-[4px] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
+                <div className=' border-black border-[4px] h-[57vh] sm:h-[45vh] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
                     <div className='p-3 flex justify-between items-center'>
                         <div className='rounded-full h-14 w-14 border-black bg-sky-400 flex items-center 
                         justify-center '><Image className='group-hover:rotate-doors' src="/imgs/wireframe.png" width={35} height={35} alt='planner' ></Image></div>
@@ -57,7 +57,7 @@ const AppWorkflow = () => {
             </div>
 
             <div className='group' data-aos="flip-right">
-                <div className=' border-black border-[4px] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
+                <div className=' border-black border-[4px] h-[57vh] sm:h-[45vh] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
                     <div className='p-3 flex justify-between items-center'>
                         <div className='rounded-full h-14 w-14 border-black bg-sky-400 flex items-center 
                         justify-center '><Image className='group-hover:rotate-doors' src="/imgs/user-interface.png" width={35} height={35} alt='planner' ></Image></div>
@@ -71,7 +71,7 @@ const AppWorkflow = () => {
             </div>
 
                   <div className='group' data-aos="flip-down">
-                <div className=' border-black border-[4px] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
+                <div className=' border-black border-[4px] h-[57vh] sm:h-[45vh] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
                     <div className='p-3 flex justify-between items-center'>
                         <div className='rounded-full h-14 w-14 border-black bg-sky-400 flex items-center 
                         justify-center '><Image className='group-hover:rotate-doors' src="/imgs/plan.png" width={35} height={35} alt='planner' ></Image></div>
@@ -86,7 +86,7 @@ const AppWorkflow = () => {
             </div>
 
                   <div className='group' data-aos="flip-up">
-                <div className=' border-black border-[4px] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
+                <div className=' border-black border-[4px] h-[57vh] sm:h-[45vh] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
                     <div className='p-3 flex justify-between items-center'>
                         <div className='rounded-full h-14 w-14 border-black bg-sky-400 flex items-center 
                         justify-center '><Image className='group-hover:rotate-doors' src="/imgs/quality-control.png" width={35} height={35} alt='planner' ></Image></div>
@@ -102,7 +102,7 @@ const AppWorkflow = () => {
             </div>
 
                   <div className='group' data-aos="flip-left">
-                <div className=' border-black border-[4px] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
+                <div className=' border-black border-[4px] h-[57vh] sm:h-[45vh] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
                     <div className='p-3 flex justify-between items-center'>
                         <div className='rounded-full h-14 w-14 border-black bg-sky-400 flex items-center 
                         justify-center '><Image className='group-hover:rotate-doors' src="/imgs/rocket.png" width={35} height={35} alt='planner' ></Image></div>
@@ -115,7 +115,7 @@ const AppWorkflow = () => {
             </div>
 
                   <div className='group' data-aos="flip-right">
-                <div className=' border-black border-[4px] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
+                <div className=' border-black border-[4px] h-[57vh] sm:h-[45vh] rounded-xl  bg-purple-500 pl-4 pr-4 group-hover:border-sky-300 group-hover:border-[4px] group-hover:scale-105 group-hover:shadow-2xl transition ease-in duration-200 delay-150 '>
                     <div className='p-3 flex justify-between items-center'>
                         <div className='rounded-full h-14 w-14 border-black bg-sky-400 flex items-center 
                         justify-center '><Image className='group-hover:rotate-doors' src="/imgs/technical-support.png" width={35} height={35} alt='planner' ></Image></div>
