@@ -18,8 +18,8 @@ export const metadata = {
   },
   description: "Webnike Portfolio Website",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 
 };
